@@ -1,2 +1,2 @@
-rootProject.name = "Template-for-Gradle-Plugins"
+rootProject.name = "gradle-kotlin-qa"
 enableFeaturePreview("VERSION_CATALOGS")
