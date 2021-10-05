@@ -7,7 +7,7 @@ mockito = "3.12.4"
 detekt = "1.18.1"
 
 [libraries]
-classgraph = "io.github.classgraph:classgraph:4.8.121"
+classgraph = "io.github.classgraph:classgraph:4.8.123"
 detekt-gradle = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 jacoco = { module = "org.jacoco:org.jacoco.core", version.ref = "jacoco" }
