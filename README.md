@@ -1,10 +1,16 @@
-# TODO LIST
+# Kotlin Automated Quality Assurance
 
-1. Rename the project in `settings.gradle.kts`
-1. Change the project information in `build.gradle.kts`
-1. Change the username for Maven Central in `.github/workflows/build-and-deploy.yml`
-1. Configure the CI to have the following secrets set:
-  * GRADLE_PUBLISH_KEY
-  * GRADLE_PUBLISH_SECRET
-  * MAVEN_CENTRAL_PASSWORD
-  * SIGNING_KEY
+This Gradle plugin applies Ktlint and Detekt under the hood.
+More static checkers may come in the future.
+All checkers' configuration have been customized to match my requirements.
+
+These settings can be changed as you would when configuring the checkers,
+this plugin pre-configures them, but does not force anything.
+
+## How to use
+
+```kotlin
+plugins {
+    id("org.danilopianini.gradle-kotlin-qa") version "<SELECT THE VERSION>"
+}
+```
