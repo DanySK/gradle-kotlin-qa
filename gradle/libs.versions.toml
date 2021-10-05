@@ -4,7 +4,7 @@ jacoco = "0.8.7"
 konf = "1.1.2"
 kotlin = "1.5.31"
 kotest = "4.6.2"
-ktlint = "10.2.1"
+ktlint = "10.2.0"
 mockito = "3.12.4"
 
 [libraries]
