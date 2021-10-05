@@ -1,0 +1,10 @@
+tests:
+  - description: "Base Kotlin QA tasks should execute"
+    configuration:
+      tasks: check
+      options: --stacktrace
+    expectation:
+      success:
+        - detekt
+        - ktlintKotlinScriptCheck
+        - ktlintMainSourceSetCheck

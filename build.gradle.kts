@@ -8,7 +8,7 @@ plugins {
     alias(libs.plugins.dokka)
     alias(libs.plugins.gitSemVer)
     alias(libs.plugins.gradlePluginPublish)
-    alias(libs.plugins.kotlinJvm)
+    alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.publishOnCentral)
     alias(libs.plugins.multiJvmTesting)
     alias(libs.plugins.taskTree)
@@ -18,12 +18,12 @@ plugins {
  * Project information
  */
 group = "org.danilopianini"
-description = "A template repository for kickstarting Gradle Plugins"
+description = "Automated Quality Assurance configuration for Kotlin Projects built with Gradle"
 inner class ProjectInfo {
-    val longName = "Template for Gradle Plugins"
-    val website = "https://github.com/DanySK/Template-for-Gradle-Plugins"
-    val scm = "git@github.com:DanySK/Template-for-Gradle-Plugins.git"
-    val pluginImplementationClass = "$group.template.HelloGradle"
+    val longName = "Kotlin Quality Assurance Gradle plugin"
+    val website = "https://github.com/DanySK/$name"
+    val scm = "git@github.com:DanySK/$name.git"
+    val pluginImplementationClass = "$group.kotlinqa.KotlinQAPlugin"
     val tags = listOf("template", "kickstart", "example")
 }
 val info = ProjectInfo()
@@ -34,6 +34,7 @@ gitSemVer {
 
 repositories {
     mavenCentral()
+    gradlePluginPortal()
 }
 
 multiJvm {
@@ -61,7 +62,10 @@ tasks.withType<Test> {
 dependencies {
     api(gradleApi())
     api(gradleKotlinDsl())
+    api(libs.ktlint)
+    api(libs.bundles.detekt)
     implementation(kotlin("stdlib-jdk8"))
+    runtimeOnly(libs.kotlin.gradle.plugin.api)
     testImplementation(gradleTestKit())
     testImplementation(libs.konf.yaml)
     testImplementation(libs.classgraph)
@@ -158,7 +162,7 @@ pluginBundle {
 
 gradlePlugin {
     plugins {
-        create("plugin-template") {
+        create("kotlin-qa") {
             id = "$group.${project.name}"
             displayName = info.longName
             description = project.description
