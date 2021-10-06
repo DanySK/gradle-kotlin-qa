@@ -6,7 +6,12 @@ import io.gitlab.arturbosch.detekt.extensions.DetektExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.apply
+import org.gradle.kotlin.dsl.configure
+import org.gradle.testing.jacoco.plugins.JacocoPlugin
+import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
+import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
+import java.util.Properties
 
 /**
  * Entry point for the Kotlin QA Plugin.
@@ -16,6 +21,7 @@ open class KotlinQAPlugin : Plugin<Project> {
         with(project.plugins) {
             apply(KtlintPlugin::class)
             apply(DetektPlugin::class)
+            apply(JacocoPlugin::class)
         }
         val extension = project.extensions.create("kotlinQA", KotlinQAExtension::class.java, project)
         val generator = project.tasks.create(
@@ -26,13 +32,26 @@ open class KotlinQAPlugin : Plugin<Project> {
         project.tasks.withType(Detekt::class.java) {
             it.dependsOn(generator)
         }
-        project.extensions.configure(DetektExtension::class.java) { detekt ->
-            with(detekt) {
-                parallel = true
-                buildUponDefaultConfig = true
-                config = project.files(extension.detektConfigurationFile)
-                ignoreFailures = false
-            }
+        val versions = Properties()
+        fun Properties.forLibrary(key: String): String =
+            get(key)?.toString() ?: throw IllegalStateException("Unable to read the default version of $key")
+        versions.load(Thread.currentThread().contextClassLoader.getResourceAsStream(VERSIONS))
+        project.extensions.configure<DetektExtension> {
+            parallel = true
+            buildUponDefaultConfig = true
+            config = project.files(extension.detektConfigurationFile)
+            ignoreFailures = false
+            toolVersion = versions.forLibrary("detekt")
         }
+        project.extensions.configure<KtlintExtension> {
+            version.set(versions.forLibrary("ktlint"))
+        }
+        project.extensions.configure<JacocoPluginExtension> {
+            toolVersion = versions.forLibrary("jacoco")
+        }
+    }
+
+    companion object {
+        private const val VERSIONS = "org/danilopianini/kotlinqa/versions.properties"
     }
 }

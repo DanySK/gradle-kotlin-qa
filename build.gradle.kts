@@ -37,6 +37,27 @@ repositories {
     gradlePluginPortal()
 }
 
+tasks.create("copyToolVersions") {
+    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> { dependsOn(this@create) }
+    doLast {
+        val buildDir = project.buildDir.absolutePath
+        val destination = file("$buildDir/resources/main/org/danilopianini/kotlinqa/versions.properties")
+        val catalog = file("${rootProject.rootDir.absolutePath}/gradle/libs.versions.toml").readText()
+        val libraries = listOf("detekt", "jacoco", "ktlint")
+            .map { library ->
+                val version = Regex("""^$library\s*=\s*"([\d\w\.\-\+]+)"\s*$""", RegexOption.MULTILINE)
+                    .findAll(catalog)
+                    .firstOrNull()
+                    ?.destructured
+                    ?.component1()
+                    ?: throw IllegalStateException("No version available for $library in:\n$catalog")
+                "$library=$version"
+            }
+            .joinToString("\n")
+        destination.writeText(libraries)
+    }
+}
+
 multiJvm {
     maximumSupportedJvmVersion.set(latestJavaSupportedByGradle)
 }
@@ -62,7 +83,7 @@ tasks.withType<Test> {
 dependencies {
     api(gradleApi())
     api(gradleKotlinDsl())
-    api(libs.ktlint)
+    api(libs.ktlint.gradle)
     api(libs.bundles.detekt)
     implementation(kotlin("stdlib-jdk8"))
     runtimeOnly(libs.kotlin.gradle.plugin.api)
