@@ -1,6 +1,10 @@
+# 0.2.1
+
+* Produce an XML report when running JaCoCo
+
 # 0.2.0
 
-* Also apply Jacoco
+* Also apply JaCoCo
 * Control the tool versions directly
 
 # 0.1.0
