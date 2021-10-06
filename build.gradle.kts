@@ -2,11 +2,11 @@ import org.jetbrains.kotlin.config.KotlinCompilerVersion.VERSION as KOTLIN_VERSI
 
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
-    jacoco
     `java-gradle-plugin`
     alias(libs.plugins.dokka)
     alias(libs.plugins.gitSemVer)
     alias(libs.plugins.gradlePluginPublish)
+    alias(libs.plugins.jacoco.testkit)
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.kotlin.qa)
     alias(libs.plugins.publishOnCentral)
@@ -68,7 +68,7 @@ multiJvm {
  * By default, Gradle does not include all the plugin classpath into the testing classpath.
  * This task creates a descriptor of the runtime classpath, to be injected (manually) when running tests.
  */
-val createClasspathManifest = tasks.register("createClasspathManifest") {
+val createClasspathManifest by tasks.registering {
     val outputDir = file("$buildDir/$name")
     inputs.files(sourceSets.main.get().runtimeClasspath)
     outputs.dir(outputDir)
@@ -126,10 +126,6 @@ tasks.withType<Test> {
         events(*org.gradle.api.tasks.testing.logging.TestLogEvent.values())
         exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
     }
-}
-
-jacoco {
-    toolVersion = libs.versions.jacoco.getOrElse(toolVersion)
 }
 
 tasks.jacocoTestReport {

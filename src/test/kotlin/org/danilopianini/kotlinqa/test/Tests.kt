@@ -43,6 +43,13 @@ class Tests : StringSpec(
                 }
                 log.debug("Test has been copied into $testFolder and is ready to get executed")
                 test.description {
+                    val properties = File(testFolder.root, "gradle.properties")
+                    val testkit = Thread.currentThread().contextClassLoader
+                        .getResource("testkit-gradle.properties")
+                        ?.readText()
+                        ?: throw IllegalStateException()
+                    properties.writeText(testkit)
+                    log.debug("written $testkit to ${properties.absolutePath}")
                     val result = GradleRunner.create()
                         .withProjectDir(testFolder.root)
                         .withPluginClasspath(classpath)

@@ -54,6 +54,7 @@ open class KotlinQAPlugin : Plugin<Project> {
             jacocoReport.reports {
                 it.xml.required.set(true)
             }
+            project.tasks.findByName("check")?.finalizedBy(jacocoReport)
         }
     }
 

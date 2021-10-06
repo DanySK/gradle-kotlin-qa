@@ -12,7 +12,8 @@ mockito = "3.12.4"
 classgraph = "io.github.classgraph:classgraph:4.8.124"
 detekt-gradle = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
-jacoco = { module = "org.jacoco:org.jacoco.core", version.ref = "jacoco" }
+jacoco-agent = { module = "org.jacoco:org.jacoco.agent", version.ref = "jacoco" }
+jacoco-core = { module = "org.jacoco:org.jacoco.core", version.ref = "jacoco" }
 konf-yaml = { module = "com.uchuhimo:konf-yaml", version.ref = "konf" }
 kotest-junit5-jvm = { module = "io.kotest:kotest-runner-junit5-jvm", version.ref = "kotest" }
 kotest-assertions-core-jvm = { module = "io.kotest:kotest-assertions-core-jvm", version.ref = "kotest" }
@@ -29,6 +30,7 @@ detekt = [ "detekt-formatting", "detekt-gradle" ]
 dokka = { id = "org.jetbrains.dokka", version.ref = "kotlin" }
 gitSemVer = { id = "org.danilopianini.git-sensitive-semantic-versioning", version = "0.3.0" }
 gradlePluginPublish = { id = "com.gradle.plugin-publish", version = "0.16.0" }
+jacoco-testkit = { id = "pl.droidsonroids.jacoco.testkit", version = "1.0.8" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-qa = { id = "org.danilopianini.gradle-kotlin-qa", version = "0.2.0" }
 publishOnCentral = { id = "org.danilopianini.publish-on-central", version = "0.6.1" }
