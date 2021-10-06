@@ -9,6 +9,8 @@ import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
 import org.gradle.testing.jacoco.plugins.JacocoPlugin
 import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
+import org.gradle.testing.jacoco.plugins.JacocoTaskExtension
+import org.gradle.testing.jacoco.tasks.JacocoReport
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
 import java.util.Properties
@@ -48,6 +50,11 @@ open class KotlinQAPlugin : Plugin<Project> {
         }
         project.extensions.configure<JacocoPluginExtension> {
             toolVersion = versions.forLibrary("jacoco")
+        }
+        project.tasks.withType(JacocoReport::class.java) { jacocoReport ->
+            jacocoReport.reports {
+                it.xml.required.set(true)
+            }
         }
     }
 
