@@ -41,7 +41,9 @@ tasks.create("copyToolVersions") {
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> { dependsOn(this@create) }
     doLast {
         val buildDir = project.buildDir.absolutePath
-        val destination = file("$buildDir/resources/main/org/danilopianini/kotlinqa/versions.properties")
+        val destinationDir = "$buildDir/resources/main/org/danilopianini/kotlinqa/"
+        file(destinationDir).mkdirs()
+        val destination = file("$destinationDir/versions.properties")
         val catalog = file("${rootProject.rootDir.absolutePath}/gradle/libs.versions.toml").readText()
         val libraries = listOf("detekt", "jacoco", "ktlint")
             .map { library ->
