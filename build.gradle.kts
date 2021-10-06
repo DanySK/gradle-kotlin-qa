@@ -24,7 +24,7 @@ inner class ProjectInfo {
     val website = "https://github.com/DanySK/$name"
     val scm = "git@github.com:DanySK/$name.git"
     val pluginImplementationClass = "$group.kotlinqa.KotlinQAPlugin"
-    val tags = listOf("template", "kickstart", "example")
+    val tags = listOf("kotlin", "static analysis", "quality assurance", "qa")
 }
 val info = ProjectInfo()
 
