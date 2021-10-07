@@ -34,8 +34,6 @@ open class KotlinQAPlugin : Plugin<Project> {
             it.dependsOn(generator)
         }
         val versions = Properties()
-        fun Properties.forLibrary(key: String): String =
-            get(key)?.toString() ?: throw IllegalStateException("Unable to read the default version of $key")
         versions.load(Thread.currentThread().contextClassLoader.getResourceAsStream(VERSIONS))
         project.extensions.configure<DetektExtension> {
             parallel = true
@@ -60,5 +58,7 @@ open class KotlinQAPlugin : Plugin<Project> {
 
     companion object {
         private const val VERSIONS = "org/danilopianini/kotlinqa/versions.properties"
+        fun Properties.forLibrary(key: String): String =
+            get(key)?.toString() ?: throw IllegalStateException("Unable to read the default version of $key")
     }
 }
