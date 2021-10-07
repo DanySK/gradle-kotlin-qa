@@ -58,7 +58,7 @@ open class KotlinQAPlugin : Plugin<Project> {
 
     companion object {
         private const val VERSIONS = "org/danilopianini/kotlinqa/versions.properties"
-        fun Properties.forLibrary(key: String): String =
+        private fun Properties.forLibrary(key: String): String =
             get(key)?.toString() ?: throw IllegalStateException("Unable to read the default version of $key")
     }
 }
