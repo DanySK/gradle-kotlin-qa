@@ -2,7 +2,7 @@ rootProject.name = "gradle-kotlin-qa"
 enableFeaturePreview("VERSION_CATALOGS")
 
 plugins {
-    id("com.gradle.enterprise") version "3.7"
+    id("com.gradle.enterprise") version "3.7.1"
 }
 
 gradleEnterprise {
