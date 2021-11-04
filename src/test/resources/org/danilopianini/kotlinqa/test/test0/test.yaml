@@ -8,4 +8,5 @@ tests:
         - detekt
         - ktlintKotlinScriptCheck
         - ktlintMainSourceSetCheck
+        - cpdKotlinCheck
         - jacocoTestReport

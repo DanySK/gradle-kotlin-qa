@@ -45,7 +45,7 @@ tasks.create("copyToolVersions") {
         file(destinationDir).mkdirs()
         val destination = file("$destinationDir/versions.properties")
         val catalog = file("${rootProject.rootDir.absolutePath}/gradle/libs.versions.toml").readText()
-        val libraries = listOf("detekt", "jacoco", "ktlint")
+        val libraries = listOf("detekt", "jacoco", "ktlint", "pmd")
             .map { library ->
                 val version = Regex("""^$library\s*=\s*"([\d\w\.\-\+]+)"\s*$""", RegexOption.MULTILINE)
                     .findAll(catalog)
@@ -85,8 +85,7 @@ tasks.withType<Test> {
 dependencies {
     api(gradleApi())
     api(gradleKotlinDsl())
-    api(libs.ktlint.gradle)
-    api(libs.bundles.detekt)
+    api(libs.bundles.kotlin.qa)
     implementation(kotlin("stdlib-jdk8"))
     runtimeOnly(libs.kotlin.gradle.plugin.api)
     testImplementation(gradleTestKit())

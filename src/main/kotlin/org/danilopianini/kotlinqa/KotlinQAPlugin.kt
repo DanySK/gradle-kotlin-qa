@@ -1,12 +1,19 @@
 package org.danilopianini.kotlinqa
 
+import de.aaschmid.gradle.plugins.cpd.CpdExtension
+import de.aaschmid.gradle.plugins.cpd.CpdPlugin
 import io.gitlab.arturbosch.detekt.Detekt
 import io.gitlab.arturbosch.detekt.DetektPlugin
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project
+import org.gradle.api.file.FileTree
+import org.gradle.api.plugins.JavaPlugin
+import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
+import org.gradle.kotlin.dsl.create
+import org.gradle.kotlin.dsl.findByType
 import org.gradle.testing.jacoco.plugins.JacocoPlugin
 import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
 import org.gradle.testing.jacoco.tasks.JacocoReport
@@ -20,6 +27,7 @@ import java.util.Properties
 open class KotlinQAPlugin : Plugin<Project> {
     override fun apply(project: Project) {
         with(project.plugins) {
+            apply(CpdPlugin::class)
             apply(KtlintPlugin::class)
             apply(DetektPlugin::class)
             apply(JacocoPlugin::class)
@@ -30,6 +38,7 @@ open class KotlinQAPlugin : Plugin<Project> {
             GenerateDetektConfiguration::class.java,
             extension
         )
+        // Detekt
         project.tasks.withType(Detekt::class.java) {
             it.dependsOn(generator)
         }
@@ -42,9 +51,36 @@ open class KotlinQAPlugin : Plugin<Project> {
             ignoreFailures = false
             toolVersion = versions.forLibrary("detekt")
         }
+        // Ktlint
         project.extensions.configure<KtlintExtension> {
             version.set(versions.forLibrary("ktlint"))
         }
+        // CPD
+        project.plugins.withType(JavaPlugin::class.java) {
+            project.extensions.configure<CpdExtension> {
+                toolVersion = versions.forLibrary("pmd")
+            }
+            project.tasks.create<de.aaschmid.gradle.plugins.cpd.Cpd>("cpdKotlinCheck") {
+                language = "kotlin"
+                source = project.extensions.findByType<JavaPluginExtension>()
+                    ?.sourceSets
+                    ?.flatMap { it.allSource }
+                    ?.map {
+                        project.fileTree(it) {
+                            include("**/*.kts")
+                            include("**/*.kt")
+                        }
+                    }
+                    ?.reduce(FileTree::plus)
+                    ?: project.files().asFileTree
+                minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
+                ignoreFailures = false
+                project.tasks.findByName("check")?.dependsOn(this)
+            }
+            // Disable the default cpdCheck to prevent conflict or double execution
+            project.tasks.findByName("cpdCheck")?.enabled = false
+        }
+        // JaCoCo
         project.extensions.configure<JacocoPluginExtension> {
             toolVersion = versions.forLibrary("jacoco")
         }
@@ -58,6 +94,7 @@ open class KotlinQAPlugin : Plugin<Project> {
 
     companion object {
         private const val VERSIONS = "org/danilopianini/kotlinqa/versions.properties"
+        private const val DEFAULT_CPD_TOKENS_FOR_KOTLIN = 30
         private fun Properties.forLibrary(key: String): String =
             get(key)?.toString() ?: throw IllegalStateException("Unable to read the default version of $key")
     }
