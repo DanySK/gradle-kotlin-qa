@@ -1,3 +1,7 @@
+# 0.3.0
+
+* Add CPD for Kotlin
+
 # 0.2.2
 
 * Update ktlint to 0.43.0
