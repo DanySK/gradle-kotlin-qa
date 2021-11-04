@@ -71,7 +71,7 @@ open class KotlinQAPlugin : Plugin<Project> {
                             include("**/*.kt")
                         }
                     }
-                    ?.reduce(FileTree::plus)
+                    ?.fold(project.files().asFileTree, FileTree::plus)
                     ?: project.files().asFileTree
                 minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
                 ignoreFailures = false

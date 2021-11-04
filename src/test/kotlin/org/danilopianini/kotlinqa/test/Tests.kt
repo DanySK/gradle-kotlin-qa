@@ -68,6 +68,9 @@ class Tests : StringSpec(
                     test.expectation.failure.forEach {
                         result.outcomeOf(it) shouldBe TaskOutcome.FAILED
                     }
+                    test.expectation.`no-source`.forEach {
+                        result.outcomeOf(it) shouldBe TaskOutcome.NO_SOURCE
+                    }
                     test.expectation.file_exists.forEach {
                         with(File("${testFolder.root.absolutePath}/$it")) {
                             shouldExist()
