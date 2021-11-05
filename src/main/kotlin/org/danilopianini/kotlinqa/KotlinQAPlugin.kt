@@ -25,6 +25,8 @@ import java.util.Properties
  * Entry point for the Kotlin QA Plugin.
  */
 open class KotlinQAPlugin : Plugin<Project> {
+
+    @Suppress("UnstableApiUsage")
     override fun apply(project: Project) {
         with(project.plugins) {
             apply(CpdPlugin::class)
