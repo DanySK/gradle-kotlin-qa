@@ -1,6 +1,19 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
    "extends": [
-      "github>DanySK/renovate-config"
+      "github>DanySK/renovate-config:gradle-plugin"
+   ],
+   "packageRules": [
+      {
+         "description": "Trigger a minor update on some dependencies",
+         "matchPackageNames": [
+            "com.pinterest:ktlint",
+            "de.aaschmid:gradle-cpd-plugin",
+            "io.gitlab.arturbosch.detekt:detekt-formatting",
+            "io.gitlab.arturbosch.detekt:detekt-gradle-plugin",
+            "org.jlleitschuh.gradle:ktlint-gradle"
+         ],
+         "semanticCommitType": "feat"
+      }
    ]
 }
