@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.3.2...0.4.0) (2021-11-27)
+
+
+### Features
+
+* **deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.41.0 ([cc80526](https://github.com/DanySK/gradle-kotlin-qa/commit/cc80526e75e014472f56f821a48f043907bfd1a6))
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
