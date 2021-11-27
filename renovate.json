@@ -11,6 +11,7 @@
             "de.aaschmid:gradle-cpd-plugin",
             "io.gitlab.arturbosch.detekt:detekt-formatting",
             "io.gitlab.arturbosch.detekt:detekt-gradle-plugin",
+            "net.sourceforge.pmd:pmd-kotlin",
             "org.jlleitschuh.gradle:ktlint-gradle"
          ],
          "semanticCommitType": "feat"
