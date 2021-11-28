@@ -1,3 +1,10 @@
+## [0.4.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.4.0...0.4.1) (2021-11-28)
+
+
+### Bug Fixes
+
+* display a clean error message on loading failure ([31c725f](https://github.com/DanySK/gradle-kotlin-qa/commit/31c725fa80d7ec864fb592c78573e56e4c9c5d0c))
+
 # [0.4.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.3.2...0.4.0) (2021-11-27)
 
 
