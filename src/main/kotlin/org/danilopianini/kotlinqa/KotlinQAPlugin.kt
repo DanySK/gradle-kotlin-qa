@@ -45,7 +45,12 @@ open class KotlinQAPlugin : Plugin<Project> {
             it.dependsOn(generator)
         }
         val versions = Properties()
-        versions.load(Thread.currentThread().contextClassLoader.getResourceAsStream(VERSIONS))
+        val properties = requireNotNull(Thread.currentThread().contextClassLoader.getResourceAsStream(VERSIONS)) {
+            "The Kotlin QA plugin was unable to load the required resource $VERSIONS. " +
+                "This is most likely a bug, please file an issue at: " +
+                "https://github.com/DanySK/gradle-kotlin-qa/issues/new/choose"
+        }
+        versions.load(properties)
         project.extensions.configure<DetektExtension> {
             parallel = true
             buildUponDefaultConfig = true
