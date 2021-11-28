@@ -39,12 +39,23 @@ repositories {
 
 tasks.create("copyToolVersions") {
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> { dependsOn(this@create) }
+    val destinationDir = "$buildDir/resources/main/org/danilopianini/kotlinqa/"
+    val destination = file("$destinationDir/versions.properties")
+    tasks.withType<PublishToMavenRepository> {
+        dependsOn(this@create)
+        doFirst {
+            require(destination.exists()) {
+                "File ${destination.path} has not been generated."
+            }
+        }
+    }
+    val catalogFile = file("${rootProject.rootDir.absolutePath}/gradle/libs.versions.toml")
+    inputs.file(catalogFile)
+    outputs.file(destination)
     doLast {
         val buildDir = project.buildDir.absolutePath
-        val destinationDir = "$buildDir/resources/main/org/danilopianini/kotlinqa/"
         file(destinationDir).mkdirs()
-        val destination = file("$destinationDir/versions.properties")
-        val catalog = file("${rootProject.rootDir.absolutePath}/gradle/libs.versions.toml").readText()
+        val catalog = catalogFile.readText()
         val libraries = listOf("detekt", "jacoco", "ktlint", "pmd")
             .map { library ->
                 val version = Regex("""^$library\s*=\s*"([\d\w\.\-\+]+)"\s*$""", RegexOption.MULTILINE)
