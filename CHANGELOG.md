@@ -1,3 +1,16 @@
+# [0.6.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.5.0...0.6.0) (2021-11-29)
+
+
+### Bug Fixes
+
+* apply CPD if Kotlin is applied, not Java ([1f9df9b](https://github.com/DanySK/gradle-kotlin-qa/commit/1f9df9bbc6dc3c76ff2b05d4356d775fda53f296))
+* rollback the previous change ([a440857](https://github.com/DanySK/gradle-kotlin-qa/commit/a44085731923a2660942c5fe96cdf3a6a4f77ac4))
+
+
+### Features
+
+* force warnings as errors ([d486815](https://github.com/DanySK/gradle-kotlin-qa/commit/d48681592707677ca2d8f5881d88b83c41fdb3f0))
+
 # [0.5.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.4.1...0.5.0) (2021-11-29)
 
 
