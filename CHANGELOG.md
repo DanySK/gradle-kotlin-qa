@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.4.1...0.5.0) (2021-11-29)
+
+
+### Features
+
+* **deps:** update dependency io.gitlab.arturbosch.detekt:detekt-gradle-plugin to v1.19.0 ([6a09da9](https://github.com/DanySK/gradle-kotlin-qa/commit/6a09da99b48a3c5a645274c29bd8babfb123e55b))
+
 ## [0.4.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.4.0...0.4.1) (2021-11-28)
 
 
