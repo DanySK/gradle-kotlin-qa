@@ -8,11 +8,13 @@ import io.gitlab.arturbosch.detekt.extensions.DetektExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.file.FileTree
+import org.gradle.api.plugins.JavaPlugin
 import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.create
 import org.gradle.kotlin.dsl.findByType
+import org.gradle.kotlin.dsl.withType
 import org.gradle.testing.jacoco.plugins.JacocoPlugin
 import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
 import org.gradle.testing.jacoco.tasks.JacocoReport
@@ -63,7 +65,7 @@ open class KotlinQAPlugin : Plugin<Project> {
             version.set(versions.forLibrary("ktlint"))
         }
         // CPD
-        project.plugins.withType(KotlinPlatformPluginBase::class.java) {
+        project.plugins.withType(JavaPlugin::class.java) {
             project.extensions.configure<CpdExtension> {
                 toolVersion = versions.forLibrary("pmd")
             }
