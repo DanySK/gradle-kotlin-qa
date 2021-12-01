@@ -1,3 +1,10 @@
+# [0.7.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.6.0...0.7.0) (2021-12-01)
+
+
+### Features
+
+* **deps:** update dependency com.pinterest:ktlint to v0.43.1 ([1b2bdb0](https://github.com/DanySK/gradle-kotlin-qa/commit/1b2bdb0952e4bc96cae2226f88a75f648ff8b8f5))
+
 # [0.6.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.5.0...0.6.0) (2021-11-29)
 
 
