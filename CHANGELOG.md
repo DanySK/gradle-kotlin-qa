@@ -1,3 +1,10 @@
+## [0.8.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.8.1...0.8.2) (2021-12-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency gradle to v7.3.3 ([e0d463a](https://github.com/DanySK/gradle-kotlin-qa/commit/e0d463a1a319bf1e30728d9d0c0213531315c4df))
+
 ## [0.8.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.8.0...0.8.1) (2021-12-15)
 
 
