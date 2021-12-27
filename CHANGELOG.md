@@ -1,3 +1,10 @@
+## [0.8.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.8.2...0.8.3) (2021-12-27)
+
+
+### Bug Fixes
+
+* **deps:** update plugin dokka to v1.6.10 ([a785a25](https://github.com/DanySK/gradle-kotlin-qa/commit/a785a25da2caf539ad06a6774ff8c73235126951))
+
 ## [0.8.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.8.1...0.8.2) (2021-12-22)
 
 
