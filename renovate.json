@@ -14,7 +14,7 @@
             "net.sourceforge.pmd:pmd-kotlin",
             "org.jlleitschuh.gradle:ktlint-gradle"
          ],
-         "semanticCommitType": "feat"
+         "semanticCommitScope": "api-deps"
       }
    ]
 }
