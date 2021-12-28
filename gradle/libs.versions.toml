@@ -6,7 +6,7 @@ konf = "1.1.2"
 kotlin = "1.6.10"
 kotest = "4.6.4"
 ktlint = "0.43.2"
-ktlint-plugin = "10.2.0"
+ktlint-plugin = "10.2.1"
 mockito = "4.2.0"
 pmd = "6.41.0"
 
