@@ -1,3 +1,10 @@
+# [0.9.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.8.3...0.9.0) (2021-12-28)
+
+
+### Features
+
+* **deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v10.2.1 ([ea2afce](https://github.com/DanySK/gradle-kotlin-qa/commit/ea2afcea598ed3052f5608e6c4ffce322ce81dc1))
+
 ## [0.8.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.8.2...0.8.3) (2021-12-27)
 
 
