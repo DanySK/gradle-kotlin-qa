@@ -1,3 +1,12 @@
+### [0.10.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.10.0...0.10.1) (2022-02-08)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v7.4 ([8c70d77](https://github.com/DanySK/gradle-kotlin-qa/commit/8c70d772fe0f13c4e4469a037b63cff57edc0312))
+* **deps:** update node.js to 16.14 ([037fdb9](https://github.com/DanySK/gradle-kotlin-qa/commit/037fdb9617a73589846682ccc13e0f8318520bd1))
+* **deps:** update plugin kotlin-qa to v0.10.0 ([8eb079c](https://github.com/DanySK/gradle-kotlin-qa/commit/8eb079c03036b142dc7d84d2cb7d80928d55426a))
+
 ## [0.10.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.9.0...0.10.0) (2022-01-29)
 
 
