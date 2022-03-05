@@ -1,3 +1,16 @@
+## [0.12.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.11.0...0.12.0) (2022-03-05)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.4 ([f24de79](https://github.com/DanySK/gradle-kotlin-qa/commit/f24de7947be786aa26a4e15bee91aca022ad1b18))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.43.0 ([be66e59](https://github.com/DanySK/gradle-kotlin-qa/commit/be66e59d0eada455928c20974a414e0f19f58550))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.141 ([b8fc1b5](https://github.com/DanySK/gradle-kotlin-qa/commit/b8fc1b5570fe59d697b708445f30be332c10902a))
+
 ## [0.11.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.10.1...0.11.0) (2022-03-05)
 
 
