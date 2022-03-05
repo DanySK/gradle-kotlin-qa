@@ -1,3 +1,20 @@
+## [0.11.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.10.1...0.11.0) (2022-03-05)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest:ktlint to v0.44.0 ([d3bef83](https://github.com/DanySK/gradle-kotlin-qa/commit/d3bef831fc72816588354111af8dbd25da91bc67))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.139 ([be97209](https://github.com/DanySK/gradle-kotlin-qa/commit/be97209c9958dcc985fd76770ec3e27263e6b461))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.5 ([3b7fe9f](https://github.com/DanySK/gradle-kotlin-qa/commit/3b7fe9f8a3c23395ca47ebd94a9bb1cdff82c020))
+* **deps:** update io.kotest to v5 ([7b26878](https://github.com/DanySK/gradle-kotlin-qa/commit/7b26878f871f5b441800e6b631aaa5fe7720115c))
+* **deps:** update plugin kotlin-qa to v0.10.1 ([f21bf3a](https://github.com/DanySK/gradle-kotlin-qa/commit/f21bf3a05b8419d3e1e50f0d680bac7ece98b6ca))
+* **deps:** update plugin publishoncentral to v0.7.13 ([5886b8c](https://github.com/DanySK/gradle-kotlin-qa/commit/5886b8c44a2e27dbaada154ff80c3a080209a635))
+
+
+### Revert previous changes
+
+* Revert "chore(deps): update io.kotest to v5" (#109) ([121f321](https://github.com/DanySK/gradle-kotlin-qa/commit/121f3216a4473f9cc89dfa64c3c36a17fe170135)), closes [#109](https://github.com/DanySK/gradle-kotlin-qa/issues/109)
+
 ### [0.10.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.10.0...0.10.1) (2022-02-08)
 
 
