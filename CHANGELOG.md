@@ -1,3 +1,18 @@
+### [0.12.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.12.0...0.12.1) (2022-03-10)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3 ([01bc587](https://github.com/DanySK/gradle-kotlin-qa/commit/01bc587db194645e45839fc2cbf4b98875575815))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.6 ([4c65766](https://github.com/DanySK/gradle-kotlin-qa/commit/4c65766196b6302f6a80821198f1a18ea4c7e88e))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v7.4.1 ([f1c3c5b](https://github.com/DanySK/gradle-kotlin-qa/commit/f1c3c5bf3235d9131378998cd4d12b2d5fba409a))
+* **deps:** update dependency org.mockito:mockito-core to v4.4.0 ([ce467ca](https://github.com/DanySK/gradle-kotlin-qa/commit/ce467caf8f95b2f6ba541ff11eb951c1cee6c107))
+* **deps:** update plugin kotlin-qa to v0.12.0 ([75f1565](https://github.com/DanySK/gradle-kotlin-qa/commit/75f1565458636bccec6eb1f7f854557141ca1640))
+
 ## [0.12.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.11.0...0.12.0) (2022-03-05)
 
 
