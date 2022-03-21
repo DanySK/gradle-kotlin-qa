@@ -1,3 +1,19 @@
+## [0.13.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.12.1...0.13.0) (2022-03-21)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.7 ([d99824d](https://github.com/DanySK/gradle-kotlin-qa/commit/d99824daa6a11a79d095eea9299e73182849597c))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest:ktlint to v0.45.1 ([60008b6](https://github.com/DanySK/gradle-kotlin-qa/commit/60008b62f118fdf99b24a28b8dc50dbba1f66dcf))
+* **deps:** update io.kotest ([1b5564c](https://github.com/DanySK/gradle-kotlin-qa/commit/1b5564c996fed44aca3addcdaa8999e0457b84db))
+* **deps:** update plugin com.gradle.enterprise to v3.9 ([366dbd8](https://github.com/DanySK/gradle-kotlin-qa/commit/366dbd8841b7ef1a53b2d431cc7eb24838647037))
+* **deps:** update plugin kotlin-qa to v0.12.1 ([e8e8004](https://github.com/DanySK/gradle-kotlin-qa/commit/e8e8004a8a611252e3fe333021d5ee637a74af58))
+* **deps:** update plugin publishoncentral to v0.7.14 ([b41d69b](https://github.com/DanySK/gradle-kotlin-qa/commit/b41d69bc26e1ce4f6f3da9ca32fac55985a5a6f2))
+
 ### [0.12.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.12.0...0.12.1) (2022-03-10)
 
 
