@@ -8,7 +8,7 @@ kotest = "5.2.2"
 ktlint = "0.45.1"
 ktlint-plugin = "10.2.1"
 mockito = "4.4.0"
-pmd = "6.43.0"
+pmd = "6.44.0"
 
 [libraries]
 classgraph = "io.github.classgraph:classgraph:4.8.143"
