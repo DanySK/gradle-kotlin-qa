@@ -1,3 +1,13 @@
+## [0.14.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.13.0...0.14.0) (2022-03-28)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.44.0 ([96ee6d0](https://github.com/DanySK/gradle-kotlin-qa/commit/96ee6d00bec394fa327f7173a552514bcfe99300))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.143 ([8efaaa3](https://github.com/DanySK/gradle-kotlin-qa/commit/8efaaa34070b60125b68d5a1132cf2c238ff97a3))
+* **deps:** update io.kotest to v5.2.2 ([4c68895](https://github.com/DanySK/gradle-kotlin-qa/commit/4c68895d1818239445fccfccb648f871933079b0))
+* **deps:** update plugin kotlin-qa to v0.13.0 ([1534288](https://github.com/DanySK/gradle-kotlin-qa/commit/15342882379a49d0753a43cac3a11c85e8e95ce0))
+
 ## [0.13.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.12.1...0.13.0) (2022-03-21)
 
 
