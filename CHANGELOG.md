@@ -1,3 +1,12 @@
+### [0.14.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.14.0...0.14.1) (2022-03-31)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v7.4.2 ([22bbbe8](https://github.com/DanySK/gradle-kotlin-qa/commit/22bbbe8e06dd67c0f95f75943b81694c0dbfa6c2))
+* **deps:** update plugin gradlepluginpublish to v0.21.0 ([789fa92](https://github.com/DanySK/gradle-kotlin-qa/commit/789fa929914510a52c58c006123188ed1ae92abc))
+* **deps:** update plugin kotlin-qa to v0.14.0 ([fb6ffe0](https://github.com/DanySK/gradle-kotlin-qa/commit/fb6ffe0b0078ece9e658adfbde8f43c0baac334e))
+
 ## [0.14.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.13.0...0.14.0) (2022-03-28)
 
 
