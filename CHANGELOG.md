@@ -1,3 +1,24 @@
+### [0.14.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.14.1...0.14.2) (2022-04-04)
+
+
+### Dependency updates
+
+* **core-deps:** update plugin kotlin-jvm to v1.6.20 ([690f22a](https://github.com/DanySK/gradle-kotlin-qa/commit/690f22a53a182e2d17cf85b9b5021da5de39f107))
+* **deps:** update plugin kotlin-qa to v0.14.1 ([6f57e04](https://github.com/DanySK/gradle-kotlin-qa/commit/6f57e040266a360258d0da6fdd53e025abdae16f))
+* **deps:** update plugin publishoncentral to v0.7.15 ([bff5833](https://github.com/DanySK/gradle-kotlin-qa/commit/bff5833e4a598d6b36cd2ffdb86f4bb3eb49f152))
+* **deps:** update plugin publishoncentral to v0.7.16 ([a275043](https://github.com/DanySK/gradle-kotlin-qa/commit/a275043aec1fe41a4924b799d7a6819f198d6a3b))
+
+
+### Build and continuous integration
+
+* '-Xopt-in' is deprecated and will be removed in a future release, use -opt-in instead ([dbace96](https://github.com/DanySK/gradle-kotlin-qa/commit/dbace96ae488e8b8554f559b8e11e5a54611d3de))
+* cancel in progress jobs when higher priority ones exist ([5f73bf7](https://github.com/DanySK/gradle-kotlin-qa/commit/5f73bf78564e0e2897ad82f97a1abb0bf8e0de24))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.8 ([b44e71c](https://github.com/DanySK/gradle-kotlin-qa/commit/b44e71caeb25d1f7ea49fb75d898d5a95a189f09))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.9 ([8d8aadb](https://github.com/DanySK/gradle-kotlin-qa/commit/8d8aadb118de92d0c74f7ab209e627339d1b85c2))
+* run releases strictly sequentially ([ff2ca0c](https://github.com/DanySK/gradle-kotlin-qa/commit/ff2ca0c3a2ced5b3c6524ed942b0bb3ae7fd020e))
+* separate the versions of Kotlin and Dokka ([bbe648c](https://github.com/DanySK/gradle-kotlin-qa/commit/bbe648c4c8b0a3e2cca7ebc74767c3f51e508973))
+* use a dedicated deployment token for the release process ([e8ade79](https://github.com/DanySK/gradle-kotlin-qa/commit/e8ade79e61f2a002cf3e10b97c84300cce82682c))
+
 ### [0.14.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.14.0...0.14.1) (2022-03-31)
 
 
