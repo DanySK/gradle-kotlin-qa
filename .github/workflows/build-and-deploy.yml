@@ -28,6 +28,9 @@ jobs:
           should-run-codecov: ${{ runner.os == 'Linux' }}
           should-deploy: false
   Release:
+    concurrency:
+      # Only one release job at a time. Strictly sequential.
+      group: release
     needs:
       - Build
     runs-on: ubuntu-latest
