@@ -1,6 +1,7 @@
 [versions]
 cpd-gradle = "3.3"
 detekt = "1.19.0"
+dokka = "1.6.10"
 jacoco = "0.8.7"
 konf = "1.1.2"
 kotlin = "1.6.10"
@@ -32,7 +33,7 @@ detekt = [ "detekt-formatting", "detekt-gradle" ]
 kotlin-qa = [ "cpd-gradle", "detekt-formatting", "detekt-gradle", "ktlint-gradle" ]
 
 [plugins]
-dokka = { id = "org.jetbrains.dokka", version.ref = "kotlin" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
 gitSemVer = { id = "org.danilopianini.git-sensitive-semantic-versioning", version = "0.3.0" }
 gradlePluginPublish = { id = "com.gradle.plugin-publish", version = "0.21.0" }
 jacoco-testkit = { id = "pl.droidsonroids.jacoco.testkit", version = "1.0.9" }
