@@ -1,3 +1,18 @@
+## [0.15.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.14.2...0.15.0) (2022-04-06)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.10 ([3c18b2b](https://github.com/DanySK/gradle-kotlin-qa/commit/3c18b2bd570e51bd4d4b2a3f176de97116a70007))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest:ktlint to v0.45.2 ([5632d2b](https://github.com/DanySK/gradle-kotlin-qa/commit/5632d2ba88890ad35b4b1e617d02f10d61570fb9))
+* **deps:** update org.jacoco to v0.8.8 ([b8316c1](https://github.com/DanySK/gradle-kotlin-qa/commit/b8316c1ff973792b8f7852b691a4774ca65d08c2))
+* **deps:** update plugin kotlin-qa to v0.14.2 ([8fc3b9a](https://github.com/DanySK/gradle-kotlin-qa/commit/8fc3b9a429caac7fe66cae7832a29c882180e2e1))
+* **deps:** update plugin multijvmtesting to v0.3.5 ([5af5df8](https://github.com/DanySK/gradle-kotlin-qa/commit/5af5df8970c62a3f12ea9ac2c2e18ed4943c988b))
+
 ### [0.14.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.14.1...0.14.2) (2022-04-04)
 
 
