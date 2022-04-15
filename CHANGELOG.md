@@ -1,3 +1,13 @@
+## [0.16.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.15.1...0.16.0) (2022-04-15)
+
+
+### Dependency updates
+
+* **api-deps:** update io.gitlab.arturbosch.detekt to v1.20.0 ([8a59448](https://github.com/DanySK/gradle-kotlin-qa/commit/8a594485bdccefc995f4921332d4a9c0f358668f))
+* **deps:** update plugin kotlin-qa to v0.15.1 ([3b182cb](https://github.com/DanySK/gradle-kotlin-qa/commit/3b182cbc0340de70cde186511ca0ddc94f8a22c7))
+* **deps:** update plugin multijvmtesting to v0.3.6 ([a6199c5](https://github.com/DanySK/gradle-kotlin-qa/commit/a6199c52d7d2b96e381561b5ef597840c3ff1ea2))
+* **deps:** update plugin publishoncentral to v0.7.17 ([bcf5296](https://github.com/DanySK/gradle-kotlin-qa/commit/bcf5296978bc60ca626c940fed6d614f0bec56ae))
+
 ### [0.15.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.15.0...0.15.1) (2022-04-14)
 
 
