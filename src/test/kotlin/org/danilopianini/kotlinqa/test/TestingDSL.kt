@@ -10,7 +10,7 @@ object Root : ConfigSpec("") {
 data class Test(
     val description: String,
     val configuration: Configuration,
-    val expectation: Expectation
+    val expectation: Expectation,
 )
 
 data class Configuration(val tasks: List<String>, val options: List<String> = emptyList())
@@ -20,7 +20,7 @@ data class Expectation(
     val success: List<String> = emptyList(),
     val failure: List<String> = emptyList(),
     val `no-source`: List<String> = emptyList(),
-    val output_contains: List<String> = emptyList()
+    val output_contains: List<String> = emptyList(),
 )
 
 data class ExistingFile(val name: String, val contents: String = ".*", val everyLine: Boolean = false) {
