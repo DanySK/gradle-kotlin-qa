@@ -1,3 +1,26 @@
+### [0.16.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.16.0...0.16.1) (2022-04-19)
+
+
+### Style improvements
+
+* add trailing commas ([4857503](https://github.com/DanySK/gradle-kotlin-qa/commit/4857503240fa48ddbaec47e70eb40331f6f53e02))
+* suppress ConstructorParameterNaming over data class meant to interoperate with YAML ([3f1d639](https://github.com/DanySK/gradle-kotlin-qa/commit/3f1d63940c0c71aecbe44b1967b98106f107a271))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.0.1 ([d6533c3](https://github.com/DanySK/gradle-kotlin-qa/commit/d6533c34b405f0db433ff9fd9ed141a273fc2f7b))
+
+
+### Dependency updates
+
+* **core-deps:** update plugin kotlin-jvm to v1.6.21 ([414d412](https://github.com/DanySK/gradle-kotlin-qa/commit/414d412a41153139808f73b39b87847feda0da5b))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.144 ([0f4f520](https://github.com/DanySK/gradle-kotlin-qa/commit/0f4f520d7174954dd765512a3f1a27ef9aa56ff9))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.145 ([e79772d](https://github.com/DanySK/gradle-kotlin-qa/commit/e79772d3fbd73f5d6bd1aef01bce566739cf8c60))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.146 ([18a0e77](https://github.com/DanySK/gradle-kotlin-qa/commit/18a0e770fa7eb34e015c747cd8df8a456a998eca))
+* **deps:** update plugin com.gradle.enterprise to v3.10 ([92435a6](https://github.com/DanySK/gradle-kotlin-qa/commit/92435a63eccf5b82748c2bc405a986ed71e2f4a5))
+* **deps:** update plugin kotlin-qa to v0.16.0 ([6aa329a](https://github.com/DanySK/gradle-kotlin-qa/commit/6aa329a690799fc6d4cc75de846c5e01847e7fc3))
+
 ## [0.16.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.15.1...0.16.0) (2022-04-15)
 
 
