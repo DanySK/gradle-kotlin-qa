@@ -1,3 +1,20 @@
+### [0.16.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.16.1...0.16.2) (2022-04-25)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.0.2 ([8ead079](https://github.com/DanySK/gradle-kotlin-qa/commit/8ead0799f665d0bff40200458620f7a7b829ccae))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.13 ([7387e04](https://github.com/DanySK/gradle-kotlin-qa/commit/7387e04aa926bf00325151a1c4744c3daeaec707))
+
+
+### Dependency updates
+
+* **core-deps:** update plugin dokka to v1.6.21 ([de2b808](https://github.com/DanySK/gradle-kotlin-qa/commit/de2b80863d0c34bd2875eb4b415bddadf42ebf2b))
+* **deps:** update dependency org.mockito:mockito-core to v4.5.0 ([b00597c](https://github.com/DanySK/gradle-kotlin-qa/commit/b00597c5724f67025c3c1caa6292027aceb24230))
+* **deps:** update dependency org.mockito:mockito-core to v4.5.1 ([bb7f0d1](https://github.com/DanySK/gradle-kotlin-qa/commit/bb7f0d12feb4a6ac59858e72c9845a8d91f7b437))
+* **deps:** update plugin kotlin-qa to v0.16.1 ([9fc5421](https://github.com/DanySK/gradle-kotlin-qa/commit/9fc5421d7fc29b4a07098c4229ee49c06fc345aa))
+* **deps:** update plugin publishoncentral to v0.7.18 ([e5236b6](https://github.com/DanySK/gradle-kotlin-qa/commit/e5236b617e52b942aa4df8fb0289836abfd5b1b3))
+
 ### [0.16.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.16.0...0.16.1) (2022-04-19)
 
 
