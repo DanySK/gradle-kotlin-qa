@@ -1,3 +1,20 @@
+## [0.17.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.16.2...0.17.0) (2022-04-30)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.14 ([6c42dcd](https://github.com/DanySK/gradle-kotlin-qa/commit/6c42dcd390c0ad6b40b5bcdadb4b7f93e7a1257a))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.45.0 ([311bc76](https://github.com/DanySK/gradle-kotlin-qa/commit/311bc76bf5f805962fab2d2fe766718b35558f70))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.6 ([a5b81a4](https://github.com/DanySK/gradle-kotlin-qa/commit/a5b81a42365a5fd614bd8ae6f16a7144a69e3724))
+* **deps:** update node.js to 16.15 ([10939b3](https://github.com/DanySK/gradle-kotlin-qa/commit/10939b3da7a5fa543c83673c7633c1dff03150b6))
+* **deps:** update plugin kotlin-qa to v0.16.2 ([c4ffa5f](https://github.com/DanySK/gradle-kotlin-qa/commit/c4ffa5f587f6bcd0ddd334253dde7818c1dd6b50))
+* **deps:** update plugin multijvmtesting to v0.3.7 ([6615ad0](https://github.com/DanySK/gradle-kotlin-qa/commit/6615ad08a3775686a0c1541b98e428fb1f5fa22f))
+* **deps:** update plugin publishoncentral to v0.7.19 ([dedf50a](https://github.com/DanySK/gradle-kotlin-qa/commit/dedf50a6eb80c54b497cb2460494d4db8acd2101))
+
 ### [0.16.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.16.1...0.16.2) (2022-04-25)
 
 
