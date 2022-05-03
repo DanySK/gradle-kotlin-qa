@@ -1,3 +1,12 @@
+## [0.18.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.17.0...0.18.0) (2022-05-03)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v10.3.0 ([e20d781](https://github.com/DanySK/gradle-kotlin-qa/commit/e20d7814701b2845cbd0d3e9a962a7a5a06886fe))
+* **deps:** update io.kotest to v5.3.0 ([a2b1adb](https://github.com/DanySK/gradle-kotlin-qa/commit/a2b1adba5943fc7bee45b1a704675de7e9afb1ad))
+* **deps:** update plugin kotlin-qa to v0.17.0 ([c3dc3f2](https://github.com/DanySK/gradle-kotlin-qa/commit/c3dc3f27044bb4fca3c5f0eb216e61e1d715dde7))
+
 ## [0.17.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.16.2...0.17.0) (2022-04-30)
 
 
