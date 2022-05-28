@@ -1,3 +1,21 @@
+## [0.19.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.18.0...0.19.0) (2022-05-28)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v1.2.15 ([8c5f547](https://github.com/DanySK/gradle-kotlin-qa/commit/8c5f5471eb7e4c718ebbe43e3b0445a497e88539))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.46.0 ([7ff1139](https://github.com/DanySK/gradle-kotlin-qa/commit/7ff1139ef791356ff7296dcefef4319431f27de4))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.147 ([ea0bf86](https://github.com/DanySK/gradle-kotlin-qa/commit/ea0bf867f077f8dc764a4e6855215dfcc7c2a3d9))
+* **deps:** update dependency org.mockito:mockito-core to v4.6.0 ([14626b0](https://github.com/DanySK/gradle-kotlin-qa/commit/14626b044f7c836cdf9df22689982f2a164a2957))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.7 ([2543b79](https://github.com/DanySK/gradle-kotlin-qa/commit/2543b79f9f2461bf137a3f21057ff205ace75794))
+* **deps:** update plugin com.gradle.enterprise to v3.10.1 ([bd737be](https://github.com/DanySK/gradle-kotlin-qa/commit/bd737be322622cf8d158185002a0cb38314eb4c7))
+* **deps:** update plugin kotlin-qa to v0.18.0 ([cbba4c1](https://github.com/DanySK/gradle-kotlin-qa/commit/cbba4c17e2aa86f9dea4cf146cf454ffb03db032))
+* **deps:** update plugin multijvmtesting to v0.4.0 ([de86b1a](https://github.com/DanySK/gradle-kotlin-qa/commit/de86b1ac30b75144d263d6d5f10280e5d11ddf77))
+
 ## [0.18.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.17.0...0.18.0) (2022-05-03)
 
 
