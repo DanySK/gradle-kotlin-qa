@@ -1,3 +1,18 @@
+## [0.19.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.19.1...0.19.2) (2022-06-20)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.dokka to v1.7.0 ([1bc78e5](https://github.com/DanySK/gradle-kotlin-qa/commit/1bc78e5cc1b5fe7372906a31bd61b7c2e9457a59))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.8 ([c8112b6](https://github.com/DanySK/gradle-kotlin-qa/commit/c8112b6111b1285596cb87068bf999eb0f42b0dc))
+* **deps:** update plugin com.gradle.enterprise to v3.10.2 ([fbc88b7](https://github.com/DanySK/gradle-kotlin-qa/commit/fbc88b7f7034156bffb51d295ec8e660e1c3f002))
+* **deps:** update plugin kotlin-qa to v0.19.1 ([bdf47e0](https://github.com/DanySK/gradle-kotlin-qa/commit/bdf47e00efc957001e1427e11f7c31e771d31d92))
+* **deps:** update plugin multijvmtesting to v0.4.2 ([69bc87f](https://github.com/DanySK/gradle-kotlin-qa/commit/69bc87f2b682f997ae91d025937d90bbe081e7f3))
+* **deps:** update plugin multijvmtesting to v0.4.3 ([78652ae](https://github.com/DanySK/gradle-kotlin-qa/commit/78652aed9e7bc2149a81d1a26bf1d2f4021af140))
+* **deps:** update plugin publishoncentral to v0.8.2 ([ce1255d](https://github.com/DanySK/gradle-kotlin-qa/commit/ce1255d9211242e9e66bf04bb9ef3b3a4f351bb5))
+* **deps:** update plugin publishoncentral to v0.8.3 ([4a29239](https://github.com/DanySK/gradle-kotlin-qa/commit/4a2923944ecf50e2aad9e6680b13f2ada1e6cf85))
+* **deps:** update plugin publishoncentral to v1 ([f37b8fc](https://github.com/DanySK/gradle-kotlin-qa/commit/f37b8fc31cc26975a94072540520d374918c9a90))
+
 ## [0.19.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.19.0...0.19.1) (2022-06-09)
 
 
