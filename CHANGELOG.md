@@ -1,3 +1,10 @@
+## [0.20.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.19.2...0.20.0) (2022-06-25)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.47.0 ([1eb15aa](https://github.com/DanySK/gradle-kotlin-qa/commit/1eb15aa3231b6b1841d691814a2740a0cbd85a49))
+
 ## [0.19.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.19.1...0.19.2) (2022-06-20)
 
 
