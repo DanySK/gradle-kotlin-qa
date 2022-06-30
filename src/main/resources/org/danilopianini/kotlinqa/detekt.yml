@@ -30,6 +30,6 @@ style:
   ForbiddenComment:
     allowedPatterns: 'TODO:'
   MagicNumber:
-    ignoreNumbers: ['-2', '-1', '0', '0.5', '1', '2', '3', '4', '10', '100', '360.0']
+    ignoreNumbers: ['-2', '-1', '0', '0.5', '1', '2', '3', '4', '5', '10', '100', '360.0', '1000']
   ThrowsCount:
     max: 10
