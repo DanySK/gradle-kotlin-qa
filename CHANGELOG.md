@@ -1,3 +1,21 @@
+## [0.20.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.20.0...0.20.1) (2022-06-30)
+
+
+### Bug Fixes
+
+* **detekt:** allow numbers 5 and 1000 ([716eba1](https://github.com/DanySK/gradle-kotlin-qa/commit/716eba1c9e5421911ecea95457b37010af25de1c))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.0.3 ([f4c4973](https://github.com/DanySK/gradle-kotlin-qa/commit/f4c49730b460f7ce7ae987beb818f180d7d714b4))
+
+
+### Dependency updates
+
+* **deps:** update plugin gradlepluginpublish to v1 ([c951bc6](https://github.com/DanySK/gradle-kotlin-qa/commit/c951bc60299018b8c26e41f8a8242d684e506500))
+* **deps:** update plugin publishoncentral to v2 ([bbc7e44](https://github.com/DanySK/gradle-kotlin-qa/commit/bbc7e44d3d1597ba6e4de76b88cc25d9dff54665))
+
 ## [0.20.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.19.2...0.20.0) (2022-06-25)
 
 
