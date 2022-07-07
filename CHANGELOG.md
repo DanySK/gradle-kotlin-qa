@@ -1,3 +1,21 @@
+## [0.20.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.20.1...0.20.2) (2022-07-07)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.0 ([ce47eac](https://github.com/DanySK/gradle-kotlin-qa/commit/ce47eac11cc377b93831bb91d35cfbce3fe24794))
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin to v1.7.10 ([075ee3f](https://github.com/DanySK/gradle-kotlin-qa/commit/075ee3f882dbdf67e3d823baba997241d36476a2))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.148 ([ac54200](https://github.com/DanySK/gradle-kotlin-qa/commit/ac54200060d500c22be13b7693b1b2e0487d4c20))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.149 ([f87ca14](https://github.com/DanySK/gradle-kotlin-qa/commit/f87ca14ed0ec1b0b619de9715f03af30a1f93402))
+* **deps:** update plugin multijvmtesting to v0.4.4 ([6592dc4](https://github.com/DanySK/gradle-kotlin-qa/commit/6592dc46c680a36318638ec4662ad495630a5041))
+* **deps:** update plugin multijvmtesting to v0.4.5 ([d30aa59](https://github.com/DanySK/gradle-kotlin-qa/commit/d30aa595441e442907b78725cbe35af1686e3e8f))
+* **deps:** update plugin publishoncentral to v2.0.2 ([4245364](https://github.com/DanySK/gradle-kotlin-qa/commit/4245364cc109910b61210f648bf038657a6d740a))
+* **deps:** update plugin publishoncentral to v2.0.3 ([3a872e5](https://github.com/DanySK/gradle-kotlin-qa/commit/3a872e527486d7c7198a2245ebb0e25b31214dd3))
+
 ## [0.20.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.20.0...0.20.1) (2022-06-30)
 
 
