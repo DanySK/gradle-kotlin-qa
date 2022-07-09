@@ -191,7 +191,7 @@ pluginBundle {
 
 gradlePlugin {
     plugins {
-        create("kotlin-qa") {
+        create("") {
             id = "$group.${project.name}"
             displayName = info.longName
             description = project.description
