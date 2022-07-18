@@ -1,3 +1,19 @@
+## [0.21.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.20.4...0.21.0) (2022-07-18)
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.21.0 ([30c9f91](https://github.com/DanySK/gradle-kotlin-qa/commit/30c9f916049eb3f7ce953cb9a9d5de884b481557))
+* **deps:** update plugin kotlin-qa to v0.20.4 ([fe8e191](https://github.com/DanySK/gradle-kotlin-qa/commit/fe8e191307357055cc008df44fa4514ddb63e7a0))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.0.16 ([5776a7f](https://github.com/DanySK/gradle-kotlin-qa/commit/5776a7fb5791e0ad96c3b1e5d1599106a4c93672))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.0.17 ([edbe318](https://github.com/DanySK/gradle-kotlin-qa/commit/edbe318529d1b7192e2cf062d61647cc4895a49f))
+* **deps:** update plugin publishoncentral to v2.0.5 ([d1669c9](https://github.com/DanySK/gradle-kotlin-qa/commit/d1669c95ed965f1d5c6f20dcbd69c9c5dbd2c81e))
+
+
+### General maintenance
+
+* **test:** remove a wrong package declaration ([82d2ef2](https://github.com/DanySK/gradle-kotlin-qa/commit/82d2ef2c327fc6eab0ba43c64d3d13d3d9df4fb2))
+
 ## [0.20.4](https://github.com/DanySK/gradle-kotlin-qa/compare/0.20.3...0.20.4) (2022-07-14)
 
 
