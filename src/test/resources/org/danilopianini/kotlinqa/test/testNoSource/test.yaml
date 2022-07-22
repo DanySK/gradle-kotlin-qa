@@ -1,5 +1,5 @@
 tests:
-  - description: "Base Kotlin QA tasks should execute"
+  - description: "A project with no source can run the plugin"
     configuration:
       tasks: check
       options: --stacktrace
