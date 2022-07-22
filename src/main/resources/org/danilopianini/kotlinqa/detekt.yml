@@ -27,6 +27,8 @@ performance:
   SpreadOperator:
     active: false
 style:
+  DestructuringDeclarationWithTooManyEntries:
+    maxDestructuringEntries: 10
   ForbiddenComment:
     allowedPatterns: 'TODO:'
   MagicNumber:
