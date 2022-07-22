@@ -39,10 +39,11 @@ class Tests : StringSpec(
                 test.description {
                     if (!System.getProperty("os.name").contains("win", ignoreCase = true)) {
                         val properties = File(testFolder.root, "gradle.properties")
-                        val testkit = Thread.currentThread().contextClassLoader
-                            .getResource("testkit-gradle.properties")
-                            ?.readText()
-                            ?: throw IllegalStateException()
+                        val testkit = checkNotNull(
+                            Thread.currentThread().contextClassLoader
+                                .getResource("testkit-gradle.properties")
+                                ?.readText()
+                        )
                         properties.writeText(testkit)
                         log.debug("written $testkit to ${properties.absolutePath}")
                     }
@@ -78,9 +79,9 @@ class Tests : StringSpec(
     companion object {
         val log = LoggerFactory.getLogger(Tests::class.java)
 
-        private fun BuildResult.outcomeOf(name: String) = task(":$name")
-            ?.outcome
-            ?: throw IllegalStateException("Task $name was not present among the executed tasks")
+        private fun BuildResult.outcomeOf(name: String) = checkNotNull(task(":$name")?.outcome) {
+            "Task $name was not present among the executed tasks"
+        }
 
         private fun folder(closure: TemporaryFolder.() -> Unit) = TemporaryFolder().apply {
             create()

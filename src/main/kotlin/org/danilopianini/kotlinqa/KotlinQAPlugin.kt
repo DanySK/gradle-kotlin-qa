@@ -110,7 +110,8 @@ open class KotlinQAPlugin : Plugin<Project> {
     companion object {
         private const val VERSIONS = "org/danilopianini/kotlinqa/versions.properties"
         private const val DEFAULT_CPD_TOKENS_FOR_KOTLIN = 30
-        private fun Properties.forLibrary(key: String): String =
-            get(key)?.toString() ?: throw IllegalStateException("Unable to read the default version of $key")
+        private fun Properties.forLibrary(key: String): String = checkNotNull(get(key)?.toString()) {
+            "Unable to read the default version of $key"
+        }
     }
 }
