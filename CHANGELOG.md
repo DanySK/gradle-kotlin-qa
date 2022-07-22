@@ -1,3 +1,30 @@
+## [0.22.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.21.0...0.22.0) (2022-07-22)
+
+
+### Features
+
+* raise [`DestructuringDeclarationWithTooManyEntries`](https://detekt.dev/docs/rules/style/#destructuringdeclarationwithtoomanyentries)'s `maxDestructuringEntries` to 10 ([23caac6](https://github.com/DanySK/gradle-kotlin-qa/commit/23caac609212d5a25dcc91d2c7fc43b2de5deb83))
+
+
+### Tests
+
+* de-duplicate test names ([8064d70](https://github.com/DanySK/gradle-kotlin-qa/commit/8064d70b34a535424000724a0c9af64d6159420a))
+
+
+### Build and continuous integration
+
+* use the default plugin classpath ([8ec5794](https://github.com/DanySK/gradle-kotlin-qa/commit/8ec5794976afe6cee08bc660e9e37eb4342c73f0))
+
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.21.0 ([b792838](https://github.com/DanySK/gradle-kotlin-qa/commit/b792838d91977e2e39da9ee9fb740bf1506ba728))
+
+
+### Style improvements
+
+* use check() instead of throwing an IllegalStateException ([de72615](https://github.com/DanySK/gradle-kotlin-qa/commit/de72615a41db43c5b673bd807a1c835975c5c7e2))
+
 ## [0.21.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.20.4...0.21.0) (2022-07-18)
 
 
