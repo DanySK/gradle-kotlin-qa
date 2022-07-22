@@ -17,12 +17,6 @@ import java.io.File
 
 class Tests : StringSpec(
     {
-        val pluginClasspathResource = ClassLoader.getSystemClassLoader()
-            .getResource("plugin-classpath.txt")
-            ?: throw IllegalStateException("Did not find plugin classpath resource, run \"testClasses\" build task.")
-        val classpath = pluginClasspathResource.openStream().bufferedReader().use { reader ->
-            reader.readLines().map { File(it) }
-        }
         val scan = ClassGraph()
             .enableAllInfo()
             .acceptPackages(Tests::class.java.`package`.name)
@@ -54,7 +48,7 @@ class Tests : StringSpec(
                     }
                     val result = GradleRunner.create()
                         .withProjectDir(testFolder.root)
-                        .withPluginClasspath(classpath)
+                        .withPluginClasspath()
                         .withArguments(test.configuration.tasks + test.configuration.options)
                         .build()
                     println(result.tasks)
