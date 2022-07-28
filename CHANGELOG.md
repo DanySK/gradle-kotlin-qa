@@ -1,3 +1,16 @@
+## [0.22.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.22.0...0.22.1) (2022-07-28)
+
+
+### Bug Fixes
+
+* **deps:** update kotest to v5.4.1 ([f5408a1](https://github.com/DanySK/gradle-kotlin-qa/commit/f5408a1f0ccb6c6870a6980eb8e86b4127f6e0f3))
+
+
+### Dependency updates
+
+* **deps:** update kotest to v5.4.0 ([3ec4d9a](https://github.com/DanySK/gradle-kotlin-qa/commit/3ec4d9a2a22954561ed161f8b3f5d04ef9154f5c))
+* **deps:** update plugin kotlin-qa to v0.22.0 ([9ab47f5](https://github.com/DanySK/gradle-kotlin-qa/commit/9ab47f58793b5acb5332ac727ef3f7159e27dfda))
+
 ## [0.22.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.21.0...0.22.0) (2022-07-22)
 
 
