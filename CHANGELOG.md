@@ -1,3 +1,22 @@
+## [0.22.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.22.1...0.22.2) (2022-07-29)
+
+
+### Bug Fixes
+
+* **cpd:** raise the default cpd tokens to 40 ([1908940](https://github.com/DanySK/gradle-kotlin-qa/commit/190894048c46bc5e7ba277278c360c5ca08de250))
+
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.22.1 ([940d353](https://github.com/DanySK/gradle-kotlin-qa/commit/940d353af09235f63f6e286e6a9ed71b0742a1e9))
+* **deps:** update plugin multijvmtesting to v0.4.9 ([a4b5bcd](https://github.com/DanySK/gradle-kotlin-qa/commit/a4b5bcdd322ecac74cc06cbbd08de7fef277f3f7))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.0.18 ([759b564](https://github.com/DanySK/gradle-kotlin-qa/commit/759b56445d0e94b9466e3639ceb079732ea57f6b))
+
+
+### Build and continuous integration
+
+* configure mergify ([06d626a](https://github.com/DanySK/gradle-kotlin-qa/commit/06d626ac93f15f2c092629aec3f2bc703ec374fb))
+
 ## [0.22.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.22.0...0.22.1) (2022-07-28)
 
 
