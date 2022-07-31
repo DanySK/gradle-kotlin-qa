@@ -1,3 +1,15 @@
+## [0.23.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.23.0...0.23.1) (2022-07-31)
+
+
+### Bug Fixes
+
+* **cpd:** raise the default token toleration for Kotlin to 70, as 40 generates many false warnings ([5a50d58](https://github.com/DanySK/gradle-kotlin-qa/commit/5a50d58181fda064efd1e72ce93814d1f59e34e0))
+
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.23.0 ([edfe88f](https://github.com/DanySK/gradle-kotlin-qa/commit/edfe88fd47e53ea5171ff5fc1c178126ee0cc161))
+
 ## [0.23.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.22.2...0.23.0) (2022-07-30)
 
 
