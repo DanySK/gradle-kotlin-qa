@@ -1,3 +1,12 @@
+## [0.25.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.24.0...0.25.0) (2022-09-01)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.49.0 ([dd46ab0](https://github.com/DanySK/gradle-kotlin-qa/commit/dd46ab05057ceffc0e3bee5534754b1516ff637e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.11 ([134f140](https://github.com/DanySK/gradle-kotlin-qa/commit/134f140625117df20f4ec9d04ea671507c96f3ac))
+* **deps:** update plugin kotlin-qa to v0.24.0 ([2b775b5](https://github.com/DanySK/gradle-kotlin-qa/commit/2b775b5d748b7caf18c13b242ff65678d6cdbecf))
+
 ## [0.24.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.23.2...0.24.0) (2022-08-25)
 
 
