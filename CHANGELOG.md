@@ -1,3 +1,23 @@
+## [0.26.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.26.0...0.26.1) (2022-10-13)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.1.0 ([c4f6ec7](https://github.com/DanySK/gradle-kotlin-qa/commit/c4f6ec7f1c7ae61845e8ed010a715f07953cad45))
+* **deps:** update danysk/action-checkout action to v0.2.3 ([c885e19](https://github.com/DanySK/gradle-kotlin-qa/commit/c885e1985042241a9bcca4ec8baee40e26cf34aa))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.10 ([3a642f8](https://github.com/DanySK/gradle-kotlin-qa/commit/3a642f8a8d034961c46e5057341f5b0f3012d530))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.dokka to v1.7.20 ([07d4fdb](https://github.com/DanySK/gradle-kotlin-qa/commit/07d4fdb8a822ae26b4ab7a57ec5845636e828dec))
+* **deps:** update kotest to v5.5.0 ([5a99db3](https://github.com/DanySK/gradle-kotlin-qa/commit/5a99db37041fad67a51b2949cc3d433a8b004d49))
+* **deps:** update kotest to v5.5.1 ([3c11ff6](https://github.com/DanySK/gradle-kotlin-qa/commit/3c11ff6588d7b5e0edda163b5933ac1d062a73b6))
+* **deps:** update plugin kotlin-qa to v0.25.1 ([573c4fd](https://github.com/DanySK/gradle-kotlin-qa/commit/573c4fd51efb084eeecac69fc81bf429d1f19340))
+* **deps:** update plugin kotlin-qa to v0.26.0 ([3d19001](https://github.com/DanySK/gradle-kotlin-qa/commit/3d190012b75b446a468dfdc8d37c5a26dfe3dd83))
+* **deps:** update plugin multijvmtesting to v0.4.11 ([032c32b](https://github.com/DanySK/gradle-kotlin-qa/commit/032c32b936c7691f7b01e992d6cd4888437beb7e))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.0.21 ([c42da06](https://github.com/DanySK/gradle-kotlin-qa/commit/c42da06f906ed187b22237f67b31ae9aaa8bd9dc))
+
 ## [0.26.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.25.1...0.26.0) (2022-10-03)
 
 
