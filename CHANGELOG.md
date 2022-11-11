@@ -1,3 +1,17 @@
+## [0.27.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.27.0...0.27.1) (2022-11-11)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.14 ([4e82318](https://github.com/DanySK/gradle-kotlin-qa/commit/4e823183fb89516a94ce3259d4211cbc93213882))
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.7.21 ([9c0f717](https://github.com/DanySK/gradle-kotlin-qa/commit/9c0f717d144a499c415b81752d7e7c0be006d63d))
+* **deps:** update kotest to v5.5.4 ([e675c4b](https://github.com/DanySK/gradle-kotlin-qa/commit/e675c4bc2979d43c00218ea3c2dcb3ba8823813c))
+* **deps:** update plugin kotlin-qa to v0.27.0 ([8e25ffa](https://github.com/DanySK/gradle-kotlin-qa/commit/8e25ffa967450093e30c99cf3390e15f307a97dc))
+
 ## [0.27.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.26.1...0.27.0) (2022-11-01)
 
 
