@@ -1,3 +1,17 @@
+## [0.28.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.27.1...0.28.0) (2022-11-23)
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.22.0 ([2c24adc](https://github.com/DanySK/gradle-kotlin-qa/commit/2c24adc60804e840963d0461a5198f698ba83f1c))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.150 ([72e3251](https://github.com/DanySK/gradle-kotlin-qa/commit/72e325115d6169affca644fc1530a2ae5b2b5d0a))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.151 ([880a543](https://github.com/DanySK/gradle-kotlin-qa/commit/880a5432d9aa40f01f2c3f891453bb941ef88eaa))
+* **deps:** update dependency org.mockito:mockito-core to v4.9.0 ([fedfd1a](https://github.com/DanySK/gradle-kotlin-qa/commit/fedfd1abca0e78fb605ad81332dea6273bd238ff))
+* **deps:** update plugin kotlin-qa to v0.27.1 ([f4e4c47](https://github.com/DanySK/gradle-kotlin-qa/commit/f4e4c475f712cf2d4caeef1cf22a7dadfd6cf1ff))
+* **deps:** update plugin multijvmtesting to v0.4.13 ([e22b5aa](https://github.com/DanySK/gradle-kotlin-qa/commit/e22b5aa71720fcaf7981f25170cdc92950b4cf69))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.0.23 ([1e6e145](https://github.com/DanySK/gradle-kotlin-qa/commit/1e6e145237c442ec6677f812ce7f86f4244d53eb))
+* **deps:** update plugin publishoncentral to v2.0.9 ([6fc7ff0](https://github.com/DanySK/gradle-kotlin-qa/commit/6fc7ff0d6338873695276f2592fb3b891e2c6c9c))
+
 ## [0.27.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.27.0...0.27.1) (2022-11-11)
 
 
