@@ -1,3 +1,10 @@
+## [0.29.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.29.0...0.29.1) (2022-12-01)
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.7.22 ([69d31c2](https://github.com/DanySK/gradle-kotlin-qa/commit/69d31c2b103c20ac21c98bb1c5e1fee4f3eae447))
+
 ## [0.29.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.28.0...0.29.0) (2022-11-29)
 
 
