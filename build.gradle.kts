@@ -30,6 +30,7 @@ val info = ProjectInfo()
 
 gitSemVer {
     buildMetadataSeparator.set("-")
+    assignGitSemanticVersion()
 }
 
 repositories {
@@ -55,17 +56,15 @@ tasks.create("copyToolVersions") {
     doLast {
         file(destinationDir).mkdirs()
         val catalog = catalogFile.readText()
-        val libraries = listOf("detekt", "jacoco", "ktlint", "pmd")
-            .map { library ->
-                val version = Regex("""^$library\s*=\s*"([\d\w\.\-\+]+)"\s*$""", RegexOption.MULTILINE)
-                    .findAll(catalog)
-                    .firstOrNull()
-                    ?.destructured
-                    ?.component1()
-                    ?: throw IllegalStateException("No version available for $library in:\n$catalog")
-                "$library=$version"
-            }
-            .joinToString("\n")
+        val libraries = listOf("detekt", "jacoco", "ktlint", "pmd").joinToString("\n") { library ->
+            val version = Regex("""^$library\s*=\s*"([\d\w\.\-\+]+)"\s*$""", RegexOption.MULTILINE)
+                .findAll(catalog)
+                .firstOrNull()
+                ?.destructured
+                ?.component1()
+                ?: throw IllegalStateException("No version available for $library in:\n$catalog")
+            "$library=$version"
+        }
         destination.writeText(libraries)
     }
 }
@@ -96,12 +95,41 @@ configurations.all {
     }
 }
 
+val (currentMajor, currentMinor) = GradleVersion.current().version.toString()
+    .split('.')
+    .take(2)
+    .map { it.toInt() }
+(0..currentMinor).forEach { minor ->
+    val variant = "$currentMajor.$minor"
+    val variantName = "gradle$currentMajor$minor"
+    java {
+        registerFeature(variantName) {
+            usingSourceSet(sourceSets.main.get())
+            capability(group.toString(), project.name, project.version.toString())
+        }
+    }
+    configurations.configureEach {
+        if (isCanBeConsumed && name.startsWith(variantName)) {
+            attributes {
+                attribute(GradlePluginApiVersion.GRADLE_PLUGIN_API_VERSION_ATTRIBUTE, objects.named(variant))
+            }
+            dependencies {
+                "${variantName}Api"(gradleApi())
+                "${variantName}Api"(gradleKotlinDsl())
+                "${variantName}Api"(libs.bundles.kotlin.qa)
+                "${variantName}Implementation"(kotlin("stdlib-jdk8"))
+                "${variantName}Implementation"(libs.kotlin.gradle.plugin.api)
+            }
+        }
+    }
+}
+
 kotlin {
     target {
         compilations.all {
             kotlinOptions {
                 allWarningsAsErrors = true
-                freeCompilerArgs = listOf("-XXLanguage:+InlineClasses", "-opt-in=kotlin.RequiresOptIn")
+                freeCompilerArgs = listOf("-opt-in=kotlin.RequiresOptIn")
             }
         }
     }
