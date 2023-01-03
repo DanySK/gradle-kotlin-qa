@@ -24,10 +24,7 @@ open class GenerateDetektConfiguration @Inject constructor(private val extension
     @TaskAction
     fun generateDetektConfigurationFile() {
         val configuration = Thread.currentThread().contextClassLoader.getResource(detektConfigFile)?.readText()
-            ?: throw IllegalStateException(
-                "Unable to read $detektConfigFile from the classpath" +
-                    ", is this a bug in the Kotlin QA plugin?"
-            )
+            ?: error("Unable to read $detektConfigFile from the classpath, is this a bug in the Kotlin QA plugin?")
         val workDir = extension.workingDirectory.get()
         if (workDir.mkdirs()) {
             logger.debug("Created folder ${workDir.absolutePath}")
