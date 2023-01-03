@@ -1,3 +1,30 @@
+## [0.30.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.29.2...0.30.0) (2023-01-03)
+
+
+### Features
+
+* generate multiple variants (one per minor gradle version on the current major) ([15cc0ff](https://github.com/DanySK/gradle-kotlin-qa/commit/15cc0ff41f9745f1e68845d386ec9cb0c91d959a))
+* make check depend on all Detekt tasks ([24c1bde](https://github.com/DanySK/gradle-kotlin-qa/commit/24c1bdeb27073d5be6e289afeddc0c78237eed25))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.20 ([1d5e0cd](https://github.com/DanySK/gradle-kotlin-qa/commit/1d5e0cd35d6915d546f36517b7464bcdeb4d573c))
+
+
+### Dependency updates
+
+* **deps:** update dependency org.mockito:mockito-core to v4.11.0 ([98ffdcb](https://github.com/DanySK/gradle-kotlin-qa/commit/98ffdcb85f7c63626adcd17b343d4ba7b7a395b8))
+* **deps:** update plugin kotlin-qa to v0.29.2 ([ed83590](https://github.com/DanySK/gradle-kotlin-qa/commit/ed835902842355f6de1938fd38c2aaf829275ec0))
+* **deps:** update plugin multijvmtesting to v0.4.15 ([f2ea665](https://github.com/DanySK/gradle-kotlin-qa/commit/f2ea66572c78bf3a5b25c7f9df82eff470196d36))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.1 ([c34b8b3](https://github.com/DanySK/gradle-kotlin-qa/commit/c34b8b32649b24c8732494ad3764a251f7192e14))
+* **deps:** update plugin publishoncentral to v2.0.12 ([c664613](https://github.com/DanySK/gradle-kotlin-qa/commit/c66461342a5b8f5b292485b300639595af973f7b))
+
+
+### Style improvements
+
+* prefer error over throwing exception ([626997c](https://github.com/DanySK/gradle-kotlin-qa/commit/626997cbf0a8e27c61c9564a1d9ec53208ea139a))
+
 ## [0.29.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.29.1...0.29.2) (2022-12-30)
 
 
