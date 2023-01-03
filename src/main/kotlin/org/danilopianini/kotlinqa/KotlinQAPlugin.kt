@@ -42,9 +42,11 @@ open class KotlinQAPlugin : Plugin<Project> {
             GenerateDetektConfiguration::class.java,
             extension
         )
+        val checkTask = project.tasks.findByName("check")
         // Detekt
         project.tasks.withType(Detekt::class.java) {
             it.dependsOn(generator)
+            checkTask?.dependsOn(it)
         }
         val versions = Properties()
         val properties = requireNotNull(Thread.currentThread().contextClassLoader.getResourceAsStream(VERSIONS)) {
@@ -84,7 +86,7 @@ open class KotlinQAPlugin : Plugin<Project> {
                     ?: project.files().asFileTree
                 minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
                 ignoreFailures = false
-                project.tasks.findByName("check")?.dependsOn(this)
+                checkTask?.dependsOn(this)
             }
             // Disable the default cpdCheck to prevent conflict or double execution
             project.tasks.findByName("cpdCheck")?.enabled = false
@@ -103,7 +105,7 @@ open class KotlinQAPlugin : Plugin<Project> {
             jacocoReport.reports {
                 it.xml.required.set(true)
             }
-            project.tasks.findByName("check")?.finalizedBy(jacocoReport)
+            checkTask?.finalizedBy(jacocoReport)
         }
     }
 
