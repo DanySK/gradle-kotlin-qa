@@ -12,7 +12,7 @@ mockito = "4.11.0"
 pmd = "6.53.0"
 
 [libraries]
-classgraph = "io.github.classgraph:classgraph:4.8.153"
+classgraph = "io.github.classgraph:classgraph:4.8.154"
 cpd-gradle = { module = "de.aaschmid:gradle-cpd-plugin", version.ref = "cpd-gradle" }
 detekt-gradle = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
