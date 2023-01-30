@@ -1,3 +1,21 @@
+## [0.32.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.31.0...0.32.0) (2023-01-30)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.3.0 ([91abca6](https://github.com/DanySK/gradle-kotlin-qa/commit/91abca6eb24cff43e43147c7529a83dd50ad7224))
+* **deps:** update danysk/action-checkout action to v0.2.5 ([fb7a590](https://github.com/DanySK/gradle-kotlin-qa/commit/fb7a590a5a5f69f813e8122326b9ae6d424ebd9a))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.21 ([73cf830](https://github.com/DanySK/gradle-kotlin-qa/commit/73cf8304e5be90f7b508adc777835ba52884a884))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.1.0 ([a21f122](https://github.com/DanySK/gradle-kotlin-qa/commit/a21f122dac67c1d102dd522dd4905caa458bc6d9))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.154 ([f3d4aec](https://github.com/DanySK/gradle-kotlin-qa/commit/f3d4aec50143c933c5ad4a596202283ff284b1a2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.16 ([45ac578](https://github.com/DanySK/gradle-kotlin-qa/commit/45ac5780d94402b8f0afdd6cc72666285ef59ce6))
+* **deps:** update node.js to 18.13 ([34cc72d](https://github.com/DanySK/gradle-kotlin-qa/commit/34cc72d8c9853feb46c311911b2ec253bb3ff3e2))
+* **deps:** update plugin publishoncentral to v3 ([fbfe853](https://github.com/DanySK/gradle-kotlin-qa/commit/fbfe8530e2e50e4381d966e5bc8bce3e31d10e75))
+
 ## [0.31.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.30.0...0.31.0) (2023-01-03)
 
 
