@@ -1,3 +1,11 @@
+## [0.33.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.32.0...0.33.0) (2023-01-31)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.54.0 ([9ee1ea5](https://github.com/DanySK/gradle-kotlin-qa/commit/9ee1ea5056cc50880d850910f2164ee7863a220a))
+* **deps:** update dependency org.mockito:mockito-core to v5 ([a97f287](https://github.com/DanySK/gradle-kotlin-qa/commit/a97f28703b1b637f0c0437273228647f56da4e57))
+
 ## [0.32.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.31.0...0.32.0) (2023-01-30)
 
 
