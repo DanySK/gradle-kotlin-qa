@@ -8,7 +8,7 @@ kotlin = "1.8.0"
 kotest = "5.5.4"
 ktlint = "0.45.2"
 ktlint-plugin = "11.1.0"
-mockito = "5.1.0"
+mockito = "5.1.1"
 pmd = "6.54.0"
 
 [libraries]
