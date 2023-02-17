@@ -1,3 +1,28 @@
+## [0.34.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.33.0...0.34.0) (2023-02-17)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.22 ([f083fc4](https://github.com/DanySK/gradle-kotlin-qa/commit/f083fc49161af46e1a2ef623679b4b5300d4ea78))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.23 ([d7d0b6b](https://github.com/DanySK/gradle-kotlin-qa/commit/d7d0b6b8751517dbc640b2e0f3cca4499bc92cb6))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.24 ([9fba87c](https://github.com/DanySK/gradle-kotlin-qa/commit/9fba87c27c41283a4cb731bb0db60b3a1ae1d217))
+* fix the version of the runner's operating system ([ffabb50](https://github.com/DanySK/gradle-kotlin-qa/commit/ffabb50300a2ee9d6345a919245c2ac587b1253c))
+* **mergify:** copy the mergify configuration from Alchemist ([0120abb](https://github.com/DanySK/gradle-kotlin-qa/commit/0120abb62846fdf30ee8aa3a48bb06c0b41f3b0b))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.2.0 ([fd628f3](https://github.com/DanySK/gradle-kotlin-qa/commit/fd628f317fbedc831861864407d69b5fd64d3b2e))
+* **deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v1.8.10 ([d4e2ce3](https://github.com/DanySK/gradle-kotlin-qa/commit/d4e2ce342326d17c32f41364cffafb4908a2a7c2))
+* **deps:** update dependency org.mockito:mockito-core to v5.1.0 ([dfc963e](https://github.com/DanySK/gradle-kotlin-qa/commit/dfc963e2a58b8c5ec76359877038d622466e0edb))
+* **deps:** update dependency org.mockito:mockito-core to v5.1.1 ([9c3f86e](https://github.com/DanySK/gradle-kotlin-qa/commit/9c3f86e06505031fbed63efe0c9668a01fd6622a))
+* **deps:** update kotest to v5.5.5 ([8d08e8c](https://github.com/DanySK/gradle-kotlin-qa/commit/8d08e8c4686078ec07d6fa1523bc0b1a8d3d4d46))
+* **deps:** update node.js to 18.14 ([4c564ff](https://github.com/DanySK/gradle-kotlin-qa/commit/4c564ffee49abf19d44e775ee06985e850fd7618))
+* **deps:** update plugin com.gradle.enterprise to v3.12.3 ([6c54274](https://github.com/DanySK/gradle-kotlin-qa/commit/6c54274b0f521fe7f2d992415a7578f9bf22a1b8))
+* **deps:** update plugin gradlepluginpublish to v1.1.0 ([1324b03](https://github.com/DanySK/gradle-kotlin-qa/commit/1324b0330163949859d4bed9a4e36f7e2cdb77a7))
+* **deps:** update plugin publishoncentral to v3.1.1 ([7267fe1](https://github.com/DanySK/gradle-kotlin-qa/commit/7267fe16012f341cb4ddb53284f053b973ff54e4))
+* **deps:** update plugin tasktree to v2.1.1 ([67d327f](https://github.com/DanySK/gradle-kotlin-qa/commit/67d327f4b97dc207c20662036f48c674763d265e))
+
 ## [0.33.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.32.0...0.33.0) (2023-01-31)
 
 
