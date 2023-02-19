@@ -1,3 +1,35 @@
+## [0.34.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.34.0...0.34.1) (2023-02-19)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.25 ([ac304f3](https://github.com/DanySK/gradle-kotlin-qa/commit/ac304f372e452656d11f2b12789ec085c648f7ea))
+* enable org.gradle.toolchains.foojay-resolver-convention ([cb2c1eb](https://github.com/DanySK/gradle-kotlin-qa/commit/cb2c1eb21739907821e077a512a64c84b5af29b0))
+* simplify the syntax of the plugin dependencies ([6543acb](https://github.com/DanySK/gradle-kotlin-qa/commit/6543acb37b255f060a08972c599f802b92e8520f))
+* update the url refs in pom.xml ([#375](https://github.com/DanySK/gradle-kotlin-qa/issues/375)) ([d8c5d0f](https://github.com/DanySK/gradle-kotlin-qa/commit/d8c5d0fe82ceac0f3fa23f3f4f5fcc673e896185))
+
+
+### Dependency updates
+
+* **deps:** update plugin gitsemver to v1 ([5babb66](https://github.com/DanySK/gradle-kotlin-qa/commit/5babb66308b7206ea16585c7cc438135adeb1227))
+* **deps:** update plugin gitsemver to v1.0.2 ([80b8677](https://github.com/DanySK/gradle-kotlin-qa/commit/80b86771325bde56c83fbfd01eb470acefe9a528))
+* **deps:** update plugin multijvmtesting to v0.4.16 ([a8ffcb4](https://github.com/DanySK/gradle-kotlin-qa/commit/a8ffcb424cbbe675ffe2790f14e568ef6e881633))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.2 ([9aaee3c](https://github.com/DanySK/gradle-kotlin-qa/commit/9aaee3c21222d8712d1943ac670f39454ce7dd1d))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.3 ([0b653be](https://github.com/DanySK/gradle-kotlin-qa/commit/0b653be16686e79692cb1567fdf53beb34075079))
+* **deps:** update plugin publishoncentral to v3.2.1 ([3093672](https://github.com/DanySK/gradle-kotlin-qa/commit/30936725725b4a9e241a94572e7f4eb75a624010))
+* **deps:** update plugin publishoncentral to v3.2.2 ([6b219d9](https://github.com/DanySK/gradle-kotlin-qa/commit/6b219d9361e00553156479507d8bb7302ef6c4a1))
+* **deps:** update plugin publishoncentral to v3.2.3 ([0088315](https://github.com/DanySK/gradle-kotlin-qa/commit/00883156dc1e67d9f78da7545e3ef130fff6733c))
+
+
+### Tests
+
+* copy testkit-gradle.properties into the test repos ([6364768](https://github.com/DanySK/gradle-kotlin-qa/commit/6364768c382fe5c02a1cdf0a59cc6ccdb6b3f0f7))
+
+
+### Revert previous changes
+
+* jacoco loading was already in place ([63e5aa3](https://github.com/DanySK/gradle-kotlin-qa/commit/63e5aa30ecf01dc89271d9c83e9db170512e1405))
+
 ## [0.34.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.33.0...0.34.0) (2023-02-17)
 
 
