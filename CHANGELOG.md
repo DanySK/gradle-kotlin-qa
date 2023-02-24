@@ -1,3 +1,19 @@
+## [0.34.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.34.1...0.34.2) (2023-02-24)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.26 ([167c020](https://github.com/DanySK/gradle-kotlin-qa/commit/167c02033292da378a856fdf5c1e3b02cbdef1aa))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v7.6.1 ([8313319](https://github.com/DanySK/gradle-kotlin-qa/commit/8313319e4bedbd310ebf4a17ba06e9a5a80d5f72))
+* **deps:** update plugin gitsemver to v1.1.1 ([dea9d33](https://github.com/DanySK/gradle-kotlin-qa/commit/dea9d33d1af20043ecaa392a8ebde165c350e66c))
+* **deps:** update plugin multijvmtesting to v0.4.17 ([002b819](https://github.com/DanySK/gradle-kotlin-qa/commit/002b819ea496e439bc582d6c162a9404dde9a0f9))
+* **deps:** update plugin publishoncentral to v3.2.4 ([3c93fce](https://github.com/DanySK/gradle-kotlin-qa/commit/3c93fce91e5630de2ca1f1c212f1fbed1f13e28b))
+* **deps:** update plugin publishoncentral to v3.3.0 ([037daa4](https://github.com/DanySK/gradle-kotlin-qa/commit/037daa4fcc6ee1a41b8c95a529e27fd19703b866))
+
 ## [0.34.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.34.0...0.34.1) (2023-02-19)
 
 
