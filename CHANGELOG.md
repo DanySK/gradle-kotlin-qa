@@ -1,3 +1,10 @@
+## [0.35.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.34.2...0.35.0) (2023-02-25)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v6.55.0 ([f301577](https://github.com/DanySK/gradle-kotlin-qa/commit/f3015772857dadc19096f75ab9da0856fd4774f6))
+
 ## [0.34.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.34.1...0.34.2) (2023-02-24)
 
 
