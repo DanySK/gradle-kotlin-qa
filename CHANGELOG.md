@@ -1,3 +1,10 @@
+## [0.36.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.36.0...0.36.1) (2023-03-04)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.dokka to v1.8.10 ([03f409a](https://github.com/DanySK/gradle-kotlin-qa/commit/03f409ad34b749d2cf1e9272f5c6626c226869fe))
+
 ## [0.36.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.35.0...0.36.0) (2023-03-04)
 
 
