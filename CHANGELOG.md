@@ -1,3 +1,18 @@
+## [0.36.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.35.0...0.36.0) (2023-03-04)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.0 ([c069cfe](https://github.com/DanySK/gradle-kotlin-qa/commit/c069cfe79356774823f14bf26030e21fa6f851b7))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.3.1 ([531103f](https://github.com/DanySK/gradle-kotlin-qa/commit/531103fafe23692a7a4866a34bbbe1143c2ae60c))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.155 ([9881427](https://github.com/DanySK/gradle-kotlin-qa/commit/98814274d0680eb0d1c420f625d468782e29bd46))
+* **deps:** update plugin com.gradle.enterprise to v3.12.4 ([2e58704](https://github.com/DanySK/gradle-kotlin-qa/commit/2e5870445efad12264bd6540171d0c8abc47c14d))
+* **deps:** update plugin gitsemver to v1.1.2 ([a6d0dbd](https://github.com/DanySK/gradle-kotlin-qa/commit/a6d0dbd780ec67cb8d0e1194ea879f0fdba52cc5))
+
 ## [0.35.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.34.2...0.35.0) (2023-02-25)
 
 
