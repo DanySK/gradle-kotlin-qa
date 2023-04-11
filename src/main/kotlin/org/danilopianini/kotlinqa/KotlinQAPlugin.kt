@@ -67,7 +67,7 @@ open class KotlinQAPlugin : Plugin<Project> {
             version.set(versions.forLibrary("ktlint"))
         }
         // CPD
-        project.plugins.withType(JavaPlugin::class.java) {
+        project.plugins.withType(JavaPlugin::class.java) { _ ->
             project.extensions.configure<CpdExtension> {
                 toolVersion = versions.forLibrary("pmd")
             }
