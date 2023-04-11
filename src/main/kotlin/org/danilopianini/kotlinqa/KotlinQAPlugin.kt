@@ -58,7 +58,7 @@ open class KotlinQAPlugin : Plugin<Project> {
         project.extensions.configure<DetektExtension> {
             parallel = true
             buildUponDefaultConfig = true
-            config = project.files(extension.detektConfigurationFile)
+            config.from(project.files(extension.detektConfigurationFile))
             ignoreFailures = false
             toolVersion = versions.forLibrary("detekt")
         }
