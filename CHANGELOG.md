@@ -1,3 +1,50 @@
+## [0.37.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.36.1...0.37.0) (2023-04-11)
+
+
+### Features
+
+* use the latest beta of this plugin on itself ([3b3e211](https://github.com/DanySK/gradle-kotlin-qa/commit/3b3e211ca61cbbf83a9db139aa04f377179a85c1))
+
+
+### Bug Fixes
+
+* remove call to deprecated method ([53cf02f](https://github.com/DanySK/gradle-kotlin-qa/commit/53cf02fca9c30fed445cd1e3e8c0d3e0d06e0c78))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.0 ([3f561b0](https://github.com/DanySK/gradle-kotlin-qa/commit/3f561b0091668dd0b2c7036851b11d4f8ddf8aad))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.2 ([9fae157](https://github.com/DanySK/gradle-kotlin-qa/commit/9fae157e782089a4322527cf66a82d7d837cc972))
+* **mergify:** disable auto-rebasing due to Mergifyio/mergify[#5074](https://github.com/DanySK/gradle-kotlin-qa/issues/5074) ([3e1059d](https://github.com/DanySK/gradle-kotlin-qa/commit/3e1059da4f893beba2b745dc0396493d18553ac1))
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to 1.23.0-RC1 ([160a800](https://github.com/DanySK/gradle-kotlin-qa/commit/160a8009532c9421b8c9fae5c9465e031b49f9af))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.157 ([0fbabe6](https://github.com/DanySK/gradle-kotlin-qa/commit/0fbabe6fcfbe829134ce185cdcc962f68a91b227))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.17 ([fcf7467](https://github.com/DanySK/gradle-kotlin-qa/commit/fcf746753e88f3f7bd28fd299a00bd04a85990ab))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.19 ([f0e9d79](https://github.com/DanySK/gradle-kotlin-qa/commit/f0e9d79ff335aee3ca1e6cfe76b43c3ca6c9193f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.20 ([0ea9842](https://github.com/DanySK/gradle-kotlin-qa/commit/0ea9842b507bbf8437637ccaf88642803271121f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.21 ([00c47b3](https://github.com/DanySK/gradle-kotlin-qa/commit/00c47b32aef38f2e17c03e23b918a77774b9e28b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.22 ([5b7cbff](https://github.com/DanySK/gradle-kotlin-qa/commit/5b7cbff10b95f45cc788ae1d1e6d26e71f14f9cd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.23 ([346e4c8](https://github.com/DanySK/gradle-kotlin-qa/commit/346e4c8a356b3362801420efea03035e54bee449))
+* **deps:** update plugin com.gradle.enterprise to v3.12.6 ([01149c0](https://github.com/DanySK/gradle-kotlin-qa/commit/01149c08f83ef9e1e6362e1fd1ffa65781ab4ff3))
+* **deps:** update plugin gitsemver to v1.1.4 ([12e434f](https://github.com/DanySK/gradle-kotlin-qa/commit/12e434f30f87569ac8f46280f737bfa5d04bc692))
+* **deps:** update plugin gradlepluginpublish to v1.2.0 ([134c90d](https://github.com/DanySK/gradle-kotlin-qa/commit/134c90d74b20f50bc71a0fc7cf4a912b9bd6a49d))
+* **deps:** update plugin kotlin-qa to v0.36.0 ([7e5118a](https://github.com/DanySK/gradle-kotlin-qa/commit/7e5118ab1d90ec71484052c4d27419db7a95846c))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.5 ([7a707f3](https://github.com/DanySK/gradle-kotlin-qa/commit/7a707f399179c3d79f68a4df880ce19bed908d8f))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.6 ([cda2a14](https://github.com/DanySK/gradle-kotlin-qa/commit/cda2a1414941a22675febf8636b92a62fe6d7b74))
+* **deps:** update plugin publishoncentral to v3.4.0 ([32809cb](https://github.com/DanySK/gradle-kotlin-qa/commit/32809cb1b3b44dbf5c280525dcc17ccfc02422aa))
+* **deps:** update plugin publishoncentral to v4 ([0a949c9](https://github.com/DanySK/gradle-kotlin-qa/commit/0a949c90e0cdf02a1ba97a4d3577c06b5b21f81c))
+
+
+### Style improvements
+
+* anonymize unused `it` variable ([134768e](https://github.com/DanySK/gradle-kotlin-qa/commit/134768e0fd941a80b57b6da82c764f12ae1f293e))
+* avoid shadowing `it` ([52b5381](https://github.com/DanySK/gradle-kotlin-qa/commit/52b5381b5e78157a6c54f18cfc583a37de845903))
+* avoid template strings in logging call ([40b5efd](https://github.com/DanySK/gradle-kotlin-qa/commit/40b5efd31db0fc869563ce7987a1a622d0b2f95b))
+* explicitly declare a platform type ([89ce9d8](https://github.com/DanySK/gradle-kotlin-qa/commit/89ce9d8f66f6c6e4acd7de63911be9c87f785a76))
+
 ## [0.36.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.36.0...0.36.1) (2023-03-04)
 
 
