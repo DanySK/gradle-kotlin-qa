@@ -8,13 +8,13 @@ import io.kotest.matchers.file.shouldBeAFile
 import io.kotest.matchers.file.shouldExist
 import io.kotest.matchers.shouldBe
 import io.kotest.matchers.string.shouldContain
+import java.io.File
 import org.gradle.internal.impldep.org.junit.rules.TemporaryFolder
 import org.gradle.testkit.runner.BuildResult
 import org.gradle.testkit.runner.GradleRunner
 import org.gradle.testkit.runner.TaskOutcome
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import java.io.File
 
 class Tests : StringSpec(
     {
@@ -43,7 +43,7 @@ class Tests : StringSpec(
                         val testkit = checkNotNull(
                             Thread.currentThread().contextClassLoader
                                 .getResource("testkit-gradle.properties")
-                                ?.readText()
+                                ?.readText(),
                         )
                         properties.writeText(testkit)
                         log.debug("written $testkit to ${properties.absolutePath}")
@@ -75,7 +75,7 @@ class Tests : StringSpec(
                     }
                 }
             }
-    }
+    },
 ) {
     companion object {
         val log: Logger = LoggerFactory.getLogger(Tests::class.java)
