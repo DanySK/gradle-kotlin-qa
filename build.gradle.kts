@@ -137,6 +137,7 @@ kotlin {
 }
 
 tasks.withType<Test> {
+    mustRunAfter(tasks.generateJacocoTestKitProperties)
     useJUnitPlatform()
     testLogging {
         showStandardStreams = true
