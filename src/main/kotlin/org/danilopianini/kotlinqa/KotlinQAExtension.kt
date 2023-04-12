@@ -1,11 +1,11 @@
 package org.danilopianini.kotlinqa
 
+import java.io.File
+import java.io.Serializable
 import org.gradle.api.Project
 import org.gradle.api.provider.Property
 import org.gradle.api.provider.Provider
 import org.gradle.kotlin.dsl.property
-import java.io.File
-import java.io.Serializable
 
 /**
  * Gradle extension for the Kotlin QA Plugin.
