@@ -1,11 +1,11 @@
 package org.danilopianini.kotlinqa
 
+import java.io.File
+import javax.inject.Inject
 import org.gradle.api.DefaultTask
 import org.gradle.api.provider.Provider
 import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
-import java.io.File
-import javax.inject.Inject
 
 /**
  * A Gradle task that copies the default configuration from the classpath into a target file.
