@@ -5,6 +5,7 @@ import de.aaschmid.gradle.plugins.cpd.CpdPlugin
 import io.gitlab.arturbosch.detekt.Detekt
 import io.gitlab.arturbosch.detekt.DetektPlugin
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
+import java.util.Properties
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.file.FileTree
@@ -21,7 +22,6 @@ import org.gradle.testing.jacoco.tasks.JacocoReport
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
-import java.util.Properties
 
 /**
  * Entry point for the Kotlin QA Plugin.
@@ -40,7 +40,7 @@ open class KotlinQAPlugin : Plugin<Project> {
         val generator = project.tasks.create(
             "generateDefaultDetektConfiguration",
             GenerateDetektConfiguration::class.java,
-            extension
+            extension,
         )
         val checkTask = project.tasks.findByName("check")
         // Detekt
