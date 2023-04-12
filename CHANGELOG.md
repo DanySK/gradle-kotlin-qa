@@ -1,3 +1,20 @@
+## [0.38.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.37.0...0.38.0) (2023-04-12)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/action-checkout action to v0.2.7 ([d77881a](https://github.com/DanySK/gradle-kotlin-qa/commit/d77881a27fb245f53ca8f1e71b8a4273f02ef0f4))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.3 ([a4f2d98](https://github.com/DanySK/gradle-kotlin-qa/commit/a4f2d98221f1b3db991154b640b74bfc37104031))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest:ktlint to v0.48.2 ([514ce7c](https://github.com/DanySK/gradle-kotlin-qa/commit/514ce7cc7d853cd793d8fe38d9a1b413106c336e))
+* **deps:** update jacoco to v0.8.9 ([a994643](https://github.com/DanySK/gradle-kotlin-qa/commit/a9946438b2e89d00605dd610f88b661d3b8b4613))
+* **deps:** update node.js to 18.15 ([0614e3f](https://github.com/DanySK/gradle-kotlin-qa/commit/0614e3fce56d859b58dacb4ec27f01f5fb572acf))
+* **deps:** update plugin gitsemver to v1.1.6 ([3efd9d4](https://github.com/DanySK/gradle-kotlin-qa/commit/3efd9d40323d1800efaa3814b78aa1699c28ee1f))
+* **deps:** update plugin multijvmtesting to v0.4.20 ([94f312b](https://github.com/DanySK/gradle-kotlin-qa/commit/94f312b0514bf5b6050979cdd39bc8ce73ce2fc2))
+
 ## [0.37.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.36.1...0.37.0) (2023-04-11)
 
 
