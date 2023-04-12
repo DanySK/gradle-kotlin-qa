@@ -1,3 +1,16 @@
+## [0.38.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.38.0...0.38.1) (2023-04-12)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8 ([b89cb11](https://github.com/DanySK/gradle-kotlin-qa/commit/b89cb112041ee39d35c862ddc05ebd9fef11ba52))
+* **deps:** update dependency org.mockito:mockito-core to v5.3.0 ([18a9794](https://github.com/DanySK/gradle-kotlin-qa/commit/18a9794a1cb41e7acba0c6dd0d05eac7990d568c))
+
+
+### Build and continuous integration
+
+* run tests after generateJacocoTestKitProperties ([4be9f2b](https://github.com/DanySK/gradle-kotlin-qa/commit/4be9f2bd3a95c6e2f80056d6f5c4f40f353bdfb5))
+
 ## [0.38.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.37.0...0.38.0) (2023-04-12)
 
 
