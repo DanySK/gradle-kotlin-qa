@@ -1,3 +1,39 @@
+## [0.38.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.38.1...0.38.2) (2023-04-22)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.1 ([816c0bf](https://github.com/DanySK/gradle-kotlin-qa/commit/816c0bf0a3d46f4d2f90a42c10c7c312017c6b29))
+* **deps:** update actions/checkout action to v3.5.2 ([c0b5947](https://github.com/DanySK/gradle-kotlin-qa/commit/c0b59477f4707c5ac3a08fa591a28b55c604f0a5))
+* **deps:** update danysk/action-checkout action to v0.2.8 ([474a17e](https://github.com/DanySK/gradle-kotlin-qa/commit/474a17ed3e5aafc02f6edf0ce4254bdc6e4b7f0d))
+* **deps:** update danysk/action-checkout action to v0.2.9 ([f4a325d](https://github.com/DanySK/gradle-kotlin-qa/commit/f4a325d665739a032d6cc8327bb0b0a8d6afe522))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.4 ([ccef179](https://github.com/DanySK/gradle-kotlin-qa/commit/ccef17903c34b2480f457fa8116598b7df5b5605))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.1.1 ([#426](https://github.com/DanySK/gradle-kotlin-qa/issues/426)) ([5432372](https://github.com/DanySK/gradle-kotlin-qa/commit/54323722b6bfe97e34378d4f15271c9d8125d8d0))
+* **deps:** update dependency org.mockito:mockito-core to v5.3.1 ([ac8abd3](https://github.com/DanySK/gradle-kotlin-qa/commit/ac8abd3c10d6aa3f1b8458f642267631b2f5c581))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.24 ([cc23be3](https://github.com/DanySK/gradle-kotlin-qa/commit/cc23be3508f932bd7229855e444c5f8461c84c38))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.25 ([3206bed](https://github.com/DanySK/gradle-kotlin-qa/commit/3206bed82b2bf98181b37b83f40afe2505ae533a))
+* **deps:** update kotest to v5.6.0 ([f792d12](https://github.com/DanySK/gradle-kotlin-qa/commit/f792d12ff44cabf5c5d3a6c521a9b0df09500539))
+* **deps:** update kotest to v5.6.1 ([d08b910](https://github.com/DanySK/gradle-kotlin-qa/commit/d08b9108081d8867251114c13616b2e3784cd594))
+* **deps:** update node.js to 18.16 ([b3d9995](https://github.com/DanySK/gradle-kotlin-qa/commit/b3d9995858a56590879d6a3b4f92b4a664648073))
+* **deps:** update plugin com.gradle.enterprise to v3.13 ([8fe0fc6](https://github.com/DanySK/gradle-kotlin-qa/commit/8fe0fc6de0180beb7f9dc5a1c2cda1447f9e4a0b))
+* **deps:** update plugin gitsemver to v1.1.7 ([b64a757](https://github.com/DanySK/gradle-kotlin-qa/commit/b64a757a55cb86a756e1a2019b61c4baef7b5b51))
+* **deps:** update plugin gitsemver to v1.1.8 ([ec6e642](https://github.com/DanySK/gradle-kotlin-qa/commit/ec6e642b56b49871d63257fdf16f49a88814d14a))
+* **deps:** update plugin gitsemver to v1.1.9 ([f307824](https://github.com/DanySK/gradle-kotlin-qa/commit/f307824949d577747727b73952a25a91a5541dda))
+* **deps:** update plugin kotlin-qa to v0.38.0 ([#425](https://github.com/DanySK/gradle-kotlin-qa/issues/425)) ([c9cb200](https://github.com/DanySK/gradle-kotlin-qa/commit/c9cb200b214ee8469ef8f5eaf4e796045fc967bb))
+* **deps:** update plugin kotlin-qa to v0.38.1 ([8783ac4](https://github.com/DanySK/gradle-kotlin-qa/commit/8783ac4827724ca17028f880bf27329120039ccb))
+* **deps:** update plugin multijvmtesting to v0.4.21 ([c022fdf](https://github.com/DanySK/gradle-kotlin-qa/commit/c022fdfc31176b17dc70df433c53ef8109c8e8ab))
+* **deps:** update plugin multijvmtesting to v0.4.22 ([96cae83](https://github.com/DanySK/gradle-kotlin-qa/commit/96cae832486845d8df3cf76debf9d27c9787fe14))
+* **deps:** update plugin multijvmtesting to v0.4.23 ([514baec](https://github.com/DanySK/gradle-kotlin-qa/commit/514baecebd900a9a361a6bb1ca55cfb2d749626a))
+* **deps:** update plugin publishoncentral to v4.1.0 ([3f1101c](https://github.com/DanySK/gradle-kotlin-qa/commit/3f1101c5b3937d8c408fb1164a33ab0bb5bdea40))
+* **deps:** update plugin publishoncentral to v4.1.1 ([15a25d0](https://github.com/DanySK/gradle-kotlin-qa/commit/15a25d0d384678b97f3d3180da9e1068b5aac5af))
+* **deps:** update plugin publishoncentral to v5 ([d3df400](https://github.com/DanySK/gradle-kotlin-qa/commit/d3df4007209d1bb9942dbded3ef1f0d3bd049269))
+* **deps:** update plugin publishoncentral to v5.0.2 ([7f82b0b](https://github.com/DanySK/gradle-kotlin-qa/commit/7f82b0b71f0165bc1059dd870fa1b3a94e2e26c3))
+* **deps:** update plugin publishoncentral to v5.0.3 ([1f23604](https://github.com/DanySK/gradle-kotlin-qa/commit/1f2360428c0db85c73fdb843354465f16d1db838))
+
 ## [0.38.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.38.0...0.38.1) (2023-04-12)
 
 
