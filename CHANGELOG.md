@@ -1,3 +1,12 @@
+## [0.39.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.38.2...0.39.0) (2023-04-23)
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.23.0-rc2 ([9c637dd](https://github.com/DanySK/gradle-kotlin-qa/commit/9c637dd3c32a4cc6a8e366311c81cc162910fc4b))
+* **deps:** update plugin kotlin-qa to v0.38.2 ([0f2076d](https://github.com/DanySK/gradle-kotlin-qa/commit/0f2076d42da3346a769c8bb512604a0646a4599c))
+* **deps:** update plugin publishoncentral to v5.0.4 ([b188987](https://github.com/DanySK/gradle-kotlin-qa/commit/b188987efc4471bd7d4a95740eab6432c2b7cb34))
+
 ## [0.38.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.38.1...0.38.2) (2023-04-22)
 
 
