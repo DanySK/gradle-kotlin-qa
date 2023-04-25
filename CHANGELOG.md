@@ -1,3 +1,13 @@
+## [0.40.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.39.0...0.40.0) (2023-04-25)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.3.2 ([2171d1c](https://github.com/DanySK/gradle-kotlin-qa/commit/2171d1cbce89dd8577c9d38acc7b0a4a98b48651))
+* **deps:** update plugin kotlin-qa to v0.39.0 ([2e2c601](https://github.com/DanySK/gradle-kotlin-qa/commit/2e2c6017fb19dc26fd5ccb4f477d979c1fef9451))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.7 ([bc36fc2](https://github.com/DanySK/gradle-kotlin-qa/commit/bc36fc25c8a8e82527e33ecc243197bf31f039ff))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.5.0 ([27c8f1b](https://github.com/DanySK/gradle-kotlin-qa/commit/27c8f1b4d3dd0636daa3dfeef7700db2d84921ae))
+
 ## [0.39.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.38.2...0.39.0) (2023-04-23)
 
 
