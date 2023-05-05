@@ -1,3 +1,15 @@
+## [0.41.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.40.0...0.41.0) (2023-05-05)
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.23.0-rc3 ([128855a](https://github.com/DanySK/gradle-kotlin-qa/commit/128855a98799aff58dc759900c78b62a5274a144))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.26 ([1b17938](https://github.com/DanySK/gradle-kotlin-qa/commit/1b17938275b71a6f9c84503f74aa934d26822c59))
+* **deps:** update jacoco to v0.8.10 ([caf4a85](https://github.com/DanySK/gradle-kotlin-qa/commit/caf4a85683c851c841f0937cbae092f8983e4702))
+* **deps:** update plugin com.gradle.enterprise to v3.13.1 ([501f369](https://github.com/DanySK/gradle-kotlin-qa/commit/501f36982127719ecba0384c55f45582373a45a9))
+* **deps:** update plugin jacoco-testkit to v1.0.12 ([1701e9b](https://github.com/DanySK/gradle-kotlin-qa/commit/1701e9b614b7b9b0055b8b0cdef8c6aecd3110e3))
+* **deps:** update plugin kotlin-qa to v0.40.0 ([6e696b1](https://github.com/DanySK/gradle-kotlin-qa/commit/6e696b1672f6d7533e287ca66e64d7bbb6e66605))
+
 ## [0.40.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.39.0...0.40.0) (2023-04-25)
 
 
