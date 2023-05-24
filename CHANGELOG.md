@@ -1,3 +1,21 @@
+## [0.42.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.41.0...0.42.0) (2023-05-24)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.5 ([fe4a327](https://github.com/DanySK/gradle-kotlin-qa/commit/fe4a327ebded45531fa66c0f716b521e932881ae))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.6 ([119ab7c](https://github.com/DanySK/gradle-kotlin-qa/commit/119ab7c0b9a8833bc5d6b9407f8b46e868bbbbec))
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.23.0 ([9135ba7](https://github.com/DanySK/gradle-kotlin-qa/commit/9135ba7097368f8bbefe315bcdb01de25b49aaba))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.158 ([28de641](https://github.com/DanySK/gradle-kotlin-qa/commit/28de6412017cb32218e5920ed515c3c2610ef528))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.159 ([d1f1e24](https://github.com/DanySK/gradle-kotlin-qa/commit/d1f1e24056174326c0bb65b8c096525e30cf7ea4))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.160 ([210ed8e](https://github.com/DanySK/gradle-kotlin-qa/commit/210ed8e7cc0ae86c220b18773e089c30c2679517))
+* **deps:** update kotest to v5.6.2 ([d253a64](https://github.com/DanySK/gradle-kotlin-qa/commit/d253a649106365b79721f9e4ab697ec3e737fa3f))
+* **deps:** update plugin com.gradle.enterprise to v3.13.2 ([c08e774](https://github.com/DanySK/gradle-kotlin-qa/commit/c08e774c9542dc9d6a25185758e0bda76e2e2133))
+
 ## [0.41.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.40.0...0.41.0) (2023-05-05)
 
 
