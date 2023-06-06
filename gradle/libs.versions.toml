@@ -7,7 +7,7 @@ konf = "1.1.2"
 kotlin = "1.8.20"
 kotest = "5.6.2"
 ktlint = "0.48.2"
-ktlint-plugin = "11.3.2"
+ktlint-plugin = "11.4.0"
 mockito = "5.3.1"
 pmd = "6.55.0"
 
