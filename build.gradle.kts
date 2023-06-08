@@ -71,6 +71,7 @@ tasks.create("copyToolVersions") {
 }
 
 multiJvm {
+    jvmVersionForCompilation.set(11)
     maximumSupportedJvmVersion.set(latestJavaSupportedByGradle)
 }
 
@@ -80,11 +81,18 @@ dependencies {
     api(libs.bundles.kotlin.qa)
     implementation(kotlin("stdlib-jdk8"))
     implementation(libs.kotlin.gradle.plugin.api)
-    testImplementation(gradleTestKit())
-    testImplementation(libs.konf.yaml)
-    testImplementation(libs.classgraph)
+    testImplementation(libs.testkit)
     testImplementation(libs.bundles.kotlin.testing)
 }
+
+inline fun <reified T : Task> Project.disableTrackState() {
+    tasks.withType<T>().configureEach {
+        doNotTrackState("Otherwise JaCoCo does not work correctly")
+    }
+}
+
+disableTrackState<Test>()
+disableTrackState<JacocoReport>()
 
 // Enforce Kotlin version coherence
 configurations.all {

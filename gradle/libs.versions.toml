@@ -3,22 +3,20 @@ cpd-gradle = "3.3"
 detekt = "1.23.0"
 dokka = "1.8.20"
 jacoco = "0.8.10"
-konf = "1.1.2"
 kotlin = "1.8.20"
 kotest = "5.6.2"
 ktlint = "0.49.1"
 ktlint-plugin = "11.4.0"
 mockito = "5.4.0"
 pmd = "6.55.0"
+testkit = "0.8.1"
 
 [libraries]
-classgraph = "io.github.classgraph:classgraph:4.8.160"
 cpd-gradle = { module = "de.aaschmid:gradle-cpd-plugin", version.ref = "cpd-gradle" }
 detekt-gradle = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 jacoco-agent = { module = "org.jacoco:org.jacoco.agent", version.ref = "jacoco" }
 jacoco-core = { module = "org.jacoco:org.jacoco.core", version.ref = "jacoco" }
-konf-yaml = { module = "com.uchuhimo:konf-yaml", version.ref = "konf" }
 kotest-junit5-jvm = { module = "io.kotest:kotest-runner-junit5-jvm", version.ref = "kotest" }
 kotest-assertions-core-jvm = { module = "io.kotest:kotest-assertions-core-jvm", version.ref = "kotest" }
 kotlin-gradle-plugin-api = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -26,6 +24,7 @@ ktlint-tool = { module = "com.pinterest:ktlint", version.ref = "ktlint" }
 ktlint-gradle = { module = "org.jlleitschuh.gradle:ktlint-gradle", version.ref = "ktlint-plugin" }
 mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }
 pmd-kotlin = { module = "net.sourceforge.pmd:pmd-kotlin", version.ref = "pmd" }
+testkit = { module = "io.github.mirko-felice.testkit:core", version.ref = "testkit" }
 
 [bundles]
 kotlin-testing = [ "kotest-junit5-jvm", "kotest-assertions-core-jvm", "mockito-core" ]
