@@ -71,7 +71,6 @@ tasks.create("copyToolVersions") {
 }
 
 multiJvm {
-    jvmVersionForCompilation.set(11)
     maximumSupportedJvmVersion.set(latestJavaSupportedByGradle)
 }
 
