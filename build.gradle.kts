@@ -84,6 +84,12 @@ dependencies {
     testImplementation(libs.bundles.kotlin.testing)
 }
 
+/*
+ Following lines from 93-100 are needed as a workaround because of an official Gradle issue,
+ linked to https://github.com/gradle/gradle/issues/16603.
+ The issue is related to Gradle Daemon that is closed automatically by the Testkit official library,
+ but jacoco agent does not wait for it.
+*/
 inline fun <reified T : Task> Project.disableTrackState() {
     tasks.withType<T>().configureEach {
         doNotTrackState("Otherwise JaCoCo does not work correctly")
