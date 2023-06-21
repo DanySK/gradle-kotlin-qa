@@ -1,3 +1,30 @@
+## [0.45.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.44.0...0.45.0) (2023-06-21)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.3 ([76fb516](https://github.com/DanySK/gradle-kotlin-qa/commit/76fb516e5342005df77bc70b3333e9ee712a83d3))
+* **deps:** update danysk/action-checkout action to v0.2.10 ([485d985](https://github.com/DanySK/gradle-kotlin-qa/commit/485d985b296321b4111ff9332b182aa458567d41))
+* disable the fail fast mode on matrix jobs ([ccdf66b](https://github.com/DanySK/gradle-kotlin-qa/commit/ccdf66b59c8f06de7a400bfbe8c8cc8c3e77d5df))
+
+
+### Tests
+
+* use the new testkit library ([#489](https://github.com/DanySK/gradle-kotlin-qa/issues/489)) ([48d46af](https://github.com/DanySK/gradle-kotlin-qa/commit/48d46af4564ad2d3a6b0b81363255a0f1aa91a42))
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.4.1 ([103ef7d](https://github.com/DanySK/gradle-kotlin-qa/commit/103ef7d9c681667151de291c4b7d38c9bb1a348d))
+* **deps:** update dependency io.github.mirko-felice.testkit:core to v0.8.4 ([95458b6](https://github.com/DanySK/gradle-kotlin-qa/commit/95458b6a5126ba9e00d13409e71910b578545345))
+* **deps:** update dependency org.mockito:mockito-core to v5.4.0 ([5422076](https://github.com/DanySK/gradle-kotlin-qa/commit/5422076424e6849460ba8fa0bfae3f22f4887ed5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.32 ([5e0d03f](https://github.com/DanySK/gradle-kotlin-qa/commit/5e0d03f7b1fe5be6c139fed53053e1f93d5b214e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.35 ([e501eaa](https://github.com/DanySK/gradle-kotlin-qa/commit/e501eaad51cfe07aeb5c4f23b066361888420277))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.36 ([1e420e7](https://github.com/DanySK/gradle-kotlin-qa/commit/1e420e7d25a3efb04932e856f512640cd01c87f8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.37 ([8ff51d2](https://github.com/DanySK/gradle-kotlin-qa/commit/8ff51d204d3d4eae855c875568349eab13f2c01d))
+* **deps:** update plugin com.gradle.enterprise to v3.13.4 ([43163d4](https://github.com/DanySK/gradle-kotlin-qa/commit/43163d42ea152440615b40ba109b3c972b3148bb))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.9 ([103af25](https://github.com/DanySK/gradle-kotlin-qa/commit/103af25ddb27bf881b135c09a220cff8c63fe54b))
+
 ## [0.44.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.43.0...0.44.0) (2023-06-06)
 
 
