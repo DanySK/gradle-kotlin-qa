@@ -1,12 +1,15 @@
 tests:
   - description: "Base Kotlin QA tasks should execute"
     configuration:
-      tasks: check
-      options: --stacktrace
+      tasks:
+        - check
+      options:
+        - --stacktrace
     expectation:
-      success:
-        - detekt
-        - ktlintKotlinScriptCheck
-        - ktlintMainSourceSetCheck
-        - cpdKotlinCheck
-        - jacocoTestReport
+      outcomes:
+        success:
+          - detekt
+          - ktlintKotlinScriptCheck
+          - ktlintMainSourceSetCheck
+          - cpdKotlinCheck
+          - jacocoTestReport

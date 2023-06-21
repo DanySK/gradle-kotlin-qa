@@ -80,11 +80,24 @@ dependencies {
     api(libs.bundles.kotlin.qa)
     implementation(kotlin("stdlib-jdk8"))
     implementation(libs.kotlin.gradle.plugin.api)
-    testImplementation(gradleTestKit())
-    testImplementation(libs.konf.yaml)
-    testImplementation(libs.classgraph)
+    testImplementation(libs.testkit)
     testImplementation(libs.bundles.kotlin.testing)
 }
+
+/*
+ * The following lines are a workaround for
+ * https://github.com/gradle/gradle/issues/16603.
+ * The issue is related to the Gradle Daemon getting terminated by the Gradle Testkit,
+ * and the JaCoCo agent not waiting for it.
+ */
+inline fun <reified T : Task> Project.disableTrackState() {
+    tasks.withType<T>().configureEach {
+        doNotTrackState("Otherwise JaCoCo does not work correctly")
+    }
+}
+
+disableTrackState<Test>()
+disableTrackState<JacocoReport>()
 
 // Enforce Kotlin version coherence
 configurations.all {

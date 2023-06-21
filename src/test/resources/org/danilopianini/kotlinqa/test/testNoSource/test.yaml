@@ -1,8 +1,11 @@
 tests:
   - description: "A project with no source can run the plugin"
     configuration:
-      tasks: check
-      options: --stacktrace
+      tasks:
+        - check
+      options:
+        - --stacktrace
     expectation:
-      no-source:
-        - cpdKotlinCheck
+      outcomes:
+        noSource:
+          - cpdKotlinCheck
