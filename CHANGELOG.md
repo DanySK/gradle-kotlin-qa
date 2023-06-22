@@ -1,3 +1,10 @@
+## [0.46.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.45.0...0.46.0) (2023-06-22)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.4.2 ([b1273c7](https://github.com/DanySK/gradle-kotlin-qa/commit/b1273c7c56997985617c0c87f06d5515ec445bb6))
+
 ## [0.45.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.44.0...0.45.0) (2023-06-21)
 
 
