@@ -1,3 +1,12 @@
+## [0.46.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.46.0...0.46.1) (2023-06-30)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.2 ([56febe7](https://github.com/DanySK/gradle-kotlin-qa/commit/56febe7c4c1c003ed82166344df03cf2ef0c042c))
+* **deps:** update dependency io.github.mirko-felice.testkit:core to v0.9.0 ([bb1327f](https://github.com/DanySK/gradle-kotlin-qa/commit/bb1327f9028ccdced25e6055975b1553f0d7c7cc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.38 ([4834da9](https://github.com/DanySK/gradle-kotlin-qa/commit/4834da94209301f7887175dfec41d33400b09308))
+
 ## [0.46.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.45.0...0.46.0) (2023-06-22)
 
 
