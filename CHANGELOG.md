@@ -1,3 +1,11 @@
+## [0.47.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.46.1...0.47.0) (2023-07-04)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest:ktlint to v0.50.0 ([03bdaaf](https://github.com/DanySK/gradle-kotlin-qa/commit/03bdaaf582ecf022ab086d126d99d841e8133af6))
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.5.0 ([f34a9fb](https://github.com/DanySK/gradle-kotlin-qa/commit/f34a9fb5aa1307f84688c37bceb26dd68742468e))
+
 ## [0.46.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.46.0...0.46.1) (2023-06-30)
 
 
