@@ -1,3 +1,24 @@
+## [0.48.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.47.1...0.48.0) (2023-07-29)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.7 ([967d1c6](https://github.com/DanySK/gradle-kotlin-qa/commit/967d1c63a0ed105ce40a6899be1859c04b3b9fbb))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.8 ([44d48a2](https://github.com/DanySK/gradle-kotlin-qa/commit/44d48a214504e48c3d2f784f484801ca89269f34))
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.23.1 ([98fbb59](https://github.com/DanySK/gradle-kotlin-qa/commit/98fbb59af4e8d0269a8388b0b3f0f3568d446a43))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.40 ([9821173](https://github.com/DanySK/gradle-kotlin-qa/commit/9821173a823492bc894eb49ef1457f9e6b9c8b75))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.41 ([5ff20c9](https://github.com/DanySK/gradle-kotlin-qa/commit/5ff20c975026c1bf1d0bc332cb3c68c311d21a6d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.42 ([a985741](https://github.com/DanySK/gradle-kotlin-qa/commit/a98574119c72e8e5a2c17d71a5720c05f1164cff))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.43 ([e8d643f](https://github.com/DanySK/gradle-kotlin-qa/commit/e8d643f56be2dded8be2395466c933aeaa9dca8e))
+* **deps:** update node.js to 18.17 ([d1fa879](https://github.com/DanySK/gradle-kotlin-qa/commit/d1fa879d17d446ea70231b0716bdd628fd63552b))
+* **deps:** update plugin com.gradle.enterprise to v3.14 ([e48dbe1](https://github.com/DanySK/gradle-kotlin-qa/commit/e48dbe1a5a5d59003b4209a08bec3ed8f62165b1))
+* **deps:** update plugin com.gradle.enterprise to v3.14.1 ([2cff5b0](https://github.com/DanySK/gradle-kotlin-qa/commit/2cff5b0652aadc134dbec3851bcb3e70ee53bb1f))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.6.0 ([f20927c](https://github.com/DanySK/gradle-kotlin-qa/commit/f20927cdf884a29e15c01c8e6fa3f98091590eef))
+
 ## [0.47.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.47.0...0.47.1) (2023-07-10)
 
 
