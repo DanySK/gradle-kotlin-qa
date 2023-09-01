@@ -1,3 +1,25 @@
+## [0.49.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.49.0...0.49.1) (2023-09-01)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.6.0 ([de605ec](https://github.com/DanySK/gradle-kotlin-qa/commit/de605ecd0f6c3a9aca180d3fc2fbdf8675d73b35))
+* **deps:** update danysk/action-checkout action to v0.2.11 ([87fdcdb](https://github.com/DanySK/gradle-kotlin-qa/commit/87fdcdb177c251c9fc1292245a3faf0c241479f1))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.dokka to v1.9.0 ([46f2666](https://github.com/DanySK/gradle-kotlin-qa/commit/46f2666282cccb853f3ac41819ce916f2fc5358d))
+* **deps:** update dependency org.mockito:mockito-core to v5.5.0 ([b9b42e1](https://github.com/DanySK/gradle-kotlin-qa/commit/b9b42e1479498dbfd874cf9923bc6c754336497a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.44 ([65cced4](https://github.com/DanySK/gradle-kotlin-qa/commit/65cced4ffb41f9942451a8b57511889c70f84fdf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.45 ([bd55fda](https://github.com/DanySK/gradle-kotlin-qa/commit/bd55fdaa979340906f61b1c8ffbe2de907ab990f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([bc1adf8](https://github.com/DanySK/gradle-kotlin-qa/commit/bc1adf88d3ca538a09dc6eeb85b6f1b7bcbdcf32))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.47 ([d07ab17](https://github.com/DanySK/gradle-kotlin-qa/commit/d07ab176eb0dafca19d541ad167b8cdcf7cfeed1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.48 ([12ab7e8](https://github.com/DanySK/gradle-kotlin-qa/commit/12ab7e8c4b9ebe7fd4f6fb8407c8f6827d507cb6))
+* **deps:** update plugin gradlepluginpublish to v1.2.1 ([c41b280](https://github.com/DanySK/gradle-kotlin-qa/commit/c41b280846fb673872fbfe517ee04967496c3a17))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.10 ([8750f44](https://github.com/DanySK/gradle-kotlin-qa/commit/8750f44b213f91fa1b754de24b8cd3dc83cef8fb))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.7.0 ([5bd5c07](https://github.com/DanySK/gradle-kotlin-qa/commit/5bd5c073aa1c3f6ca34f55bfec25dd0daab2de20))
+
 ## [0.49.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.48.0...0.49.0) (2023-08-07)
 
 
