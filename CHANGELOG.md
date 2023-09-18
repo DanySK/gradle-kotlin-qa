@@ -1,3 +1,26 @@
+## [0.50.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.49.1...0.50.0) (2023-09-18)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.6.0 ([5af416a](https://github.com/DanySK/gradle-kotlin-qa/commit/5af416aae29ab01c5a1bc5552568e45e5c04bb7b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.49 ([202b7b7](https://github.com/DanySK/gradle-kotlin-qa/commit/202b7b77c7cd2f88620b54f78ce9bfecb573e921))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.50 ([2994532](https://github.com/DanySK/gradle-kotlin-qa/commit/2994532a834b5588621b4ac7063e15b017db51c1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.51 ([baff02a](https://github.com/DanySK/gradle-kotlin-qa/commit/baff02ad1a41af1ec3d0d953cef8b6502bf39d6a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.52 ([79ea647](https://github.com/DanySK/gradle-kotlin-qa/commit/79ea647a8864679903a148ae36ca4ed13f8553bb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.53 ([9ed7ab9](https://github.com/DanySK/gradle-kotlin-qa/commit/9ed7ab92320c142aaa92968eb912747782ee599d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.54 ([082e2a2](https://github.com/DanySK/gradle-kotlin-qa/commit/082e2a218165a74d42d298293f698d8409854a71))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.55 ([2a7fd0e](https://github.com/DanySK/gradle-kotlin-qa/commit/2a7fd0e2e97133977164ac61c76d14c60aec124c))
+* **deps:** update kotest to v5.7.2 ([f253884](https://github.com/DanySK/gradle-kotlin-qa/commit/f2538843f6feaf262a643e0c1bd2fcc69198a8c9))
+* **deps:** update plugin com.gradle.enterprise to v3.15 ([0c6aa67](https://github.com/DanySK/gradle-kotlin-qa/commit/0c6aa67c6d3f7bd0ec97850e12716bc574f96346))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4 ([1d03d6c](https://github.com/DanySK/gradle-kotlin-qa/commit/1d03d6c6c8ab82ffdff6d2ee517185edaeb7c8c1))
+* **deps:** update danysk/action-checkout action to v0.2.12 ([b366fc9](https://github.com/DanySK/gradle-kotlin-qa/commit/b366fc9ec416314e15aa0492f9ccf6066c65031f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.9 ([fd33618](https://github.com/DanySK/gradle-kotlin-qa/commit/fd3361847fb71d9b56169c62ffa7545687d30c4e))
+
 ## [0.49.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.49.0...0.49.1) (2023-09-01)
 
 
