@@ -1,3 +1,23 @@
+## [0.51.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.50.0...0.51.0) (2023-10-10)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v11.6.1 ([30a9d86](https://github.com/DanySK/gradle-kotlin-qa/commit/30a9d86696e79609e6e7056dda9bc09276e5d8c2))
+* **deps:** update dependency org.mockito:mockito-core to v5.6.0 ([a1484aa](https://github.com/DanySK/gradle-kotlin-qa/commit/a1484aab4438ab5cef463b9eaddb90ab1000d34a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.66 ([53cf981](https://github.com/DanySK/gradle-kotlin-qa/commit/53cf981f886ba726d43957189b3ad87254877cce))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([72d8985](https://github.com/DanySK/gradle-kotlin-qa/commit/72d898518397e7bdd3cc65723f9bff83e9c9e017))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([24aeb2c](https://github.com/DanySK/gradle-kotlin-qa/commit/24aeb2c64028da8d3af2095d4af5b114fb7060f9))
+* **deps:** update node.js to 18.18 ([0ae46c6](https://github.com/DanySK/gradle-kotlin-qa/commit/0ae46c6acce754a0e7fde5e6ff164a7ca21870e9))
+* **deps:** update plugin com.gradle.enterprise to v3.15.1 ([fe3c372](https://github.com/DanySK/gradle-kotlin-qa/commit/fe3c372481716905d3e7765de1c019cc7ad400b7))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.0 ([ca09aaa](https://github.com/DanySK/gradle-kotlin-qa/commit/ca09aaa9fa1d1a3d8ed8759a122873bf4db5cd12))
+* **deps:** update danysk/action-checkout action to v0.2.13 ([4f7fbdf](https://github.com/DanySK/gradle-kotlin-qa/commit/4f7fbdf33f373f6ac7cca9774da5ab05d072872b))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.10 ([7f7f2a8](https://github.com/DanySK/gradle-kotlin-qa/commit/7f7f2a839e18e7a093ca2a51fbdd6955f0d249a3))
+
 ## [0.50.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.49.1...0.50.0) (2023-09-18)
 
 
