@@ -1,3 +1,22 @@
+## [0.52.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.51.1...0.52.0) (2023-10-17)
+
+
+### Dependency updates
+
+* **api-deps:** update Kotlin to 1.9.0 and plugin kotlin-qa to v0.51.1 ([#469](https://github.com/DanySK/gradle-kotlin-qa/issues/469)) ([3c685c2](https://github.com/DanySK/gradle-kotlin-qa/commit/3c685c2eea181772c3d3ddfb528577f09b560e26))
+* **deps:** update jacoco to v0.8.11 ([1a44793](https://github.com/DanySK/gradle-kotlin-qa/commit/1a44793840d874bfa72aaf2ca6031c15e37af5b5))
+* **deps:** update plugin gitsemver to v1.1.11 ([9d78ac6](https://github.com/DanySK/gradle-kotlin-qa/commit/9d78ac6d14fb619ad002238cd2236ad215ac4169))
+* **deps:** update plugin gitsemver to v1.1.12 ([c7ac995](https://github.com/DanySK/gradle-kotlin-qa/commit/c7ac995ef7fd34cfe477c72c58444f0a55757e8e))
+* **deps:** update plugin gitsemver to v1.1.13 ([3022edc](https://github.com/DanySK/gradle-kotlin-qa/commit/3022edcfdca0c398fdc02c41829f6bb992bfbb3f))
+* **deps:** update plugin gitsemver to v1.1.14 ([c4e5048](https://github.com/DanySK/gradle-kotlin-qa/commit/c4e5048e352ec415ab4e07f5f06fe40e414c1abb))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.11 ([1df2816](https://github.com/DanySK/gradle-kotlin-qa/commit/1df2816824be7bb489901344a0ab65ea269921f9))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.1 ([1fab2d1](https://github.com/DanySK/gradle-kotlin-qa/commit/1fab2d1579066b7b05f6ad88d34ab188f123368c))
+* **mergify:** point to the shared Mergify configuration ([e671faa](https://github.com/DanySK/gradle-kotlin-qa/commit/e671faa1d422260f4764abda27ebef2ffd145f28))
+
 ## [0.51.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.51.0...0.51.1) (2023-10-16)
 
 
