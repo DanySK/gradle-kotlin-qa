@@ -41,13 +41,16 @@ repositories {
 
 tasks.create("copyToolVersions") {
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> { dependsOn(this@create) }
-    val destinationDir = "$buildDir/resources/main/org/danilopianini/kotlinqa/"
-    val destination = file("$destinationDir/versions.properties")
+    val destinationDir = layout.buildDirectory.map {
+        file("${it.asFile.absolutePath}/resources/main/org/danilopianini/kotlinqa/")
+    }
+    val destination = destinationDir.map { File(it, "versions.properties") }
     tasks.withType<PublishToMavenRepository> {
         dependsOn(this@create)
         doFirst {
-            require(destination.exists()) {
-                "File ${destination.path} has not been generated."
+            val destinationFile = destination.get()
+            require(destinationFile.exists()) {
+                "File ${destinationFile.path} has not been generated."
             }
         }
     }
@@ -66,7 +69,7 @@ tasks.create("copyToolVersions") {
                 ?: throw IllegalStateException("No version available for $library in:\n$catalog")
             "$library=$version"
         }
-        destination.writeText(libraries)
+        destination.get().writeText(libraries)
     }
 }
 

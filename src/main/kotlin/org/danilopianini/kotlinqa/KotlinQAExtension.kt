@@ -16,7 +16,7 @@ open class KotlinQAExtension(project: Project) : Serializable {
      * The folder where the Detekt configuration will be generated.
      */
     val workingDirectory: Property<File> = project.objects.property<File>().apply {
-        set(project.file("${project.buildDir.absolutePath}${slash}kotlinqa"))
+        set(project.layout.buildDirectory.asFile.map { File(it, "kotlinqa") })
     }
 
     /**
