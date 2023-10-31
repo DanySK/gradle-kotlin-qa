@@ -1,6 +1,6 @@
 [versions]
 cpd-gradle = "3.3"
-detekt = "1.23.2"
+detekt = "1.23.3"
 dokka = "1.9.10"
 jacoco = "0.8.11"
 kotlin = "1.9.20"
