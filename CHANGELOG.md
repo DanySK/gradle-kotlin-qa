@@ -1,3 +1,11 @@
+## [0.54.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.53.0...0.54.0) (2023-10-31)
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.23.3 ([809973d](https://github.com/DanySK/gradle-kotlin-qa/commit/809973d21374a9273d05b6721c406b2892406dd1))
+* **deps:** update plugin kotlin-qa to v0.53.0 ([2c3d79c](https://github.com/DanySK/gradle-kotlin-qa/commit/2c3d79c2df47dfd11afd253c159554d023599d00))
+
 ## [0.53.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.52.0...0.53.0) (2023-10-31)
 
 
