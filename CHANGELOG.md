@@ -1,3 +1,30 @@
+## [0.53.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.52.0...0.53.0) (2023-10-31)
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.23.2 ([1302248](https://github.com/DanySK/gradle-kotlin-qa/commit/1302248fdfe5902996b99a959e187fd152faa430))
+* **deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v1.9.10 ([220eb87](https://github.com/DanySK/gradle-kotlin-qa/commit/220eb87c2f7e9b75df7e01ed08e7fbd9cc927349))
+* **deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v1.9.20 ([ac8a2ac](https://github.com/DanySK/gradle-kotlin-qa/commit/ac8a2acf109e2dd0efefefcf0c133ce94a00c0e5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([0dea06d](https://github.com/DanySK/gradle-kotlin-qa/commit/0dea06dca3c729f04ff70937d4ecf152d331c820))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([137d2e3](https://github.com/DanySK/gradle-kotlin-qa/commit/137d2e33f38e367a225a0050016958173770bd7f))
+* **deps:** update node.js to 20.9 ([306f1f0](https://github.com/DanySK/gradle-kotlin-qa/commit/306f1f0e2afb740b89fec9200b7101151849d759))
+* **deps:** update node.js to v20 ([bc78baa](https://github.com/DanySK/gradle-kotlin-qa/commit/bc78baae7724a33a104a800d74acadc241cae005))
+* **deps:** update plugin gitsemver to v1.1.15 ([6fe9738](https://github.com/DanySK/gradle-kotlin-qa/commit/6fe9738db7a3fb7db15b6877654560caee7adc72))
+* **deps:** update plugin gitsemver to v2 ([3553c29](https://github.com/DanySK/gradle-kotlin-qa/commit/3553c29f9cd56ee42d41170d249ca558d30ef206))
+* **deps:** update plugin gitsemver to v2.0.1 ([a39cdf9](https://github.com/DanySK/gradle-kotlin-qa/commit/a39cdf9841c53c963a62506702ed90662d8332db))
+* **deps:** update plugin kotlin-qa to v0.52.0 ([9cf34c0](https://github.com/DanySK/gradle-kotlin-qa/commit/9cf34c0983a5d9659ddb452fc431966844849c14))
+* **deps:** update plugin multijvmtesting to v0.5.6 ([61b7cb1](https://github.com/DanySK/gradle-kotlin-qa/commit/61b7cb12d4fdc5df25b65dadef170b0532d312c5))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.13 ([0027010](https://github.com/DanySK/gradle-kotlin-qa/commit/0027010cafb44d902e205afd7500edb59516e5a5))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.14 ([37ce0d3](https://github.com/DanySK/gradle-kotlin-qa/commit/37ce0d3200d83fce2b2b616b93d591fc209cdea0))
+* **deps:** update plugin publishoncentral to v5.0.16 ([8754786](https://github.com/DanySK/gradle-kotlin-qa/commit/8754786cb5ee2ee571e07d9733e2b5d7dcf63ed7))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/action-checkout action to v0.2.14 ([7dd8233](https://github.com/DanySK/gradle-kotlin-qa/commit/7dd82332010a08f7f6bcac1583829513d5d322a7))
+* exclude detekt from the kotlin version enforcement ([2968594](https://github.com/DanySK/gradle-kotlin-qa/commit/2968594c50e258102d8e35b96a375d9b590dffc0))
+
 ## [0.52.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.51.1...0.52.0) (2023-10-17)
 
 
