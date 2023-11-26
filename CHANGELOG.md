@@ -1,3 +1,15 @@
+## [0.55.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.55.0...0.55.1) (2023-11-26)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.4 ([0d02a24](https://github.com/DanySK/gradle-kotlin-qa/commit/0d02a24ca51eb516514cfd41c3c5bcdab8db09d5))
+
+
+### Style improvements
+
+* remove calls to deprecated property `Project.buildDir` ([916dfd5](https://github.com/DanySK/gradle-kotlin-qa/commit/916dfd5effa973b40f2bce02f10bf56810be0fed))
+
 ## [0.55.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.54.1...0.55.0) (2023-11-26)
 
 
