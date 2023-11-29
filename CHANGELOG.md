@@ -1,3 +1,13 @@
+## [0.55.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.55.1...0.55.2) (2023-11-29)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.5 ([9a638c0](https://github.com/DanySK/gradle-kotlin-qa/commit/9a638c037ec911e604de31ef4d9217beff47567c))
+* **deps:** update plugin kotlin-qa to v0.55.0 ([ed6b1c6](https://github.com/DanySK/gradle-kotlin-qa/commit/ed6b1c638cbfd2a34895cd0c12ee7cc106a3a7f9))
+* **deps:** update plugin kotlin-qa to v0.55.1 ([bae1587](https://github.com/DanySK/gradle-kotlin-qa/commit/bae15878a6478b95e821302f9ec6ca479f724841))
+* **deps:** update plugin multijvmtesting to v0.5.7 ([017da58](https://github.com/DanySK/gradle-kotlin-qa/commit/017da586d0c8aaa2bc50c895fa54b7e97e401b78))
+
 ## [0.55.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.55.0...0.55.1) (2023-11-26)
 
 
