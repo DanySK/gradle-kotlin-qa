@@ -1,3 +1,19 @@
+## [0.56.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.55.2...0.56.0) (2023-12-02)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v12 ([2dcbdec](https://github.com/DanySK/gradle-kotlin-qa/commit/2dcbdec6622cea5bd9484d5cfe9b57169f63582b))
+* **deps:** update dependency org.mockito:mockito-core to v5.8.0 ([8bfaee2](https://github.com/DanySK/gradle-kotlin-qa/commit/8bfaee28e8a9eeba8af911354e23c072203dd231))
+* **deps:** update plugin gitsemver to v2.0.4 ([50a5a06](https://github.com/DanySK/gradle-kotlin-qa/commit/50a5a067a66c3d2a656e6fd025f18e37d33bcd2b))
+* **deps:** update plugin kotlin-qa to v0.55.2 ([3fa03bd](https://github.com/DanySK/gradle-kotlin-qa/commit/3fa03bd617833ee16f1ba0beebe80ef259f9763a))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.16 ([dd4601f](https://github.com/DanySK/gradle-kotlin-qa/commit/dd4601f738b33876097c255c02efcf5d16ac339e))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.12 ([7550a04](https://github.com/DanySK/gradle-kotlin-qa/commit/7550a046081e8edef5c982d8301a8813fb510b44))
+
 ## [0.55.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.55.1...0.55.2) (2023-11-29)
 
 
