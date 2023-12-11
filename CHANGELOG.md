@@ -1,3 +1,14 @@
+## [0.57.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.56.0...0.57.0) (2023-12-11)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v12.0.3 ([fc41881](https://github.com/DanySK/gradle-kotlin-qa/commit/fc418818e5583592241374234061f580a7df7cb7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([f499a23](https://github.com/DanySK/gradle-kotlin-qa/commit/f499a23ed2b425ac4d9ba9f5eb64d9c50cfa97b4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([b0e58bd](https://github.com/DanySK/gradle-kotlin-qa/commit/b0e58bd4a2d79b8164cd66535bb810059b4adba4))
+* **deps:** update plugin com.gradle.enterprise to v3.16 ([60ef325](https://github.com/DanySK/gradle-kotlin-qa/commit/60ef32517be3a4a6b5b1900b3e47e1f6710d1a9d))
+* **deps:** update plugin kotlin-qa to v0.56.0 ([7be5f8f](https://github.com/DanySK/gradle-kotlin-qa/commit/7be5f8fe0c98c4be6e145fb4d39706d9e968b140))
+
 ## [0.56.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.55.2...0.56.0) (2023-12-02)
 
 
