@@ -1,3 +1,16 @@
+## [0.57.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.57.0...0.57.1) (2023-12-21)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v1.9.22 ([1445607](https://github.com/DanySK/gradle-kotlin-qa/commit/144560713109207296fede35e708ffa414ba7fff))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.81 ([b2d71a5](https://github.com/DanySK/gradle-kotlin-qa/commit/b2d71a57986821476393203ed64b2dbe519efbcc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([56d997b](https://github.com/DanySK/gradle-kotlin-qa/commit/56d997b44e55e74d7942d53938db16881e7d60e7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([6ffe4b1](https://github.com/DanySK/gradle-kotlin-qa/commit/6ffe4b1d5f689e39909ee7bdc69ea032cfdf5cb4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([dfdaca3](https://github.com/DanySK/gradle-kotlin-qa/commit/dfdaca3e0dc57a9aec0bb1c7d6add70c1062e723))
+* **deps:** update plugin com.gradle.enterprise to v3.16.1 ([6398cb1](https://github.com/DanySK/gradle-kotlin-qa/commit/6398cb16ab568e02ec60bbfd4c2942c4f731fc7b))
+* **deps:** update plugin kotlin-qa to v0.57.0 ([65c3852](https://github.com/DanySK/gradle-kotlin-qa/commit/65c3852b4b5edf6cef6992b33540ab9232488de0))
+
 ## [0.57.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.56.0...0.57.0) (2023-12-11)
 
 
