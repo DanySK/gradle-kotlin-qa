@@ -1,3 +1,25 @@
+## [0.59.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.58.0...0.59.0) (2024-01-31)
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.23.5 ([47ac829](https://github.com/DanySK/gradle-kotlin-qa/commit/47ac8293749059056c5db33beec2b2c5f049a3ca))
+* **deps:** update dependency org.mockito:mockito-core to v5.10.0 ([9c611a2](https://github.com/DanySK/gradle-kotlin-qa/commit/9c611a28b58fb7cedcc6125546b194b90f2e1c22))
+* **deps:** update dependency org.mockito:mockito-core to v5.9.0 ([2337b52](https://github.com/DanySK/gradle-kotlin-qa/commit/2337b52c87582dfee558f4e398210be24204c4d5))
+* **deps:** update plugin com.gradle.enterprise to v3.16.2 ([6bd580b](https://github.com/DanySK/gradle-kotlin-qa/commit/6bd580bc79804e4d2561bfd37c746699c868b892))
+* **deps:** update plugin gitsemver to v3 ([8d91180](https://github.com/DanySK/gradle-kotlin-qa/commit/8d9118080f1656659de2a46ae06cc0ced0efc01b))
+* **deps:** update plugin gitsemver to v3.1.0 ([17962a4](https://github.com/DanySK/gradle-kotlin-qa/commit/17962a47c71ade42d12f55e41539d422353bd25d))
+* **deps:** update plugin kotlin-qa to v0.58.0 ([8d84a6c](https://github.com/DanySK/gradle-kotlin-qa/commit/8d84a6c13228388f4811e510138083a407ef43bf))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.8.0 ([c91d468](https://github.com/DanySK/gradle-kotlin-qa/commit/c91d468d875aa688d6a8047b760c64886071757e))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.13 ([01404b1](https://github.com/DanySK/gradle-kotlin-qa/commit/01404b1f2d4af160a3647b1108887a89c4f039a4))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.14 ([dfa1103](https://github.com/DanySK/gradle-kotlin-qa/commit/dfa110360e89f3c906a99b04bb5d2ddf30f2f302))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.15 ([99838cd](https://github.com/DanySK/gradle-kotlin-qa/commit/99838cd141af63a3f930af5170ee5785e415352c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.16 ([bcd1ff9](https://github.com/DanySK/gradle-kotlin-qa/commit/bcd1ff98a5a026ff60fe7e4c5aa9216527eacc5a))
+
 ## [0.58.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.57.1...0.58.0) (2024-01-09)
 
 
