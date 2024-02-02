@@ -1,3 +1,20 @@
+## [0.59.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.59.0...0.59.1) (2024-02-02)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.6 ([cfff9d2](https://github.com/DanySK/gradle-kotlin-qa/commit/cfff9d28c2d4d3e784d8faacfa470b0ff8a1953a))
+* **deps:** update plugin kotlin-qa to v0.59.0 ([9157634](https://github.com/DanySK/gradle-kotlin-qa/commit/9157634102a84ee220da501429056e653aefc832))
+* **deps:** update plugin multijvmtesting to v0.5.8 ([932e537](https://github.com/DanySK/gradle-kotlin-qa/commit/932e537012d8d9c2de36c1d0434aaa9a51e2bbe7))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.17 ([2e9a74d](https://github.com/DanySK/gradle-kotlin-qa/commit/2e9a74db2081177eb1a2b13ddd3165f90fa947e0))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.18 ([fa11af8](https://github.com/DanySK/gradle-kotlin-qa/commit/fa11af891e3e9d70a408a2da2d841371e637ec67))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.19 ([a3ad9a0](https://github.com/DanySK/gradle-kotlin-qa/commit/a3ad9a01ff6dd0f831d5661ac0c4bf8738bff7be))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.20 ([f2dafb5](https://github.com/DanySK/gradle-kotlin-qa/commit/f2dafb537013ee1ec8beb2a3668fe6ab8c385bd4))
+
 ## [0.59.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.58.0...0.59.0) (2024-01-31)
 
 
