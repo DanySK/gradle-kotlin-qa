@@ -1,22 +1,3 @@
-## [0.60.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.59.1...0.60.0) (2024-02-08)
-
-
-### Dependency updates
-
-* **api-deps:** update dependency com.pinterest:ktlint to v0.51.0-final ([e5bb8af](https://github.com/DanySK/gradle-kotlin-qa/commit/e5bb8af6164ad7fbf6b18ef17fc7e29b03385582))
-* **deps:** update plugin gitsemver to v3.1.1 ([a0d0818](https://github.com/DanySK/gradle-kotlin-qa/commit/a0d0818eb8b8e5d50ce9b2ed16547ebde8655c67))
-* **deps:** update plugin kotlin-qa to v0.59.1 ([d9e3520](https://github.com/DanySK/gradle-kotlin-qa/commit/d9e3520d996d8da7b08d760ee173a198d000e9f0))
-* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.1 ([c5f08bc](https://github.com/DanySK/gradle-kotlin-qa/commit/c5f08bcb5eb8e9fac2e1c85725db221f54acd27c))
-* **deps:** update plugin publishoncentral to v5.0.23 ([445c6b1](https://github.com/DanySK/gradle-kotlin-qa/commit/445c6b1c17eed302dd64bbff4a181691a2ac4dbf))
-
-
-### Build and continuous integration
-
-* **deps:** update danysk/build-check-deploy-gradle-action action to v2.3.0 ([aa3935f](https://github.com/DanySK/gradle-kotlin-qa/commit/aa3935fdcce6fda5277a725dc38a6396fad225dc))
-* **deps:** update danysk/build-check-deploy-gradle-action action to v2.3.1 ([c918321](https://github.com/DanySK/gradle-kotlin-qa/commit/c918321b25520555f7c24caa0f4111299c3bfa1a))
-* **deps:** update danysk/build-check-deploy-gradle-action action to v2.3.2 ([1f9d16a](https://github.com/DanySK/gradle-kotlin-qa/commit/1f9d16ae90a36ff38a93038d788180663b4c7982))
-* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.0 ([6f1832f](https://github.com/DanySK/gradle-kotlin-qa/commit/6f1832f459e4d01142f53234c3982ea08ca6095d))
-
 ## [0.59.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.59.0...0.59.1) (2024-02-02)
 
 
