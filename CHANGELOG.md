@@ -1,3 +1,16 @@
+## [0.60.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.0...0.60.1) (2024-02-09)
+
+
+### Revert previous changes
+
+* Revert "chore(api-deps): update dependency com.pinterest:ktlint to v0.51.0-final" ([2525c62](https://github.com/DanySK/gradle-kotlin-qa/commit/2525c629b16c992102f8318b831f6c064fc89717))
+* Revert "chore(deps): update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.1" ([1cda4fb](https://github.com/DanySK/gradle-kotlin-qa/commit/1cda4fba34a07600b32727ee616cbbf96e09d19c))
+* Revert "chore(release): 0.60.0 [skip ci]" ([608f707](https://github.com/DanySK/gradle-kotlin-qa/commit/608f7078dccdfa906658c3fd147b46a85e50b805))
+* Revert "ci(deps): update danysk/build-check-deploy-gradle-action action to v2.3.0" ([08d3c93](https://github.com/DanySK/gradle-kotlin-qa/commit/08d3c93e713f778d29149926b31e0361ba49b8df))
+* Revert "ci(deps): update danysk/build-check-deploy-gradle-action action to v2.3.1" ([7a25619](https://github.com/DanySK/gradle-kotlin-qa/commit/7a25619b4c20d7aaf6549ee87816401c7f8c1a0b))
+* Revert "ci(deps): update danysk/build-check-deploy-gradle-action action to v2.3.2" ([4ba65cb](https://github.com/DanySK/gradle-kotlin-qa/commit/4ba65cbb5eb1e66e9204cad8e52308531064ccc3))
+* Revert "ci(deps): update danysk/build-check-deploy-gradle-action action to v2.4.0" ([bcb0685](https://github.com/DanySK/gradle-kotlin-qa/commit/bcb068510af1851dc5ce35eda74ec4c237aa2356))
+
 ## [0.59.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.59.0...0.59.1) (2024-02-02)
 
 
