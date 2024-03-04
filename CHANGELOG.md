@@ -1,3 +1,26 @@
+## [0.60.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.1...0.60.2) (2024-03-04)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.dokka to v1.9.20 ([554eb33](https://github.com/DanySK/gradle-kotlin-qa/commit/554eb33863ecd4bf9a3a5e5a63df7d30ccbda216))
+* **deps:** update dependency org.mockito:mockito-core to v5.11.0 ([60d8455](https://github.com/DanySK/gradle-kotlin-qa/commit/60d8455af6a33654b180da8474c158d521d2a0af))
+* **deps:** update plugin gitsemver to v3.1.2 ([c026243](https://github.com/DanySK/gradle-kotlin-qa/commit/c026243680f7b935ffa358c5f8a3832654b4ba24))
+* **deps:** update plugin kotlin-qa to v0.60.1 ([a316023](https://github.com/DanySK/gradle-kotlin-qa/commit/a3160231e889406e1b940fb10c03967eeafa5c80))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.1 ([40ad620](https://github.com/DanySK/gradle-kotlin-qa/commit/40ad620fe44aba194bebc8f5b8573849967b2031))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.2 ([434a985](https://github.com/DanySK/gradle-kotlin-qa/commit/434a9855fc9b0956e86b7e2d621405bb4a97cd0b))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.0 ([ec05d4a](https://github.com/DanySK/gradle-kotlin-qa/commit/ec05d4a74070fba18e35612cbdaaf55a4a4a5e19))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.1 ([61a7bf8](https://github.com/DanySK/gradle-kotlin-qa/commit/61a7bf8bedc68f883bed657ec800e8b6651d84fb))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.2 ([9036a74](https://github.com/DanySK/gradle-kotlin-qa/commit/9036a74c48763c04a145d86dffe2cbea1e21633d))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.3 ([f13139a](https://github.com/DanySK/gradle-kotlin-qa/commit/f13139a407d7fd7fe9cc57e85a2c56c144d3dc85))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.4 ([20fd905](https://github.com/DanySK/gradle-kotlin-qa/commit/20fd9059f59e43b50c656c6ebba1750961a675f8))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.5 ([a8dd9e2](https://github.com/DanySK/gradle-kotlin-qa/commit/a8dd9e2ec026f37e1038288b91a9586b90878c79))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.6 ([efbbb05](https://github.com/DanySK/gradle-kotlin-qa/commit/efbbb051cd4610fc597f3e262ec3ea3d4c803528))
+
 ## [0.60.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.0...0.60.1) (2024-02-09)
 
 
