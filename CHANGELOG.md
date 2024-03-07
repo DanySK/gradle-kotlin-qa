@@ -1,3 +1,13 @@
+## [0.60.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.2...0.60.3) (2024-03-07)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v1.9.23 ([0052302](https://github.com/DanySK/gradle-kotlin-qa/commit/00523021ebb14b2fea6dd02e5e409d384d7a4621))
+* **deps:** update plugin kotlin-qa to v0.60.2 ([d719175](https://github.com/DanySK/gradle-kotlin-qa/commit/d7191752f2f08c4a618cb079723d10dc7d8edea4))
+* **deps:** update plugin publishoncentral to v5.0.24 ([093f004](https://github.com/DanySK/gradle-kotlin-qa/commit/093f004cb5abf71bb6bd771f7b97acf12c27ff29))
+* **deps:** update plugin publishoncentral to v5.0.25 ([5f7720c](https://github.com/DanySK/gradle-kotlin-qa/commit/5f7720c4ee8ea8de871ff371f9a0a540d20a59ee))
+
 ## [0.60.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.1...0.60.2) (2024-03-04)
 
 
