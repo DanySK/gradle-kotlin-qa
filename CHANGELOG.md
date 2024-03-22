@@ -1,3 +1,24 @@
+## [0.60.4](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.3...0.60.4) (2024-03-22)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.7 ([7f46ad6](https://github.com/DanySK/gradle-kotlin-qa/commit/7f46ad67f69d8f59b1ec668ad74d7bc946de89d7))
+* **deps:** update kotest to v5.8.1 ([d800e43](https://github.com/DanySK/gradle-kotlin-qa/commit/d800e43535e1883a2642f67e8246088e3537419a))
+* **deps:** update plugin gitsemver to v3.1.3 ([99b1258](https://github.com/DanySK/gradle-kotlin-qa/commit/99b1258de5254e8b4b7cba3dcd807f9d31c4cc72))
+* **deps:** update plugin kotlin-qa to v0.60.3 ([4f328fe](https://github.com/DanySK/gradle-kotlin-qa/commit/4f328feef938100ae7fce43b442fa543def53511))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.3 ([925f79b](https://github.com/DanySK/gradle-kotlin-qa/commit/925f79b60508b48d694a2404b3f493efd652c413))
+* **deps:** update plugin publishoncentral to v5.0.26 ([fdadeba](https://github.com/DanySK/gradle-kotlin-qa/commit/fdadeba5635c276a20f719d0cdf1c6be86ac49b4))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.2 ([e5deaff](https://github.com/DanySK/gradle-kotlin-qa/commit/e5deaff7f6330abe97d828e9ac8e002fdc601a02))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.10 ([51482ed](https://github.com/DanySK/gradle-kotlin-qa/commit/51482ed266c2a8dd7808406258113f4b4d9a084f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.7 ([7152c4f](https://github.com/DanySK/gradle-kotlin-qa/commit/7152c4f9162273a9099062ef7b1e4274ca1eb751))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.8 ([70b49ab](https://github.com/DanySK/gradle-kotlin-qa/commit/70b49abfd1e9bbb7e98b8d17ac46bb9825252200))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.9 ([d072627](https://github.com/DanySK/gradle-kotlin-qa/commit/d0726276ff790e42a9ba39a6d9c02470db1ed82f))
+
 ## [0.60.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.2...0.60.3) (2024-03-07)
 
 
