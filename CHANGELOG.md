@@ -1,3 +1,13 @@
+## [0.61.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.4...0.61.0) (2024-03-25)
+
+
+### Dependency updates
+
+* **api-deps:** update detekt to v1.23.6 ([f05c08e](https://github.com/DanySK/gradle-kotlin-qa/commit/f05c08e4de3b3fb3c0e5d9e3288c27479d48670c))
+* **deps:** update plugin gitsemver to v3.1.4 ([f87e716](https://github.com/DanySK/gradle-kotlin-qa/commit/f87e7162b1467fcb0b55d69ae4281416b26906b8))
+* **deps:** update plugin kotlin-qa to v0.60.4 ([8f00a8d](https://github.com/DanySK/gradle-kotlin-qa/commit/8f00a8d8b37fe2e53cbf1986e8698223bbe6d80b))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.4 ([d579cb3](https://github.com/DanySK/gradle-kotlin-qa/commit/d579cb30cc2cef7a5e89977fe88129f73c6bae51))
+
 ## [0.60.4](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.3...0.60.4) (2024-03-22)
 
 
