@@ -1,3 +1,36 @@
+## [0.61.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.61.0...0.61.1) (2024-05-07)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v1.9.24 ([788ed1d](https://github.com/DanySK/gradle-kotlin-qa/commit/788ed1d6182b86e18d1f75c84cd8cbcd685bee3b))
+* **deps:** update jacoco to v0.8.12 ([392f43a](https://github.com/DanySK/gradle-kotlin-qa/commit/392f43abbdcc8c76f077f62dcda5382d4cc58dfa))
+* **deps:** update node.js to 20.12 ([2dca439](https://github.com/DanySK/gradle-kotlin-qa/commit/2dca4397b33efc879cb540b19159f1cc62332bac))
+* **deps:** update plugin com.gradle.enterprise to v3.17 ([f63f67f](https://github.com/DanySK/gradle-kotlin-qa/commit/f63f67f124797f2e70114d8bb51b0f11206039b7))
+* **deps:** update plugin com.gradle.enterprise to v3.17.1 ([bd6a686](https://github.com/DanySK/gradle-kotlin-qa/commit/bd6a6868df8aed818a8532901cb14fef6a91c25f))
+* **deps:** update plugin com.gradle.enterprise to v3.17.2 ([5099e1b](https://github.com/DanySK/gradle-kotlin-qa/commit/5099e1b7b8599c9ee589d011eede45f30bb3243a))
+* **deps:** update plugin kotlin-qa to v0.61.0 ([d9ad700](https://github.com/DanySK/gradle-kotlin-qa/commit/d9ad700b879d5794bb7f6b4453762c2a1d3dddc1))
+* **deps:** update plugin publishoncentral to v5.1.0 ([d32d3d9](https://github.com/DanySK/gradle-kotlin-qa/commit/d32d3d920d0d5259707d12790f3ff000244c8741))
+* **deps:** update plugin tasktree to v3 ([ac6a382](https://github.com/DanySK/gradle-kotlin-qa/commit/ac6a382098f1ea5f00161887327c08177cb1085d))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.3 ([2274b9a](https://github.com/DanySK/gradle-kotlin-qa/commit/2274b9a056e79cfac54ac0f2f4ade5c39f5e994e))
+* **deps:** update actions/checkout action to v4.1.4 ([17d658d](https://github.com/DanySK/gradle-kotlin-qa/commit/17d658d276f540619baef4af1d4cbbd83cca626d))
+* **deps:** update danysk/action-checkout action to v0.2.15 ([09db23f](https://github.com/DanySK/gradle-kotlin-qa/commit/09db23f9227a18b1a26264ee1b14947ac56c5068))
+* **deps:** update danysk/action-checkout action to v0.2.16 ([c2a8cab](https://github.com/DanySK/gradle-kotlin-qa/commit/c2a8cab3615c93e3cb2c0241cade86fa9177fc57))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.11 ([4b2a192](https://github.com/DanySK/gradle-kotlin-qa/commit/4b2a1927fa5cdab5b61e83c9098fa9fb3ebbe811))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.12 ([efdafd7](https://github.com/DanySK/gradle-kotlin-qa/commit/efdafd79d1955f8eb08653559aa7bae591871b13))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.13 ([b222ade](https://github.com/DanySK/gradle-kotlin-qa/commit/b222ade80429303d316711920377bba1c5d7074c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.14 ([8e8d69f](https://github.com/DanySK/gradle-kotlin-qa/commit/8e8d69f755b615c196dc3b0e24469fb5529dde3d))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.15 ([b96f2ef](https://github.com/DanySK/gradle-kotlin-qa/commit/b96f2ef2b01bb00a1a497b6944d04fd3561baa9a))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.16 ([aec70cb](https://github.com/DanySK/gradle-kotlin-qa/commit/aec70cbc815f1460fa3fc696fd19300018b785e5))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.17 ([ae3db89](https://github.com/DanySK/gradle-kotlin-qa/commit/ae3db8949a52ad1f0ea1e9f2450a43e5c35fcd48))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.18 ([c8c5418](https://github.com/DanySK/gradle-kotlin-qa/commit/c8c54183607e4227be0051d4b55b8d7235de59f0))
+* **deps:** update dependency macos github actions runner to v13 ([93ee35e](https://github.com/DanySK/gradle-kotlin-qa/commit/93ee35e7c4b9e75e66d066c36032c643e1632425))
+* **deps:** update dependency macos github actions runner to v14 ([d494cf7](https://github.com/DanySK/gradle-kotlin-qa/commit/d494cf72d1226ee3e78fa5582bd83f12fde8f12c))
+
 ## [0.61.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.60.4...0.61.0) (2024-03-25)
 
 
