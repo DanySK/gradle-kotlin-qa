@@ -1,3 +1,14 @@
+## [0.62.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.61.1...0.62.0) (2024-05-07)
+
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v12.1.1 ([a3bbc8f](https://github.com/DanySK/gradle-kotlin-qa/commit/a3bbc8fdf27cf6fcd3e98f8c44120b7054fd569d))
+* **deps:** update plugin gitsemver to v3.1.5 ([d271d27](https://github.com/DanySK/gradle-kotlin-qa/commit/d271d27ce162d753e90f52647dd09d275473a566))
+* **deps:** update plugin kotlin-qa to v0.61.1 ([a3db097](https://github.com/DanySK/gradle-kotlin-qa/commit/a3db0976f5ad883c2915c8bbd9b2361097b8763c))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.5 ([0bb3d1e](https://github.com/DanySK/gradle-kotlin-qa/commit/0bb3d1eccecb8fa76035cd95f2fe78ce97dab6b8))
+* **deps:** update plugin publishoncentral to v5.1.1 ([6b93a90](https://github.com/DanySK/gradle-kotlin-qa/commit/6b93a902c88dee81e74ef5ca4a7ce733c60ef2b7))
+
 ## [0.61.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.61.0...0.61.1) (2024-05-07)
 
 
