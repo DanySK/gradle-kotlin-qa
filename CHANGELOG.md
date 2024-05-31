@@ -1,3 +1,30 @@
+## [0.62.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.0...0.62.1) (2024-05-31)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.8 ([8f187ed](https://github.com/DanySK/gradle-kotlin-qa/commit/8f187ed4f04eb830568b2fa7d4538737bfc6f559))
+* **deps:** update dependency org.mockito:mockito-core to v5.12.0 ([520d97c](https://github.com/DanySK/gradle-kotlin-qa/commit/520d97c8fe961604bb6510c1f9de5503f82a3b33))
+* **deps:** update kotest to v5.9.0 ([39a83ee](https://github.com/DanySK/gradle-kotlin-qa/commit/39a83ee481b636358af9922008895fa183721756))
+* **deps:** update node.js to 20.13 ([eeb35db](https://github.com/DanySK/gradle-kotlin-qa/commit/eeb35dbcb9d994e4ad076f4fa1e7b89c7f712eb8))
+* **deps:** update node.js to 20.14 ([db5c169](https://github.com/DanySK/gradle-kotlin-qa/commit/db5c16918042a6b61c027e9a31673e37cc61204c))
+* **deps:** update plugin com.gradle.enterprise to v3.17.3 ([55e96ba](https://github.com/DanySK/gradle-kotlin-qa/commit/55e96baee2beefa1aa1952f1cc8756e83d27cf34))
+* **deps:** update plugin com.gradle.enterprise to v3.17.4 ([24f2a67](https://github.com/DanySK/gradle-kotlin-qa/commit/24f2a67e5e6b36fb473903a29c1a7e9580bffca6))
+* **deps:** update plugin gitsemver to v3.1.6 ([0a979f7](https://github.com/DanySK/gradle-kotlin-qa/commit/0a979f713bba5b9cd942457e613f567c2d95cae7))
+* **deps:** update plugin gitsemver to v3.1.7 ([3fd1ccf](https://github.com/DanySK/gradle-kotlin-qa/commit/3fd1ccf43faf1ffbf30d4c3f51c0549b4539f398))
+* **deps:** update plugin kotlin-qa to v0.62.0 ([90ce0c4](https://github.com/DanySK/gradle-kotlin-qa/commit/90ce0c49b00c4494eae42f110750c6423fa2c5b9))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.6 ([d4e92a6](https://github.com/DanySK/gradle-kotlin-qa/commit/d4e92a6b1fe3d5442849a440db640a9706c93739))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.5 ([ced0233](https://github.com/DanySK/gradle-kotlin-qa/commit/ced0233c16691c7a4f03a4ee2d30e1c57d35071b))
+* **deps:** update actions/checkout action to v4.1.6 ([a5edd2d](https://github.com/DanySK/gradle-kotlin-qa/commit/a5edd2d5bc5d744f7308356f078dce4bb97845fb))
+* **deps:** update danysk/action-checkout action to v0.2.17 ([90c092c](https://github.com/DanySK/gradle-kotlin-qa/commit/90c092c3de6e3136383ed5f884d5a20d755279e9))
+* **deps:** update danysk/action-checkout action to v0.2.18 ([9a584bb](https://github.com/DanySK/gradle-kotlin-qa/commit/9a584bb9e788e4f05de6450969b4a2c52e7fe909))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.19 ([4b1f930](https://github.com/DanySK/gradle-kotlin-qa/commit/4b1f9301899c95af45fff680b664236e6da0ffa6))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.20 ([e21b9d9](https://github.com/DanySK/gradle-kotlin-qa/commit/e21b9d9e471881e78841342bc2822c8261af295d))
+
 ## [0.62.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.61.1...0.62.0) (2024-05-07)
 
 
