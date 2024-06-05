@@ -1,3 +1,10 @@
+## [0.62.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.2...0.62.3) (2024-06-05)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2 ([4454166](https://github.com/DanySK/gradle-kotlin-qa/commit/44541669a239b1765f376285f738a082d0fb6916))
+
 ## [0.62.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.1...0.62.2) (2024-06-05)
 
 
