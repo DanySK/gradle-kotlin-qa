@@ -92,8 +92,8 @@ open class KotlinQAPlugin : Plugin<Project> {
             project.tasks.findByName("cpdCheck")?.enabled = false
             // Set warnings as errors
             project.tasks.withType(KotlinCompile::class) {
-                with(it.kotlinOptions) {
-                    allWarningsAsErrors = true
+                with(it.compilerOptions) {
+                    allWarningsAsErrors.set(true)
                 }
             }
         }
