@@ -1,3 +1,22 @@
+## [0.62.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.1...0.62.2) (2024-06-05)
+
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.62.1 ([644efd6](https://github.com/DanySK/gradle-kotlin-qa/commit/644efd6af915a3080b63828b059b1421fc937c48))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.7 ([88dabfc](https://github.com/DanySK/gradle-kotlin-qa/commit/88dabfc9c0f3a3ed31a96499f8e8aace34d5cc3f))
+* **deps:** update plugin publishoncentral to v5.1.2 ([9a7c637](https://github.com/DanySK/gradle-kotlin-qa/commit/9a7c63770e0e4f27b0ed7fa381858cdf7e20ac28))
+
+
+### Bug Fixes
+
+* migrate to the compilerOptions DSL ([67898c8](https://github.com/DanySK/gradle-kotlin-qa/commit/67898c8d3f0f60b8e75b4cdee9192db1e78f4030))
+
+
+### Build and continuous integration
+
+* switch to develocity ([6956f3a](https://github.com/DanySK/gradle-kotlin-qa/commit/6956f3a54d7472e499da8ca1375ec6ea86b2a888))
+
 ## [0.62.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.0...0.62.1) (2024-05-31)
 
 
