@@ -1,3 +1,36 @@
+## [0.62.4](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.3...0.62.4) (2024-07-17)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.9 ([07e455f](https://github.com/DanySK/gradle-kotlin-qa/commit/07e455f010e98d42aa49408c036ef812222c8354))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.86 ([05214a4](https://github.com/DanySK/gradle-kotlin-qa/commit/05214a483e0630c25aa6a08ab740bd1760b2e0fa))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.87 ([18352f5](https://github.com/DanySK/gradle-kotlin-qa/commit/18352f501cbb9373d98ee2cea138aeaf6566307d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.91 ([016979d](https://github.com/DanySK/gradle-kotlin-qa/commit/016979d601103c6fa46b89e5e4bb87314d1da84d))
+* **deps:** update kotest to v5.9.1 ([edc616c](https://github.com/DanySK/gradle-kotlin-qa/commit/edc616ca55bed397e0b33b40e7a64602bdb4b1e3))
+* **deps:** update node.js to 20.15 ([5855c41](https://github.com/DanySK/gradle-kotlin-qa/commit/5855c41720cb7d3e25ef1b13dd724663320d9227))
+* **deps:** update plugin com.gradle.develocity to v3.17.5 ([6aecb10](https://github.com/DanySK/gradle-kotlin-qa/commit/6aecb10450b71414d718ce0e6e7d21d9cee084c5))
+* **deps:** update plugin kotlin-qa to v0.62.3 ([c8aaad3](https://github.com/DanySK/gradle-kotlin-qa/commit/c8aaad389edb87aa66e3a9678f1a172afdffa3fc))
+* **deps:** update plugin multijvmtesting to v1 ([1bd3aeb](https://github.com/DanySK/gradle-kotlin-qa/commit/1bd3aeb089bbbe5f71572f148b56fcbd23d82a7e))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.8 ([e39d90c](https://github.com/DanySK/gradle-kotlin-qa/commit/e39d90cbb9723bc48c7212d7bab87db3ddd74b04))
+* **deps:** update plugin publishoncentral to v5.1.3 ([9dbcdef](https://github.com/DanySK/gradle-kotlin-qa/commit/9dbcdef93ad22594351a002f3be25200047b2e70))
+* **deps:** update plugin tasktree to v4 ([833250f](https://github.com/DanySK/gradle-kotlin-qa/commit/833250fd492581ee94e511eddd63ad0bc8abb9d1))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.7 ([715fd60](https://github.com/DanySK/gradle-kotlin-qa/commit/715fd6089e48dedf012b790f0391f37e5d750a8e))
+* **deps:** update danysk/action-checkout action to v0.2.19 ([787269f](https://github.com/DanySK/gradle-kotlin-qa/commit/787269f227a610147be07dad3cd388e67e5e4dcb))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.21 ([86d99e2](https://github.com/DanySK/gradle-kotlin-qa/commit/86d99e243f6e227a1ebc157112b1989921e7d98a))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.22 ([0f69f96](https://github.com/DanySK/gradle-kotlin-qa/commit/0f69f965fb447e075ce2776c26ec7defc0311d25))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.24 ([c3cf7f5](https://github.com/DanySK/gradle-kotlin-qa/commit/c3cf7f5d5de17afdea3d33985a0461a3c4dea740))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3 ([50f77da](https://github.com/DanySK/gradle-kotlin-qa/commit/50f77da9abb7b8a138ad06591223bf036cf36e78))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.1.0 ([44b112b](https://github.com/DanySK/gradle-kotlin-qa/commit/44b112b24b2c42a34df81c9d67bb016fcb10a7de))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.1.1 ([a34b0fa](https://github.com/DanySK/gradle-kotlin-qa/commit/a34b0fa506d61f7d2a91f13b6f61112f735aa312))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.3.0 ([8b60389](https://github.com/DanySK/gradle-kotlin-qa/commit/8b60389ea9a4e9f0adc222adf34a2096683b2c75))
+* install the version of node from the package.json ([8cde602](https://github.com/DanySK/gradle-kotlin-qa/commit/8cde602379a66eb3920866289e32731922363fcc))
+* **release:** switch to a ECMA6-compliant semantic release configuration ([ff1e130](https://github.com/DanySK/gradle-kotlin-qa/commit/ff1e1307298afbc236e5118d2a877fdb5b09ec21))
+* switch to the new Central authentication system ([dc652d6](https://github.com/DanySK/gradle-kotlin-qa/commit/dc652d64132fac19dfa618ddbc3f73860a575cbc))
+* use the token when publishing on codecov ([2f77e9a](https://github.com/DanySK/gradle-kotlin-qa/commit/2f77e9aae8ae16421a2b598ea4e3087f31771921))
+
 ## [0.62.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.2...0.62.3) (2024-06-05)
 
 
