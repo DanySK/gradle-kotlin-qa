@@ -1,3 +1,11 @@
+## [0.63.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.4...0.63.0) (2024-07-17)
+
+### Dependency updates
+
+* **api-deps:** update dependency de.aaschmid:gradle-cpd-plugin to v3.4 and dependency net.sourceforge.pmd:pmd-kotlin to v7 ([e8d9c5a](https://github.com/DanySK/gradle-kotlin-qa/commit/e8d9c5abb76517b1550e0a2d37a8c63b993833ca))
+* **deps:** update plugin kotlin-qa to v0.62.4 ([57ae282](https://github.com/DanySK/gradle-kotlin-qa/commit/57ae2829c36684ea302e0a3c1e7247793ad5520e))
+* **deps:** update plugin publishoncentral to v5.1.4 ([bdc65ee](https://github.com/DanySK/gradle-kotlin-qa/commit/bdc65ee6b13aefe08c27bb3f714deb8a9dcb0c72))
+
 ## [0.62.4](https://github.com/DanySK/gradle-kotlin-qa/compare/0.62.3...0.62.4) (2024-07-17)
 
 ### Dependency updates
