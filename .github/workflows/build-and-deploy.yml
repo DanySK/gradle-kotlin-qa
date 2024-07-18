@@ -19,12 +19,15 @@ jobs:
       - uses: DanySK/build-check-deploy-gradle-action@3.3.0
         with:
           # Dry-deployment
+          retries-on-failure: 5
+          wait-between-retries: 120
           deploy-command: >-
             ./gradlew
             uploadKotlinOSSRHToMavenCentralNexus
             uploadPluginMavenToMavenCentralNexus
             uploadPluginMarkerMavenToMavenCentralNexus
             close
+            drop
           should-run-codecov: ${{ runner.os == 'Linux' }}
           codecov-token: ${{ secrets.CODECOV_TOKEN }}
           should-deploy: >-
