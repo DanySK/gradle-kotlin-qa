@@ -1,3 +1,19 @@
+## [0.64.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.64.0...0.64.1) (2024-07-30)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.93 ([384af4c](https://github.com/DanySK/gradle-kotlin-qa/commit/384af4cb4eae432a0474ad0f2b5a89a4f83736de))
+* **deps:** update node.js to 20.16 ([9c01b77](https://github.com/DanySK/gradle-kotlin-qa/commit/9c01b775e70116d8af8b7598f32f123712f6d5a7))
+* **deps:** update plugin kotlin-qa to v0.64.0 ([e98ee1d](https://github.com/DanySK/gradle-kotlin-qa/commit/e98ee1d4443d1533193d2d4e8ed6d4c766381b5c))
+
+### Performance improvements
+
+* use the Gradle's configuration avoidance API ([4d8d343](https://github.com/DanySK/gradle-kotlin-qa/commit/4d8d343fead23ceb3abe7de9051221a6ba4b180a))
+
+### General maintenance
+
+* ignore `.kotlin` ([2070caa](https://github.com/DanySK/gradle-kotlin-qa/commit/2070caa8cb11e3c7c22dfedeb8fa75177be046b1))
+
 ## [0.64.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.63.0...0.64.0) (2024-07-26)
 
 ### Dependency updates
