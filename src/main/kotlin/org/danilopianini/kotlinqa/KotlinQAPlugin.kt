@@ -1,24 +1,24 @@
 package org.danilopianini.kotlinqa
 
+import de.aaschmid.gradle.plugins.cpd.Cpd
 import de.aaschmid.gradle.plugins.cpd.CpdExtension
 import de.aaschmid.gradle.plugins.cpd.CpdPlugin
 import io.gitlab.arturbosch.detekt.Detekt
 import io.gitlab.arturbosch.detekt.DetektPlugin
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
-import java.util.Properties
+import java.util.*
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.file.FileTree
-import org.gradle.api.plugins.JavaPlugin
-import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
-import org.gradle.kotlin.dsl.create
 import org.gradle.kotlin.dsl.findByType
+import org.gradle.kotlin.dsl.register
 import org.gradle.kotlin.dsl.withType
 import org.gradle.testing.jacoco.plugins.JacocoPlugin
 import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
 import org.gradle.testing.jacoco.tasks.JacocoReport
+import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
@@ -37,16 +37,13 @@ open class KotlinQAPlugin : Plugin<Project> {
             apply(JacocoPlugin::class)
         }
         val extension = project.extensions.create("kotlinQA", KotlinQAExtension::class.java, project)
-        val generator = project.tasks.create(
+        val generator = project.tasks.register<GenerateDetektConfiguration>(
             "generateDefaultDetektConfiguration",
-            GenerateDetektConfiguration::class.java,
             extension,
         )
-        val checkTask = project.tasks.findByName("check")
         // Detekt
-        project.tasks.withType(Detekt::class.java) {
+        project.tasks.withType<Detekt>().configureEach {
             it.dependsOn(generator)
-            checkTask?.dependsOn(it)
         }
         val versions = Properties()
         val properties = requireNotNull(Thread.currentThread().contextClassLoader.getResourceAsStream(VERSIONS)) {
@@ -67,34 +64,31 @@ open class KotlinQAPlugin : Plugin<Project> {
             version.set(versions.forLibrary("ktlint"))
         }
         // CPD
-        project.plugins.withType(JavaPlugin::class.java) { _ ->
-            project.extensions.configure<CpdExtension> {
-                toolVersion = versions.forLibrary("pmd")
-            }
-            project.tasks.create<de.aaschmid.gradle.plugins.cpd.Cpd>("cpdKotlinCheck") {
-                language = "kotlin"
-                source = project.extensions.findByType<JavaPluginExtension>()
-                    ?.sourceSets
-                    ?.flatMap { it.allSource }
-                    ?.map {
-                        project.fileTree(it) {
-                            include("**/*.kts")
-                            include("**/*.kt")
-                        }
+        project.extensions.configure<CpdExtension> {
+            toolVersion = versions.forLibrary("pmd")
+        }
+        val cpdKotlinCheck = project.tasks.register<Cpd>("cpdKotlinCheck") {
+            language = "kotlin"
+            source = project.extensions.findByType<KotlinProjectExtension>()
+                ?.sourceSets
+                ?.flatMap { it.kotlin }
+                ?.map {
+                    project.fileTree(it) {
+                        include("**/*.kts")
+                        include("**/*.kt")
                     }
-                    ?.fold(project.files().asFileTree, FileTree::plus)
-                    ?: project.files().asFileTree
-                minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
-                ignoreFailures = false
-                checkTask?.dependsOn(this)
-            }
-            // Disable the default cpdCheck to prevent conflict or double execution
-            project.tasks.findByName("cpdCheck")?.enabled = false
-            // Set warnings as errors
-            project.tasks.withType(KotlinCompile::class) {
-                with(it.compilerOptions) {
-                    allWarningsAsErrors.set(true)
                 }
+                ?.fold(project.files().asFileTree, FileTree::plus)
+                ?: project.files().asFileTree
+            minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
+            ignoreFailures = false
+        }
+        // Disable the default cpdCheck to prevent conflict or double execution
+        project.tasks.findByName("cpdCheck")?.enabled = false
+        // Set warnings as errors
+        project.tasks.withType(KotlinCompile::class) {
+            with(it.compilerOptions) {
+                allWarningsAsErrors.set(true)
             }
         }
         // JaCoCo
@@ -105,7 +99,11 @@ open class KotlinQAPlugin : Plugin<Project> {
             jacocoReport.reports {
                 it.xml.required.set(true)
             }
-            checkTask?.finalizedBy(jacocoReport)
+        }
+        // Check task wiring
+        project.tasks.named("check").configure {
+            it.dependsOn(project.tasks.withType<Detekt>(), cpdKotlinCheck)
+            it.finalizedBy(project.tasks.withType<JacocoReport>())
         }
     }
 
