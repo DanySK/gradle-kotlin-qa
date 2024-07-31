@@ -1,3 +1,9 @@
+## [0.64.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.64.2...0.64.3) (2024-07-31)
+
+### Bug Fixes
+
+* configure the check task only if it exists ([669b4d8](https://github.com/DanySK/gradle-kotlin-qa/commit/669b4d8366c0f247eb42eb3f6add3ba8c24ccb17))
+
 ## [0.64.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.64.1...0.64.2) (2024-07-31)
 
 ### Dependency updates
