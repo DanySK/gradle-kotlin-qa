@@ -12,11 +12,21 @@ class Tests : StringSpec({
 
     fun Testkit.projectTest(folder: String) = this.test(projectName, baseFolder + folder)
 
-    "Test 0" {
-        Testkit.projectTest("test0")
+    val tests = listOf(
+        "test0" to { true },
+        "testNoSource" to { true },
+        "testKMP" to {
+            JAVA_VERSION.substringBefore('.').toInt() >= MIN_JAVA_VERSION_FOR_ANDROID
+        },
+    )
+    for ((testName, predicate) in tests) {
+        if (predicate()) {
+            testName { Testkit.projectTest(testName) }
+        }
     }
-
-    "Test NoSource" {
-        Testkit.projectTest("testNoSource")
+}) {
+    companion object {
+        val JAVA_VERSION = System.getProperty("java.runtime.version")
+        const val MIN_JAVA_VERSION_FOR_ANDROID = 17
     }
-})
+}

@@ -19,6 +19,7 @@ import org.gradle.testing.jacoco.plugins.JacocoPlugin
 import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
 import org.gradle.testing.jacoco.tasks.JacocoReport
 import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
+import org.jetbrains.kotlin.gradle.plugin.KotlinBasePlugin
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
@@ -30,21 +31,6 @@ open class KotlinQAPlugin : Plugin<Project> {
 
     @Suppress("UnstableApiUsage")
     override fun apply(project: Project) {
-        with(project.plugins) {
-            apply(CpdPlugin::class)
-            apply(KtlintPlugin::class)
-            apply(DetektPlugin::class)
-            apply(JacocoPlugin::class)
-        }
-        val extension = project.extensions.create("kotlinQA", KotlinQAExtension::class.java, project)
-        val generator = project.tasks.register<GenerateDetektConfiguration>(
-            "generateDefaultDetektConfiguration",
-            extension,
-        )
-        // Detekt
-        project.tasks.withType<Detekt>().configureEach {
-            it.dependsOn(generator)
-        }
         val versions = Properties()
         val properties = requireNotNull(Thread.currentThread().contextClassLoader.getResourceAsStream(VERSIONS)) {
             "The Kotlin QA plugin was unable to load the required resource $VERSIONS. " +
@@ -52,56 +38,73 @@ open class KotlinQAPlugin : Plugin<Project> {
                 "https://github.com/DanySK/gradle-kotlin-qa/issues/new/choose"
         }
         versions.load(properties)
-        project.extensions.configure<DetektExtension> {
-            parallel = true
-            buildUponDefaultConfig = true
-            config.from(project.files(extension.detektConfigurationFile))
-            ignoreFailures = false
-            toolVersion = versions.forLibrary("detekt")
-        }
-        // Ktlint
-        project.extensions.configure<KtlintExtension> {
-            version.set(versions.forLibrary("ktlint"))
-        }
-        // CPD
-        project.extensions.configure<CpdExtension> {
-            toolVersion = versions.forLibrary("pmd")
-        }
-        val cpdKotlinCheck = project.tasks.register<Cpd>("cpdKotlinCheck") {
-            language = "kotlin"
-            source = project.extensions.findByType<KotlinProjectExtension>()
-                ?.sourceSets
-                ?.flatMap { it.kotlin }
-                ?.map {
-                    project.fileTree(it) {
-                        include("**/*.kts")
-                        include("**/*.kt")
-                    }
-                }
-                ?.fold(project.files().asFileTree, FileTree::plus)
-                ?: project.files().asFileTree
-            minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
-            ignoreFailures = false
-        }
-        // Disable the default cpdCheck to prevent conflict or double execution
-        project.tasks.findByName("cpdCheck")?.enabled = false
-        // Set warnings as errors
-        project.tasks.withType<KotlinCompilationTask<*>>().configureEach {
-            it.compilerOptions.allWarningsAsErrors.set(true)
-        }
-        // JaCoCo
-        project.extensions.configure<JacocoPluginExtension> {
-            toolVersion = versions.forLibrary("jacoco")
-        }
-        project.tasks.withType(JacocoReport::class.java) { jacocoReport ->
-            jacocoReport.reports {
-                it.xml.required.set(true)
+        project.plugins.withType<KotlinBasePlugin> {
+            with(project.plugins) {
+                apply(CpdPlugin::class)
+                apply(KtlintPlugin::class)
+                apply(DetektPlugin::class)
+                apply(JacocoPlugin::class)
             }
-        }
-        // Check task wiring, if it exists in this project
-        project.tasks.named { it == "check" }.configureEach {
-            it.dependsOn(project.tasks.withType<Detekt>(), cpdKotlinCheck)
-            it.finalizedBy(project.tasks.withType<JacocoReport>())
+            val extension = project.extensions.create("kotlinQA", KotlinQAExtension::class.java, project)
+            val generator = project.tasks.register<GenerateDetektConfiguration>(
+                "generateDefaultDetektConfiguration",
+                extension,
+            )
+            // Detekt
+            project.tasks.withType<Detekt>().configureEach {
+                it.dependsOn(generator)
+            }
+            project.extensions.configure<DetektExtension> {
+                parallel = true
+                buildUponDefaultConfig = true
+                config.from(project.files(extension.detektConfigurationFile))
+                ignoreFailures = false
+                toolVersion = versions.forLibrary("detekt")
+            }
+            // Ktlint
+            project.extensions.configure<KtlintExtension> {
+                version.set(versions.forLibrary("ktlint"))
+            }
+            // CPD
+            project.extensions.configure<CpdExtension> {
+                toolVersion = versions.forLibrary("pmd")
+            }
+            val cpdKotlinCheck = project.tasks.register<Cpd>("cpdKotlinCheck") {
+                language = "kotlin"
+                source = project.extensions.findByType<KotlinProjectExtension>()
+                    ?.sourceSets
+                    ?.flatMap { it.kotlin }
+                    ?.map {
+                        project.fileTree(it) {
+                            include("**/*.kts")
+                            include("**/*.kt")
+                        }
+                    }
+                    ?.fold(project.files().asFileTree, FileTree::plus)
+                    ?: project.files().asFileTree
+                minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
+                ignoreFailures = false
+            }
+            // Disable the default cpdCheck to prevent conflict or double execution
+            project.tasks.findByName("cpdCheck")?.enabled = false
+            // Set warnings as errors
+            project.tasks.withType<KotlinCompilationTask<*>>().configureEach {
+                it.compilerOptions.allWarningsAsErrors.set(true)
+            }
+            // JaCoCo
+            project.extensions.configure<JacocoPluginExtension> {
+                toolVersion = versions.forLibrary("jacoco")
+            }
+            project.tasks.withType(JacocoReport::class.java) { jacocoReport ->
+                jacocoReport.reports {
+                    it.xml.required.set(true)
+                }
+            }
+            // Check task wiring, if it exists in this project
+            project.tasks.named { it == "check" }.configureEach {
+                it.dependsOn(project.tasks.withType<Detekt>(), cpdKotlinCheck)
+                it.finalizedBy(project.tasks.withType<JacocoReport>())
+            }
         }
     }
 

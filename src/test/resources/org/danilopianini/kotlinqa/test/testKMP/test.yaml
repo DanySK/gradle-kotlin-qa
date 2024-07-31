@@ -1,0 +1,14 @@
+tests:
+  - description: "The plugin should run in a KMP project"
+    configuration:
+      tasks:
+        - check
+      options:
+        - --stacktrace
+    expectation:
+      outcomes:
+        success:
+          - detektJsMain
+          - ktlintKotlinScriptCheck
+          - ktlintCommonMainSourceSetCheck
+          - cpdKotlinCheck
