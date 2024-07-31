@@ -1,3 +1,18 @@
+## [0.65.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.64.3...0.65.0) (2024-07-31)
+
+### Features
+
+* apply the plugin by reacting to any Kotlin plugin application ([fa24ecd](https://github.com/DanySK/gradle-kotlin-qa/commit/fa24ecdcf5b36cabb79c143dcb59119a5706b202))
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.64.3 ([5de584c](https://github.com/DanySK/gradle-kotlin-qa/commit/5de584ca24b54642d2606f6331ec0c41093f3139))
+
+### Tests
+
+* treat platform type as nullable ([bbe2239](https://github.com/DanySK/gradle-kotlin-qa/commit/bbe2239963dafc1673e99f763507cbb9c4414bc0))
+* update Kotlin to 2.0.0 in all tests ([6f4fdc9](https://github.com/DanySK/gradle-kotlin-qa/commit/6f4fdc96c395bf2e19a5a0238c4cc27cd5e21f6b))
+
 ## [0.64.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.64.2...0.64.3) (2024-07-31)
 
 ### Bug Fixes
