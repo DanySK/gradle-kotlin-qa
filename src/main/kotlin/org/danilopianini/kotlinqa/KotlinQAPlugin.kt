@@ -98,8 +98,8 @@ open class KotlinQAPlugin : Plugin<Project> {
                 it.xml.required.set(true)
             }
         }
-        // Check task wiring
-        project.tasks.named("check").configure {
+        // Check task wiring, if it exists in this project
+        project.tasks.named { it == "check" }.configureEach {
             it.dependsOn(project.tasks.withType<Detekt>(), cpdKotlinCheck)
             it.finalizedBy(project.tasks.withType<JacocoReport>())
         }
