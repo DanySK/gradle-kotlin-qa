@@ -19,7 +19,7 @@ import org.gradle.testing.jacoco.plugins.JacocoPlugin
 import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
 import org.gradle.testing.jacoco.tasks.JacocoReport
 import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
 
@@ -86,10 +86,8 @@ open class KotlinQAPlugin : Plugin<Project> {
         // Disable the default cpdCheck to prevent conflict or double execution
         project.tasks.findByName("cpdCheck")?.enabled = false
         // Set warnings as errors
-        project.tasks.withType(KotlinCompile::class) {
-            with(it.compilerOptions) {
-                allWarningsAsErrors.set(true)
-            }
+        project.tasks.withType<KotlinCompilationTask<*>>().configureEach {
+            it.compilerOptions.allWarningsAsErrors.set(true)
         }
         // JaCoCo
         project.extensions.configure<JacocoPluginExtension> {
