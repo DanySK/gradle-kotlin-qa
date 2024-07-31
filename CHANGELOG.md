@@ -1,3 +1,21 @@
+## [0.64.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.64.1...0.64.2) (2024-07-31)
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.64.1 ([33fdee3](https://github.com/DanySK/gradle-kotlin-qa/commit/33fdee331731319d10a86b31b46794b5394bbeb7))
+
+### Bug Fixes
+
+* use the modern Kotlin compiler configuration ([165ed8b](https://github.com/DanySK/gradle-kotlin-qa/commit/165ed8bfe87fe7e06e033802fbf0350b77dc8c0c))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.1 ([0934d72](https://github.com/DanySK/gradle-kotlin-qa/commit/0934d726ca5f6625978f98319478d83667b60b7d))
+
+### Style improvements
+
+* remove star import ([53dfdfc](https://github.com/DanySK/gradle-kotlin-qa/commit/53dfdfc3aa9bf0d035be950c257dc9c52e885a3e))
+
 ## [0.64.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.64.0...0.64.1) (2024-07-30)
 
 ### Dependency updates
