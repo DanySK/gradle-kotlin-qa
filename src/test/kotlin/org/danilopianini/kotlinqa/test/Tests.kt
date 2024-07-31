@@ -26,7 +26,9 @@ class Tests : StringSpec({
     }
 }) {
     companion object {
-        val JAVA_VERSION = System.getProperty("java.runtime.version")
+        val JAVA_VERSION = checkNotNull(System.getProperty("java.runtime.version")) {
+            "Unable to read the Java version, property java.runtime.version is not set"
+        }
         const val MIN_JAVA_VERSION_FOR_ANDROID = 17
     }
 }
