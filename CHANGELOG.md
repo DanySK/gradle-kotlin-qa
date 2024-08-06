@@ -1,3 +1,16 @@
+## [0.65.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.65.0...0.65.1) (2024-08-06)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v2.0.10 ([dd7cc61](https://github.com/DanySK/gradle-kotlin-qa/commit/dd7cc611ad6ff19738ee108958f203bca0c16442))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.94 ([b67000e](https://github.com/DanySK/gradle-kotlin-qa/commit/b67000ea5ed1c58183d123b013bf33d27c77cdab))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.95 ([9bf3bc6](https://github.com/DanySK/gradle-kotlin-qa/commit/9bf3bc62e0e5532de3351206825e6fec71918347))
+* **deps:** update plugin kotlin-qa to v0.65.0 ([92d7942](https://github.com/DanySK/gradle-kotlin-qa/commit/92d7942fbe6bad6ac111b6893c96e9584edb6286))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.2 ([0beafd5](https://github.com/DanySK/gradle-kotlin-qa/commit/0beafd55a65d999adc1e2c2022a91fd5520d3a59))
+
 ## [0.65.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.64.3...0.65.0) (2024-07-31)
 
 ### Features
