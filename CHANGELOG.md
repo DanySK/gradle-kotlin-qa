@@ -1,3 +1,16 @@
+## [0.65.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.65.1...0.65.2) (2024-08-14)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.10 ([36acfd7](https://github.com/DanySK/gradle-kotlin-qa/commit/36acfd7b5ae785f8a916ba1acda94d2a8588704e))
+* **deps:** update plugin kotlin-qa to v0.65.1 ([a828fbf](https://github.com/DanySK/gradle-kotlin-qa/commit/a828fbf20f71166a30925ccd861c779ac0b081b7))
+* **deps:** update plugin multijvmtesting to v1.2.3 ([588bb55](https://github.com/DanySK/gradle-kotlin-qa/commit/588bb55daae9b24f371a2f4674ca05cc64f2997d))
+* **deps:** update plugin publishoncentral to v5.1.5 ([d35c7fe](https://github.com/DanySK/gradle-kotlin-qa/commit/d35c7fee2f3e0f39b7c40f723b257f73212e8ab4))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.3 ([5a879a9](https://github.com/DanySK/gradle-kotlin-qa/commit/5a879a9c46dc808ea94643f2421919cb5b5f4052))
+
 ## [0.65.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.65.0...0.65.1) (2024-08-06)
 
 ### Dependency updates
