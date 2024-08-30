@@ -8,7 +8,7 @@ kotest = "5.9.1"
 ktlint = "0.50.0"
 ktlint-plugin = "12.1.1"
 mockito = "5.13.0"
-pmd = "7.4.0"
+pmd = "7.5.0"
 testkit = "0.9.0"
 
 [libraries]
