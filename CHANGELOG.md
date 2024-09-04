@@ -1,3 +1,13 @@
+## [0.66.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.66.0...0.66.1) (2024-09-04)
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.66.0 ([d13abd9](https://github.com/DanySK/gradle-kotlin-qa/commit/d13abd91b1f7986f2e5e15c17ce31c481a444e91))
+
+### Bug Fixes
+
+* allow many more functions at a file top level ([78a05ee](https://github.com/DanySK/gradle-kotlin-qa/commit/78a05ee844b2496e79fd29e54644cd18edec2ca7))
+
 ## [0.66.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.65.2...0.66.0) (2024-08-30)
 
 ### Dependency updates
