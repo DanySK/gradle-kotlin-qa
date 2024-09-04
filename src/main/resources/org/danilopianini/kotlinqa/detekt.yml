@@ -18,6 +18,7 @@ complexity:
     ignoreDeprecated: true
     ignorePrivate: true
     ignoreOverridden: true
+    thresholdInFiles: 40
     thresholdInInterfaces: 20
     thresholdInObjects: 20
 naming:
