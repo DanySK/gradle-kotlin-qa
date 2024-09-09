@@ -1,3 +1,10 @@
+## [0.67.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.67.0...0.67.1) (2024-09-09)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.10.1 ([55bc3d4](https://github.com/DanySK/gradle-kotlin-qa/commit/55bc3d47a73ee7928b33befbd00269c0838cf803))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.102 ([6df3f1e](https://github.com/DanySK/gradle-kotlin-qa/commit/6df3f1e90850d20d73851824cbc7ba26f8133a34))
+
 ## [0.67.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.66.1...0.67.0) (2024-09-08)
 
 ### Dependency updates
