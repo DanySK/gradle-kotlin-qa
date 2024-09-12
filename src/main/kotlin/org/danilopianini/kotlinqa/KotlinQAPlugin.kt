@@ -108,7 +108,7 @@ open class KotlinQAPlugin : Plugin<Project> {
         }
     }
 
-    companion object {
+    private companion object {
         private const val VERSIONS = "org/danilopianini/kotlinqa/versions.properties"
         private const val DEFAULT_CPD_TOKENS_FOR_KOTLIN = 70
         private fun Properties.forLibrary(key: String): String = checkNotNull(get(key)?.toString()) {
