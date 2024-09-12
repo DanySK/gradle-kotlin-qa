@@ -1,3 +1,26 @@
+## [0.67.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.67.1...0.67.2) (2024-09-12)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.103 ([a4d02f5](https://github.com/DanySK/gradle-kotlin-qa/commit/a4d02f50d7d4ed078267b24d7e8bcb51e3ea1db2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.104 ([39def17](https://github.com/DanySK/gradle-kotlin-qa/commit/39def1771f887a470502beeb9b04936bf0d4efff))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.105 ([919d2f8](https://github.com/DanySK/gradle-kotlin-qa/commit/919d2f847a296bb1bb9c78c077012cf7598b28ec))
+* **deps:** update plugin com.gradle.develocity to v3.18.1 ([bacf927](https://github.com/DanySK/gradle-kotlin-qa/commit/bacf927557d386c1ef4930c6ec360248186cb5aa))
+* **deps:** update plugin gradlepluginpublish to v1.3.0 ([59c4097](https://github.com/DanySK/gradle-kotlin-qa/commit/59c40976cbc257742100c94503aef02b33d755df))
+* **deps:** update plugin multijvmtesting to v1.2.6 ([d8c800e](https://github.com/DanySK/gradle-kotlin-qa/commit/d8c800eab51e0b8fa067c0f0d01bf24c82b9cf8b))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.10 ([c6c687f](https://github.com/DanySK/gradle-kotlin-qa/commit/c6c687fa39c9f5c0a57fca7613f21cf0f4b7f84a))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.12 ([0735e94](https://github.com/DanySK/gradle-kotlin-qa/commit/0735e94bed77fd98bf71d5540a8543fcb3da7cfc))
+
+### Bug Fixes
+
+* make `KotlinQAPlugin.Companion` private ([e0db8f0](https://github.com/DanySK/gradle-kotlin-qa/commit/e0db8f00f405010d990b71b7e5ba9976af55216e))
+* make companions private ([6c767cb](https://github.com/DanySK/gradle-kotlin-qa/commit/6c767cb37dd36e0184806a400e78292b1dfedcd2))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.5 ([9e45f96](https://github.com/DanySK/gradle-kotlin-qa/commit/9e45f9615e234c10404cad8f6c71c4ebd9d96bf9))
+* migrate to the compilerOptions DSL ([3008a11](https://github.com/DanySK/gradle-kotlin-qa/commit/3008a111161d624caa1ef5a9a2028bfceacbf781))
+
 ## [0.67.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.67.0...0.67.1) (2024-09-09)
 
 ### Dependency updates
