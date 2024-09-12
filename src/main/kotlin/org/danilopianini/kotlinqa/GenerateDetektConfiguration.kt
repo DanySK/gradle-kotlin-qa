@@ -34,7 +34,7 @@ open class GenerateDetektConfiguration @Inject constructor(private val extension
         detektConfigurationFile.get().writeText(configuration)
     }
 
-    companion object {
+    private companion object {
         private const val detektConfigFile = "org/danilopianini/kotlinqa/detekt.yml"
     }
 }

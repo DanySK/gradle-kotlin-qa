@@ -1,7 +1,6 @@
 package org.danilopianini.kotlinqa
 
 import java.io.File
-import java.io.Serializable
 import org.gradle.api.Project
 import org.gradle.api.provider.Property
 import org.gradle.api.provider.Provider
@@ -10,7 +9,7 @@ import org.gradle.kotlin.dsl.property
 /**
  * Gradle extension for the Kotlin QA Plugin.
  */
-open class KotlinQAExtension(project: Project) : Serializable {
+open class KotlinQAExtension(project: Project) {
 
     /**
      * The folder where the Detekt configuration will be generated.
@@ -36,8 +35,7 @@ open class KotlinQAExtension(project: Project) : Serializable {
         }
     }
 
-    companion object {
-        private const val serialVersionUID = 1L
+    private companion object {
         private val slash: String = File.separator
     }
 }
