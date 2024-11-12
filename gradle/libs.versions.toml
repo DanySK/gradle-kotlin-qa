@@ -20,7 +20,7 @@ jacoco-core = { module = "org.jacoco:org.jacoco.core", version.ref = "jacoco" }
 kotest-junit5-jvm = { module = "io.kotest:kotest-runner-junit5-jvm", version.ref = "kotest" }
 kotest-assertions-core-jvm = { module = "io.kotest:kotest-assertions-core-jvm", version.ref = "kotest" }
 kotlin-gradle-plugin-api = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
-ktlint-tool = { module = "com.pinterest:ktlint", version.ref = "ktlint" }
+ktlint-tool = { module = "com.pinterest:ktlint-bom", version.ref = "ktlint" }
 ktlint-gradle = { module = "org.jlleitschuh.gradle:ktlint-gradle", version.ref = "ktlint-plugin" }
 mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }
 pmd-kotlin = { module = "net.sourceforge.pmd:pmd-kotlin", version.ref = "pmd" }
