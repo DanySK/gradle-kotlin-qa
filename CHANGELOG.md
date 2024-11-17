@@ -1,3 +1,27 @@
+## [0.70.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.69.0...0.70.0) (2024-11-17)
+
+### Dependency updates
+
+* **api-deps:** update dependency de.aaschmid:gradle-cpd-plugin to v3.5 ([#892](https://github.com/DanySK/gradle-kotlin-qa/issues/892)) ([19ecb3e](https://github.com/DanySK/gradle-kotlin-qa/commit/19ecb3eb8ce3e25266b3742a644901fee05953ac))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.113 ([464d49d](https://github.com/DanySK/gradle-kotlin-qa/commit/464d49dc75d3641ffba8a225b64d21e8196958a1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.114 ([89c0733](https://github.com/DanySK/gradle-kotlin-qa/commit/89c0733d27becc1c96790660595ab2accf10b24a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.115 ([#884](https://github.com/DanySK/gradle-kotlin-qa/issues/884)) ([de60261](https://github.com/DanySK/gradle-kotlin-qa/commit/de602619b3c5234c8515cc8390fa7d12c425e05e))
+* **deps:** update node.js to v22 ([b0a8ee0](https://github.com/DanySK/gradle-kotlin-qa/commit/b0a8ee016eadbb1261e5d8b3af9f91c62905849a))
+* **deps:** update plugin com.gradle.develocity to v3.18.2 ([#887](https://github.com/DanySK/gradle-kotlin-qa/issues/887)) ([8762dca](https://github.com/DanySK/gradle-kotlin-qa/commit/8762dca18aae3fecbff65d019c3388c0f15fce79))
+* **deps:** update plugin kotlin-qa to v0.69.0 ([89d1955](https://github.com/DanySK/gradle-kotlin-qa/commit/89d19556210adbbe0f9b697b6b11aff2dc19ca49))
+* **deps:** update plugin multijvmtesting to v1.3.0 ([#880](https://github.com/DanySK/gradle-kotlin-qa/issues/880)) ([42f9e1c](https://github.com/DanySK/gradle-kotlin-qa/commit/42f9e1cf28a83f0ebc86502d4bf994d4d2554857))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.13 ([#885](https://github.com/DanySK/gradle-kotlin-qa/issues/885)) ([3725dd8](https://github.com/DanySK/gradle-kotlin-qa/commit/3725dd84744ea48cff16d7c4b6d3fde85501aa32))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.14 ([#888](https://github.com/DanySK/gradle-kotlin-qa/issues/888)) ([1d78fcf](https://github.com/DanySK/gradle-kotlin-qa/commit/1d78fcff3412b5c78795fdc69a462c28e0efa7ed))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.15 ([#889](https://github.com/DanySK/gradle-kotlin-qa/issues/889)) ([1c28df3](https://github.com/DanySK/gradle-kotlin-qa/commit/1c28df32ec48923499408805c04ed013fa8162d3))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.16 ([#890](https://github.com/DanySK/gradle-kotlin-qa/issues/890)) ([eb83c51](https://github.com/DanySK/gradle-kotlin-qa/commit/eb83c51e2647c1983a56b01fe7d37daf8a64732c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.17 ([#891](https://github.com/DanySK/gradle-kotlin-qa/issues/891)) ([e415964](https://github.com/DanySK/gradle-kotlin-qa/commit/e4159643be064cc5f857e3b43383047b9d8d9a73))
+* **renovate:**  use `with` to import the configuration instead of `assert` ([#881](https://github.com/DanySK/gradle-kotlin-qa/issues/881)) ([8a57468](https://github.com/DanySK/gradle-kotlin-qa/commit/8a57468d2fbcd36a1e8ef2408938bd4409eafb7d))
+* **renovate:** consider both ktlint and ktlint-bom as API dependencies ([ed69fc2](https://github.com/DanySK/gradle-kotlin-qa/commit/ed69fc2c8fbe0d1a2636841ef60ca64eb17fac1e))
+* track ktlint versions from ktlint-bom ([#883](https://github.com/DanySK/gradle-kotlin-qa/issues/883)) ([30cba55](https://github.com/DanySK/gradle-kotlin-qa/commit/30cba55ccf5371c81914af73d5ef418f183da029))
+
 ## [0.69.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.68.0...0.69.0) (2024-10-25)
 
 ### Dependency updates
