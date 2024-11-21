@@ -1,3 +1,19 @@
+## [0.70.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.70.1...0.70.2) (2024-11-21)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.11.1 ([#900](https://github.com/DanySK/gradle-kotlin-qa/issues/900)) ([348a4e7](https://github.com/DanySK/gradle-kotlin-qa/commit/348a4e7caa8ebdb0ca311f4f516c3d3f0c19d97c))
+* **deps:** update plugin kotlin-qa to v0.70.1 ([#894](https://github.com/DanySK/gradle-kotlin-qa/issues/894)) ([0547a27](https://github.com/DanySK/gradle-kotlin-qa/commit/0547a2746af2790209b98e295e60cc5b452b30ec))
+* **deps:** update plugin multijvmtesting to v1.3.1 ([#895](https://github.com/DanySK/gradle-kotlin-qa/issues/895)) ([15e91e9](https://github.com/DanySK/gradle-kotlin-qa/commit/15e91e9a6d19ac23bee04ac1199b17bb0925b7c6))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.14 ([#897](https://github.com/DanySK/gradle-kotlin-qa/issues/897)) ([d095420](https://github.com/DanySK/gradle-kotlin-qa/commit/d0954202a9234a111213de6111fd2b0fe46aadd1))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.15 ([#902](https://github.com/DanySK/gradle-kotlin-qa/issues/902)) ([1c7cd31](https://github.com/DanySK/gradle-kotlin-qa/commit/1c7cd3144c9e361e6b5425a292e6ae35c169a5c8))
+* **deps:** update plugin publishoncentral to v5.1.10 ([#896](https://github.com/DanySK/gradle-kotlin-qa/issues/896)) ([61748f1](https://github.com/DanySK/gradle-kotlin-qa/commit/61748f1cd45b0769618a901210ba2cd1a0441c3b))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.18 ([#898](https://github.com/DanySK/gradle-kotlin-qa/issues/898)) ([a1da045](https://github.com/DanySK/gradle-kotlin-qa/commit/a1da0455a0ee73dedc76f7153ef1b4c30c7ae932))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.22 ([#899](https://github.com/DanySK/gradle-kotlin-qa/issues/899)) ([0495892](https://github.com/DanySK/gradle-kotlin-qa/commit/0495892ea7e85cc577c72e709f872e904977718e))
+
 ## [0.70.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.70.0...0.70.1) (2024-11-17)
 
 ### Dependency updates
