@@ -16,7 +16,11 @@ class Tests : StringSpec({
         "test0" to { true },
         "testNoSource" to { true },
         "testKMP" to {
-            JAVA_VERSION.substringBefore('.').toInt() >= MIN_JAVA_VERSION_FOR_ANDROID
+            val javaMajor = JAVA_VERSION
+                .substringBefore('.')
+                .substringBefore('+')
+                .toInt()
+            javaMajor >= MIN_JAVA_VERSION_FOR_ANDROID
         },
     )
     for ((testName, predicate) in tests) {
