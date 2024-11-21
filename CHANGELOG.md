@@ -1,3 +1,28 @@
+## [0.71.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.70.2...0.71.0) (2024-11-21)
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest.ktlint:ktlint-bom to v1.0.1 ([#906](https://github.com/DanySK/gradle-kotlin-qa/issues/906)) ([fb402da](https://github.com/DanySK/gradle-kotlin-qa/commit/fb402dae1ac97c3d7030f96430362ee23248a4ea))
+* **api-deps:** update ktlint to 1.0.0 ([e9e2a9a](https://github.com/DanySK/gradle-kotlin-qa/commit/e9e2a9a09311252baed9a8b1bba75a3ac8773577))
+* **deps:** update plugin kotlin-qa to v0.70.2 ([#904](https://github.com/DanySK/gradle-kotlin-qa/issues/904)) ([5054283](https://github.com/DanySK/gradle-kotlin-qa/commit/5054283d0e78a33811c4c3c6d2658e7da758bd4f))
+* **deps:** update plugin multijvmtesting to v1.3.2 ([#901](https://github.com/DanySK/gradle-kotlin-qa/issues/901)) ([3057641](https://github.com/DanySK/gradle-kotlin-qa/commit/30576415323e1d01d36dc77e0d6582e5ad836586))
+* **deps:** update plugin publishoncentral to v5.1.11 ([#903](https://github.com/DanySK/gradle-kotlin-qa/issues/903)) ([d0657ea](https://github.com/DanySK/gradle-kotlin-qa/commit/d0657ea5ce5deb55ccec588ed96b7191afb3ec8d))
+
+### Tests
+
+* support java versions with just major and build information (e.g., 17+35-2724) ([5aec1a4](https://github.com/DanySK/gradle-kotlin-qa/commit/5aec1a4032c85e37c3e962d3b7ff4c36b17bd4bc))
+* use configuration avoidance in tests ([c15957a](https://github.com/DanySK/gradle-kotlin-qa/commit/c15957a28f0c8598cea33c373eba739f7980d213))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.23 ([#905](https://github.com/DanySK/gradle-kotlin-qa/issues/905)) ([6c1bf78](https://github.com/DanySK/gradle-kotlin-qa/commit/6c1bf781115df9732d16c82d4f9dcbc6ebc2798b))
+* **renovate:** mark `com.pinterest.ktlint:ktlint-bom` as api-deps ([c14557a](https://github.com/DanySK/gradle-kotlin-qa/commit/c14557a4443372d3056c205c55a092cd18eedf4e))
+
+### Style improvements
+
+* do not start class with blank line ([d11ccdd](https://github.com/DanySK/gradle-kotlin-qa/commit/d11ccddf1c652c6618c79df0ee98bba1e21bd2d0))
+* do not start class with blank line ([cb008c2](https://github.com/DanySK/gradle-kotlin-qa/commit/cb008c20b7a8ef468180ff43d6d4b2ee3dd4dda0))
+
 ## [0.70.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.70.1...0.70.2) (2024-11-21)
 
 ### Dependency updates
