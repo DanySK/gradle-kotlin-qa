@@ -9,6 +9,7 @@
          "matchPackageNames": [
             "com.pinterest:ktlint",
             "com.pinterest:ktlint-bom",
+            "com.pinterest.ktlint:ktlint-bom",
             "de.aaschmid:gradle-cpd-plugin",
             "io.gitlab.arturbosch.detekt:detekt-formatting",
             "io.gitlab.arturbosch.detekt:detekt-gradle-plugin",
