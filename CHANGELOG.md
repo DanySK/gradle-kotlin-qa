@@ -1,3 +1,9 @@
+## [0.74.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.73.0...0.74.0) (2024-11-25)
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v12.1.2 ([#914](https://github.com/DanySK/gradle-kotlin-qa/issues/914)) ([7cdbb2b](https://github.com/DanySK/gradle-kotlin-qa/commit/7cdbb2bf91489a0580e29eda8aedc50358a7ca37))
+
 ## [0.73.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.72.0...0.73.0) (2024-11-22)
 
 ### Dependency updates
