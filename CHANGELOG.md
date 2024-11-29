@@ -1,3 +1,9 @@
+## [0.75.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.74.0...0.75.0) (2024-11-29)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.8.0 ([#918](https://github.com/DanySK/gradle-kotlin-qa/issues/918)) ([b5274d7](https://github.com/DanySK/gradle-kotlin-qa/commit/b5274d7225ac143dea50214695acf7115318d86c))
+
 ## [0.74.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.73.0...0.74.0) (2024-11-25)
 
 ### Dependency updates
