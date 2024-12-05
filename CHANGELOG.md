@@ -1,3 +1,16 @@
+## [0.76.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.75.0...0.76.0) (2024-12-05)
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest.ktlint:ktlint-bom to v1.3.1 ([#909](https://github.com/DanySK/gradle-kotlin-qa/issues/909)) ([4fb3263](https://github.com/DanySK/gradle-kotlin-qa/commit/4fb3263eb837a069f318cb1ab0bab927b432c13c))
+* **api-deps:** update dependency com.pinterest.ktlint:ktlint-bom to v1.4.1 ([#910](https://github.com/DanySK/gradle-kotlin-qa/issues/910)) ([4b53e35](https://github.com/DanySK/gradle-kotlin-qa/commit/4b53e35d33e6c9f5854724141861a4ae468f0d47))
+* **deps:** update plugin kotlin-qa to v0.75.0 ([#919](https://github.com/DanySK/gradle-kotlin-qa/issues/919)) ([247375c](https://github.com/DanySK/gradle-kotlin-qa/commit/247375c1f89690343ab182843452d5203d467905))
+
+### Build and continuous integration
+
+* add Gradle wrapper distributionSha256Sum ([9430a7d](https://github.com/DanySK/gradle-kotlin-qa/commit/9430a7d9bb80e94a27433e510ef406e19a18a4dc))
+* revise the build cancelling rules ([5a05b0f](https://github.com/DanySK/gradle-kotlin-qa/commit/5a05b0f6ff4220fd39490b985da8fe77a8dd9894))
+
 ## [0.75.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.74.0...0.75.0) (2024-11-29)
 
 ### Dependency updates
