@@ -19,6 +19,7 @@ plugins {
  */
 group = "org.danilopianini"
 description = "Automated Quality Assurance configuration for Kotlin Projects built with Gradle"
+
 inner class ProjectInfo {
     val longName = "Kotlin Quality Assurance Gradle plugin"
     val website = "https://github.com/DanySK/$name"
@@ -41,9 +42,10 @@ repositories {
 
 tasks.create("copyToolVersions") {
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> { dependsOn(this@create) }
-    val destinationDir = layout.buildDirectory.map {
-        file("${it.asFile.absolutePath}/resources/main/org/danilopianini/kotlinqa/")
-    }
+    val destinationDir =
+        layout.buildDirectory.map {
+            file("${it.asFile.absolutePath}/resources/main/org/danilopianini/kotlinqa/")
+        }
     val destination = destinationDir.map { File(it, "versions.properties") }
     tasks.withType<PublishToMavenRepository> {
         dependsOn(this@create)
@@ -60,15 +62,17 @@ tasks.create("copyToolVersions") {
     doLast {
         file(destinationDir).mkdirs()
         val catalog = catalogFile.readText()
-        val libraries = listOf("detekt", "jacoco", "ktlint", "pmd").joinToString("\n") { library ->
-            val version = Regex("""^$library\s*=\s*"([\d\w\.\-\+]+)"\s*$""", RegexOption.MULTILINE)
-                .findAll(catalog)
-                .firstOrNull()
-                ?.destructured
-                ?.component1()
-                ?: throw IllegalStateException("No version available for $library in:\n$catalog")
-            "$library=$version"
-        }
+        val libraries =
+            listOf("detekt", "jacoco", "ktlint", "pmd").joinToString("\n") { library ->
+                val version =
+                    Regex("""^$library\s*=\s*"([\d\w\.\-\+]+)"\s*$""", RegexOption.MULTILINE)
+                        .findAll(catalog)
+                        .firstOrNull()
+                        ?.destructured
+                        ?.component1()
+                        ?: throw IllegalStateException("No version available for $library in:\n$catalog")
+                "$library=$version"
+            }
         destination.get().writeText(libraries)
     }
 }
@@ -112,10 +116,11 @@ configurations.matching { it.name != "detekt" }.all {
     }
 }
 
-val (currentMajor, currentMinor) = GradleVersion.current().version.toString()
-    .split('.')
-    .take(2)
-    .map { it.toInt() }
+val (currentMajor, currentMinor) =
+    GradleVersion.current().version.toString()
+        .split('.')
+        .take(2)
+        .map { it.toInt() }
 (0..currentMinor).forEach { minor ->
     val variant = "$currentMajor.$minor"
     val variantName = "gradle$currentMajor$minor"
