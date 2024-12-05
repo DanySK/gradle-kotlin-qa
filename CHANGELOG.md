@@ -1,3 +1,9 @@
+## [0.77.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.76.0...0.77.0) (2024-12-05)
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest.ktlint:ktlint-bom to v1.5.0 ([#920](https://github.com/DanySK/gradle-kotlin-qa/issues/920)) ([d5f2338](https://github.com/DanySK/gradle-kotlin-qa/commit/d5f23381cfa3976af1d6aec21c1abdc3eac77955))
+
 ## [0.76.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.75.0...0.76.0) (2024-12-05)
 
 ### Dependency updates
