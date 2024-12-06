@@ -28,7 +28,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
 import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
-import org.jlleitschuh.gradle.ktlint.tasks.GenerateReportsTask
 
 /**
  * Entry point for the Kotlin QA Plugin.
@@ -79,13 +78,6 @@ open class KotlinQAPlugin : Plugin<Project> {
                 reporters {
                     it.reporter(ReporterType.SARIF)
                 }
-            }
-            project.tasks.withType<GenerateReportsTask> {
-                // Collects into root build directory all the reports
-                reportsOutputDirectory.set(
-                    project.rootProject.layout.buildDirectory
-                        .dir("reports/ktlint/$name"),
-                )
             }
             // CPD
             project.extensions.configure<CpdExtension> {
