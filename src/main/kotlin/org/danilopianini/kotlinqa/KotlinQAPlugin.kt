@@ -28,6 +28,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
 import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
+import org.jlleitschuh.gradle.ktlint.tasks.GenerateReportsTask
 
 /**
  * Entry point for the Kotlin QA Plugin.
