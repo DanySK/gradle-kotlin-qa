@@ -12,7 +12,9 @@ import org.gradle.api.tasks.TaskAction
  */
 open class GenerateDetektConfiguration
     @Inject
-    constructor(private val extension: KotlinQAExtension) : DefaultTask() {
+    constructor(
+        private val extension: KotlinQAExtension,
+    ) : DefaultTask() {
         /**
          * The output file (read only, must be configured in the [KotlinQAExtension].
          */
@@ -25,7 +27,11 @@ open class GenerateDetektConfiguration
         @TaskAction
         fun generateDetektConfigurationFile() {
             val configuration =
-                Thread.currentThread().contextClassLoader.getResource(DETEKT_CONFIG_FILE)?.readText()
+                Thread
+                    .currentThread()
+                    .contextClassLoader
+                    .getResource(DETEKT_CONFIG_FILE)
+                    ?.readText()
                     ?: error(
                         "Unable to read $DETEKT_CONFIG_FILE from the classpath, is this a bug in the Kotlin QA plugin?",
                     )

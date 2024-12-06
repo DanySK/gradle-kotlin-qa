@@ -9,13 +9,18 @@ import org.gradle.kotlin.dsl.property
 /**
  * Gradle extension for the Kotlin QA Plugin.
  */
-open class KotlinQAExtension(project: Project) {
+open class KotlinQAExtension(
+    project: Project,
+) {
     /**
      * The folder where the Detekt configuration will be generated.
      */
     val workingDirectory: Property<File> =
         project.objects.property<File>().apply {
-            set(project.layout.buildDirectory.asFile.map { File(it, "kotlinqa") })
+            set(
+                project.layout.buildDirectory.asFile
+                    .map { File(it, "kotlinqa") },
+            )
         }
 
     /**

@@ -1,6 +1,5 @@
 import org.jetbrains.kotlin.config.KotlinCompilerVersion.VERSION as KOTLIN_VERSION
 
-@Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     `java-gradle-plugin`
     alias(libs.plugins.dokka)
@@ -20,7 +19,7 @@ plugins {
 group = "org.danilopianini"
 description = "Automated Quality Assurance configuration for Kotlin Projects built with Gradle"
 
-inner class ProjectInfo {
+class ProjectInfo {
     val longName = "Kotlin Quality Assurance Gradle plugin"
     val website = "https://github.com/DanySK/$name"
     val vcsUrl = "$website.git"
@@ -117,7 +116,10 @@ configurations.matching { it.name != "detekt" }.all {
 }
 
 val (currentMajor, currentMinor) =
-    GradleVersion.current().version.toString()
+    GradleVersion
+        .current()
+        .version
+        .toString()
         .split('.')
         .take(2)
         .map { it.toInt() }
@@ -159,7 +161,10 @@ tasks.withType<Test> {
         showStandardStreams = true
         showCauses = true
         showStackTraces = true
-        events(*org.gradle.api.tasks.testing.logging.TestLogEvent.values())
+        events(
+            *org.gradle.api.tasks.testing.logging.TestLogEvent
+                .values(),
+        )
         exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
     }
 }

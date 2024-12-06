@@ -73,7 +73,8 @@ open class KotlinQAPlugin : Plugin<Project> {
             val cpdKotlinCheck =
                 project.tasks.register<Cpd>("cpdKotlinCheck") {
                     language = "kotlin"
-                    source = project.extensions.findByType<KotlinProjectExtension>()
+                    source = project.extensions
+                        .findByType<KotlinProjectExtension>()
                         ?.sourceSets
                         ?.flatMap { it.kotlin }
                         ?.map {
@@ -81,8 +82,7 @@ open class KotlinQAPlugin : Plugin<Project> {
                                 include("**/*.kts")
                                 include("**/*.kt")
                             }
-                        }
-                        ?.fold(project.files().asFileTree, FileTree::plus)
+                        }?.fold(project.files().asFileTree, FileTree::plus)
                         ?: project.files().asFileTree
                     minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
                     ignoreFailures = false
