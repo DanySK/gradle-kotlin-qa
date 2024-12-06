@@ -6,6 +6,7 @@ import de.aaschmid.gradle.plugins.cpd.CpdPlugin
 import io.gitlab.arturbosch.detekt.Detekt
 import io.gitlab.arturbosch.detekt.DetektPlugin
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
+import io.gitlab.arturbosch.detekt.report.ReportMergeTask
 import java.util.Properties
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -13,7 +14,10 @@ import org.gradle.api.file.FileTree
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.findByType
+import org.gradle.kotlin.dsl.getValue
+import org.gradle.kotlin.dsl.provideDelegate
 import org.gradle.kotlin.dsl.register
+import org.gradle.kotlin.dsl.registering
 import org.gradle.kotlin.dsl.withType
 import org.gradle.testing.jacoco.plugins.JacocoPlugin
 import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
@@ -23,6 +27,8 @@ import org.jetbrains.kotlin.gradle.plugin.KotlinBasePlugin
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
+import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
+import org.jlleitschuh.gradle.ktlint.tasks.GenerateReportsTask
 
 /**
  * Entry point for the Kotlin QA Plugin.
@@ -62,9 +68,24 @@ open class KotlinQAPlugin : Plugin<Project> {
                 ignoreFailures = false
                 toolVersion = versions.forLibrary("detekt")
             }
+            val reportMergeDetekt by project.tasks.registering(ReportMergeTask::class) {
+                output.set(project.layout.buildDirectory.file("reports/detekt/deteket-merge.sarif"))
+                input.from(project.tasks.withType<Detekt>().map { it.sarifReportFile })
+            }
+            project.tasks.withType<Detekt>().configureEach { it.finalizedBy(reportMergeDetekt) }
             // Ktlint
             project.extensions.configure<KtlintExtension> {
                 version.set(versions.forLibrary("ktlint"))
+                reporters {
+                    it.reporter(ReporterType.SARIF)
+                }
+            }
+            project.tasks.withType<GenerateReportsTask> {
+                // Collects into root build directory all the reports
+                reportsOutputDirectory.set(
+                    project.rootProject.layout.buildDirectory
+                        .dir("reports/ktlint/$name"),
+                )
             }
             // CPD
             project.extensions.configure<CpdExtension> {
