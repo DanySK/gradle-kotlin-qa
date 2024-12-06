@@ -17,6 +17,7 @@ class Tests :
             listOf(
                 "test0" to { true },
                 "testNoSource" to { true },
+                "testSarif" to { true },
                 "testKMP" to {
                     val javaMajor =
                         JAVA_VERSION
