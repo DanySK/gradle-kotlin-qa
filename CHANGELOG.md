@@ -1,3 +1,20 @@
+## [0.77.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.77.0...0.77.1) (2024-12-06)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.1.0 ([#916](https://github.com/DanySK/gradle-kotlin-qa/issues/916)) ([d8c58f0](https://github.com/DanySK/gradle-kotlin-qa/commit/d8c58f01a27a932b843fcab307b57c45ec7ec849))
+* **deps:** update node.js to 22.12 ([#921](https://github.com/DanySK/gradle-kotlin-qa/issues/921)) ([7648600](https://github.com/DanySK/gradle-kotlin-qa/commit/764860037c3f4f6e630fb31a8ffab6e1a4aa2310))
+* **deps:** update plugin kotlin-qa to v0.76.0 ([#925](https://github.com/DanySK/gradle-kotlin-qa/issues/925)) ([051fca5](https://github.com/DanySK/gradle-kotlin-qa/commit/051fca57a2f776c43deb716f12e1219646a1f67e))
+* **deps:** update plugin kotlin-qa to v0.77.0 ([6c500ef](https://github.com/DanySK/gradle-kotlin-qa/commit/6c500efed6ed6f86c3abccc92817ba8f8b5d4ba6))
+* **deps:** update plugin multijvmtesting to v2 ([#923](https://github.com/DanySK/gradle-kotlin-qa/issues/923)) ([f4cf669](https://github.com/DanySK/gradle-kotlin-qa/commit/f4cf6698eee49c3b050152465bc2af816c84e7fe))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.9.0 ([#922](https://github.com/DanySK/gradle-kotlin-qa/issues/922)) ([36baf9c](https://github.com/DanySK/gradle-kotlin-qa/commit/36baf9c0cd076ca61f980e06d2c06b4b0596a872))
+* **deps:** update plugin publishoncentral to v6 ([#924](https://github.com/DanySK/gradle-kotlin-qa/issues/924)) ([322420c](https://github.com/DanySK/gradle-kotlin-qa/commit/322420c6bf15eb745734ee7202159674d5590d8a))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.24 ([#927](https://github.com/DanySK/gradle-kotlin-qa/issues/927)) ([d513ee3](https://github.com/DanySK/gradle-kotlin-qa/commit/d513ee39d604243bd3ca2bc73e497b00449fdf6f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.25 ([#928](https://github.com/DanySK/gradle-kotlin-qa/issues/928)) ([156278a](https://github.com/DanySK/gradle-kotlin-qa/commit/156278a19861e619a76f46d44bf66369629e96de))
+
 ## [0.77.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.76.0...0.77.0) (2024-12-05)
 
 ### Dependency updates
