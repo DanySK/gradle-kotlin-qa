@@ -1,3 +1,22 @@
+## [0.78.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.77.1...0.78.0) (2024-12-08)
+
+### Features
+
+* enable SARIF generation by default ([#929](https://github.com/DanySK/gradle-kotlin-qa/issues/929)) ([2e33986](https://github.com/DanySK/gradle-kotlin-qa/commit/2e33986a24295cecb6b8d14a270d37ce07ea6ed2))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.116 ([#934](https://github.com/DanySK/gradle-kotlin-qa/issues/934)) ([28368ad](https://github.com/DanySK/gradle-kotlin-qa/commit/28368ad744846261cf5f643f365098252f0460eb))
+* **deps:** update plugin kotlin-qa to v0.77.0 ([#926](https://github.com/DanySK/gradle-kotlin-qa/issues/926)) ([98b3e20](https://github.com/DanySK/gradle-kotlin-qa/commit/98b3e205f7d780ab271ec941668a65d394c25e5c))
+* **deps:** update plugin kotlin-qa to v0.77.1 ([#930](https://github.com/DanySK/gradle-kotlin-qa/issues/930)) ([71c7a45](https://github.com/DanySK/gradle-kotlin-qa/commit/71c7a45c9f3cb25ad660a42399e5c767ea52904c))
+* **deps:** update plugin multijvmtesting to v2.0.1 ([#931](https://github.com/DanySK/gradle-kotlin-qa/issues/931)) ([b61db62](https://github.com/DanySK/gradle-kotlin-qa/commit/b61db62956881e6aab2be88138da9b4f8209c95a))
+* **deps:** update plugin multijvmtesting to v3 ([#932](https://github.com/DanySK/gradle-kotlin-qa/issues/932)) ([247ad8c](https://github.com/DanySK/gradle-kotlin-qa/commit/247ad8c588ee04bc6396af2b26bb401610f3b2df))
+* **deps:** update plugin publishoncentral to v6.0.1 ([#933](https://github.com/DanySK/gradle-kotlin-qa/issues/933)) ([ace5721](https://github.com/DanySK/gradle-kotlin-qa/commit/ace5721e7f104903aad937defa93858062b4685a))
+
+### Build and continuous integration
+
+* disambiguate the drop task name ([#936](https://github.com/DanySK/gradle-kotlin-qa/issues/936)) ([19cfb77](https://github.com/DanySK/gradle-kotlin-qa/commit/19cfb77bc6f4f0efd0fefb89fafabde4e024277f))
+
 ## [0.77.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.77.0...0.77.1) (2024-12-06)
 
 ### Dependency updates
