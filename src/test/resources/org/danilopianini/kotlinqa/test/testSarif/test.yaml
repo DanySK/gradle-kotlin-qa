@@ -1,0 +1,16 @@
+tests:
+  - description: "Base Kotlin QA tasks should execute"
+    configuration:
+      tasks:
+        - check
+      options:
+        - --stacktrace
+    expectation:
+      outcomes:
+        success:
+          - detekt
+          - ktlintKotlinScriptCheck
+          - ktlintMainSourceSetCheck
+      files:
+        existing:
+          - name: "build/reports/detekt/deteket-merge.sarif"
