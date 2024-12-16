@@ -1,3 +1,16 @@
+## [0.78.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.78.0...0.78.1) (2024-12-16)
+
+### Dependency updates
+
+* **deps:** update plugin com.gradle.develocity to v3.19 ([#939](https://github.com/DanySK/gradle-kotlin-qa/issues/939)) ([c8c8d45](https://github.com/DanySK/gradle-kotlin-qa/commit/c8c8d4585137aa0c895b94c7393cfd7b955cddcd))
+* **deps:** update plugin kotlin-qa to v0.78.0 ([#937](https://github.com/DanySK/gradle-kotlin-qa/issues/937)) ([e642799](https://github.com/DanySK/gradle-kotlin-qa/commit/e642799d78701137c73428734f480a60267ece28))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.16 ([#938](https://github.com/DanySK/gradle-kotlin-qa/issues/938)) ([00909ec](https://github.com/DanySK/gradle-kotlin-qa/commit/00909ec7ffb758dcd50c9599c1320b06b70249f4))
+* **deps:** update plugin publishoncentral to v7 ([#935](https://github.com/DanySK/gradle-kotlin-qa/issues/935)) ([ef9c81a](https://github.com/DanySK/gradle-kotlin-qa/commit/ef9c81a60e37b0492ef6411bf5d7630297a0cd9b))
+
+### Documentation
+
+* **deps:** update dependency org.jetbrains.dokka to v2 ([#940](https://github.com/DanySK/gradle-kotlin-qa/issues/940)) ([b15afb8](https://github.com/DanySK/gradle-kotlin-qa/commit/b15afb82080b93a7082cab4f846f9d75b9690768))
+
 ## [0.78.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.77.1...0.78.0) (2024-12-08)
 
 ### Features
