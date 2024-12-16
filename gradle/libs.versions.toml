@@ -1,7 +1,7 @@
 [versions]
 cpd-gradle = "3.5"
 detekt = "1.23.7"
-dokka = "1.9.20"
+dokka = "2.0.0"
 jacoco = "0.8.12"
 kotlin = "2.1.0"
 kotest = "5.9.1"
