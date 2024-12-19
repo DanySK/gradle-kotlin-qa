@@ -13,4 +13,4 @@ tests:
           - ktlintMainSourceSetCheck
       files:
         existing:
-          - name: "build/reports/detekt/deteket-merge.sarif"
+          - name: "build/reports/detekt/detekt-merge.sarif"
