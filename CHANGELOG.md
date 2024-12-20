@@ -1,3 +1,10 @@
+## [0.78.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.78.2...0.78.3) (2024-12-20)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.12 ([#950](https://github.com/DanySK/gradle-kotlin-qa/issues/950)) ([4739a09](https://github.com/DanySK/gradle-kotlin-qa/commit/4739a099d81521e6370d3b35fcd5a2d82035daab))
+* **deps:** update plugin publishoncentral to v7.0.3 ([#949](https://github.com/DanySK/gradle-kotlin-qa/issues/949)) ([3ad5745](https://github.com/DanySK/gradle-kotlin-qa/commit/3ad574580b0838bbec3f9f74467335abad1c4883))
+
 ## [0.78.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.78.1...0.78.2) (2024-12-20)
 
 ### Dependency updates
