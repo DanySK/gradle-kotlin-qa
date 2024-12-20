@@ -1,3 +1,22 @@
+## [0.78.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.78.1...0.78.2) (2024-12-20)
+
+### Dependency updates
+
+* **deps:** update plugin multijvmtesting to v3.0.1 ([#941](https://github.com/DanySK/gradle-kotlin-qa/issues/941)) ([2b11fb8](https://github.com/DanySK/gradle-kotlin-qa/commit/2b11fb8c2581ba53974b0013d69184c392bc1efb))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.17 ([#942](https://github.com/DanySK/gradle-kotlin-qa/issues/942)) ([91ade93](https://github.com/DanySK/gradle-kotlin-qa/commit/91ade9367634a45667ea7873238b379adfa4a1db))
+* **deps:** update plugin publishoncentral to v7.0.1 ([#943](https://github.com/DanySK/gradle-kotlin-qa/issues/943)) ([2cc4293](https://github.com/DanySK/gradle-kotlin-qa/commit/2cc4293fdec2a2c079d0997bf182fd842e867691))
+* **deps:** update plugin publishoncentral to v7.0.2 ([#948](https://github.com/DanySK/gradle-kotlin-qa/issues/948)) ([b7448d1](https://github.com/DanySK/gradle-kotlin-qa/commit/b7448d135dd222c17c2e3d3f51b7f6c96129776f))
+
+### Bug Fixes
+
+* solve typo in sarif filename ([e04aa6e](https://github.com/DanySK/gradle-kotlin-qa/commit/e04aa6e986660e56870b2da8506a2602a9d9ead6))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.26 ([#944](https://github.com/DanySK/gradle-kotlin-qa/issues/944)) ([e269e8e](https://github.com/DanySK/gradle-kotlin-qa/commit/e269e8e3e383f3ff546b7fb7b7c255dc2930eedb))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.27 ([#945](https://github.com/DanySK/gradle-kotlin-qa/issues/945)) ([d74e2c0](https://github.com/DanySK/gradle-kotlin-qa/commit/d74e2c06724d6f07ad1f90d235c456e68c7552a4))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.28 ([#946](https://github.com/DanySK/gradle-kotlin-qa/issues/946)) ([a268f75](https://github.com/DanySK/gradle-kotlin-qa/commit/a268f755fe11c93e04fd6c5f135d442f11bcf655))
+
 ## [0.78.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.78.0...0.78.1) (2024-12-16)
 
 ### Dependency updates
