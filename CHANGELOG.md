@@ -1,3 +1,16 @@
+## [0.79.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.78.3...0.79.0) (2024-12-27)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.9.0 ([#956](https://github.com/DanySK/gradle-kotlin-qa/issues/956)) ([828239a](https://github.com/DanySK/gradle-kotlin-qa/commit/828239a831bd8d05bf617213ea126ad538b6588e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.117 ([#954](https://github.com/DanySK/gradle-kotlin-qa/issues/954)) ([e9f9220](https://github.com/DanySK/gradle-kotlin-qa/commit/e9f92208d30cd1500018c8044d47cc6bedac9550))
+* **deps:** update plugin multijvmtesting to v3.0.2 ([#951](https://github.com/DanySK/gradle-kotlin-qa/issues/951)) ([39760e1](https://github.com/DanySK/gradle-kotlin-qa/commit/39760e14b5fba590f640589421df146bc36c3cdb))
+* **deps:** update plugin multijvmtesting to v3.0.3 ([#955](https://github.com/DanySK/gradle-kotlin-qa/issues/955)) ([8ea5a91](https://github.com/DanySK/gradle-kotlin-qa/commit/8ea5a91d3e2b7a66c124e2b7397d345b7a429844))
+* **deps:** update plugin multijvmtesting to v3.1.0 ([#957](https://github.com/DanySK/gradle-kotlin-qa/issues/957)) ([d1c414d](https://github.com/DanySK/gradle-kotlin-qa/commit/d1c414d7039795f90a3b569144789cfe5f390c80))
+* **deps:** update plugin multijvmtesting to v3.1.1 ([#958](https://github.com/DanySK/gradle-kotlin-qa/issues/958)) ([40fe638](https://github.com/DanySK/gradle-kotlin-qa/commit/40fe638f58054cfe3e290a4d0bdcbc47ccac4d28))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.18 ([#953](https://github.com/DanySK/gradle-kotlin-qa/issues/953)) ([aa6b401](https://github.com/DanySK/gradle-kotlin-qa/commit/aa6b401151df8bc540ea5eb82135f3899dde4169))
+* **deps:** update plugin publishoncentral to v7.0.4 ([#952](https://github.com/DanySK/gradle-kotlin-qa/issues/952)) ([2462ec6](https://github.com/DanySK/gradle-kotlin-qa/commit/2462ec67fd797fb13476eaca3a811905c550b54f))
+
 ## [0.78.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.78.2...0.78.3) (2024-12-20)
 
 ### Dependency updates
