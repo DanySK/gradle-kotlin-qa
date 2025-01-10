@@ -25,7 +25,7 @@ pmd-kotlin = { module = "net.sourceforge.pmd:pmd-kotlin", version.ref = "pmd" }
 testkit = { module = "io.github.mirko-felice.testkit:core", version.ref = "testkit" }
 
 [bundles]
-kotlin-testing = [ "kotest-junit5-jvm", "kotest-assertions-core-jvm", "mockito-core" ]
+kotlin-testing = [ "kotest-junit5-jvm", "kotest-assertions-core-jvm" ]
 detekt = [ "detekt-formatting", "detekt-gradle" ]
 kotlin-qa = [ "cpd-gradle", "detekt-formatting", "detekt-gradle", "ktlint-gradle" ]
 
