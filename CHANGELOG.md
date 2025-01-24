@@ -1,3 +1,24 @@
+## [0.79.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.79.0...0.79.1) (2025-01-24)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.12.1 ([#972](https://github.com/DanySK/gradle-kotlin-qa/issues/972)) ([eec0d10](https://github.com/DanySK/gradle-kotlin-qa/commit/eec0d10688348c2e1be36842151635c8086afb43))
+* **deps:** drop mockito ([#961](https://github.com/DanySK/gradle-kotlin-qa/issues/961)) ([9df250b](https://github.com/DanySK/gradle-kotlin-qa/commit/9df250bb730adb5936e4ed5ea1f7afe11d707605))
+* **deps:** update dependency org.mockito:mockito-core to v5.15.2 ([#960](https://github.com/DanySK/gradle-kotlin-qa/issues/960)) ([52a1ac2](https://github.com/DanySK/gradle-kotlin-qa/commit/52a1ac2db3a7cfb0ac5ba9561061cd050793093f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.118 ([#964](https://github.com/DanySK/gradle-kotlin-qa/issues/964)) ([6488ff8](https://github.com/DanySK/gradle-kotlin-qa/commit/6488ff87c522444d173fba9d2552162bd0c3a5fe))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.119 ([#967](https://github.com/DanySK/gradle-kotlin-qa/issues/967)) ([e461223](https://github.com/DanySK/gradle-kotlin-qa/commit/e4612235965a030351d9ef08ba156202c586b85e))
+* **deps:** update node.js to 22.13 ([#962](https://github.com/DanySK/gradle-kotlin-qa/issues/962)) ([0e1ac21](https://github.com/DanySK/gradle-kotlin-qa/commit/0e1ac211ff7caab56a158b8cef6427f845016122))
+* **deps:** update plugin com.gradle.develocity to v3.19.1 ([#969](https://github.com/DanySK/gradle-kotlin-qa/issues/969)) ([45c45ee](https://github.com/DanySK/gradle-kotlin-qa/commit/45c45eeadf4928eafef0eee6b91946e0642d41f3))
+* **deps:** update plugin multijvmtesting to v3.1.2 ([#959](https://github.com/DanySK/gradle-kotlin-qa/issues/959)) ([3ad0d19](https://github.com/DanySK/gradle-kotlin-qa/commit/3ad0d1965f6062cfd41796abd55cc5d6d39247a8))
+* **deps:** update plugin multijvmtesting to v3.2.0 ([#971](https://github.com/DanySK/gradle-kotlin-qa/issues/971)) ([9d65c34](https://github.com/DanySK/gradle-kotlin-qa/commit/9d65c346ea099bdbb0eec6804a8f0504798d34ff))
+* **deps:** update plugin publishoncentral to v8 ([#963](https://github.com/DanySK/gradle-kotlin-qa/issues/963)) ([24238df](https://github.com/DanySK/gradle-kotlin-qa/commit/24238dff71394624a0800d3a6c5f4feedca8b64a))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.0 ([#966](https://github.com/DanySK/gradle-kotlin-qa/issues/966)) ([9b9e4e9](https://github.com/DanySK/gradle-kotlin-qa/commit/9b9e4e91ee6e904b2279e54dd758860c724d0b12))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.1 ([#968](https://github.com/DanySK/gradle-kotlin-qa/issues/968)) ([f976474](https://github.com/DanySK/gradle-kotlin-qa/commit/f976474178272e5afe8599f15fae31dd7e1a78dd))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.2 ([#970](https://github.com/DanySK/gradle-kotlin-qa/issues/970)) ([6abcf4e](https://github.com/DanySK/gradle-kotlin-qa/commit/6abcf4eda86c47643bbc617a269167995c80135c))
+
 ## [0.79.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.78.3...0.79.0) (2024-12-27)
 
 ### Dependency updates
