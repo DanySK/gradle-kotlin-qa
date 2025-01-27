@@ -31,7 +31,7 @@ kotlin-qa = [ "cpd-gradle", "detekt-formatting", "detekt-gradle", "ktlint-gradle
 
 [plugins]
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
-gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning:4.0.0"
+gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning:4.0.1"
 gradlePluginPublish = "com.gradle.plugin-publish:1.3.0"
 jacoco-testkit = "pl.droidsonroids.jacoco.testkit:1.0.12"
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
