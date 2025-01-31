@@ -1,3 +1,20 @@
+## [0.80.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.79.2...0.80.0) (2025-01-31)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.10.0 ([#992](https://github.com/DanySK/gradle-kotlin-qa/issues/992)) ([3236d89](https://github.com/DanySK/gradle-kotlin-qa/commit/3236d894ca5dc5eabd713f76189d52c30bef92eb))
+* **deps:** update plugin gitsemver to v4 ([#984](https://github.com/DanySK/gradle-kotlin-qa/issues/984)) ([3859a2d](https://github.com/DanySK/gradle-kotlin-qa/commit/3859a2d5f074cad51c6e46e73c59b60bbbc25513))
+* **deps:** update plugin gitsemver to v4.0.1 ([#985](https://github.com/DanySK/gradle-kotlin-qa/issues/985)) ([1b10929](https://github.com/DanySK/gradle-kotlin-qa/commit/1b109293712da672b593032fff0440b314357bdf))
+* **deps:** update plugin gitsemver to v4.0.2 ([#988](https://github.com/DanySK/gradle-kotlin-qa/issues/988)) ([f70f5df](https://github.com/DanySK/gradle-kotlin-qa/commit/f70f5df38dce8b501c5b0b0d77f9bb1e62097b8d))
+* **deps:** update plugin gradlepluginpublish to v1.3.1 ([#990](https://github.com/DanySK/gradle-kotlin-qa/issues/990)) ([521e1a8](https://github.com/DanySK/gradle-kotlin-qa/commit/521e1a8dc7556145bda6ff2bcac16ec8d8a7d2d9))
+* **deps:** update plugin multijvmtesting to v3.2.2 ([#986](https://github.com/DanySK/gradle-kotlin-qa/issues/986)) ([b77f063](https://github.com/DanySK/gradle-kotlin-qa/commit/b77f0634c0e59cbc3cdc9931de0978fee2af526d))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.20 ([#987](https://github.com/DanySK/gradle-kotlin-qa/issues/987)) ([9e84fd0](https://github.com/DanySK/gradle-kotlin-qa/commit/9e84fd001638b6cfd70c5c58f55f9d82556a1a64))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.7 ([#989](https://github.com/DanySK/gradle-kotlin-qa/issues/989)) ([ad38bc7](https://github.com/DanySK/gradle-kotlin-qa/commit/ad38bc784e07084fcfd8f1edc07744e89e9f579c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.8 ([#991](https://github.com/DanySK/gradle-kotlin-qa/issues/991)) ([bb1551e](https://github.com/DanySK/gradle-kotlin-qa/commit/bb1551e625d76931e9ff133281b082532f0cf87e))
+
 ## [0.79.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.79.1...0.79.2) (2025-01-27)
 
 ### Dependency updates
