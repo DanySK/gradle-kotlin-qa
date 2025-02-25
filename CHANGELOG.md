@@ -1,3 +1,12 @@
+## [0.81.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.81.0...0.81.1) (2025-02-25)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.13 ([#1007](https://github.com/DanySK/gradle-kotlin-qa/issues/1007)) ([0995801](https://github.com/DanySK/gradle-kotlin-qa/commit/0995801d4603be21aaef78146390cbd45c54a312))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.125 ([#1004](https://github.com/DanySK/gradle-kotlin-qa/issues/1004)) ([dcfeae0](https://github.com/DanySK/gradle-kotlin-qa/commit/dcfeae09ffc2d6dab29632d169e7389406e9b3ff))
+* **deps:** update plugin multijvmtesting to v3.2.3 ([#1005](https://github.com/DanySK/gradle-kotlin-qa/issues/1005)) ([41c4869](https://github.com/DanySK/gradle-kotlin-qa/commit/41c48696da895317f70439639948289be26e1dba))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.21 ([#1006](https://github.com/DanySK/gradle-kotlin-qa/issues/1006)) ([1f0aa6b](https://github.com/DanySK/gradle-kotlin-qa/commit/1f0aa6b54638204574f0ca1ac42681acb55d6edf))
+
 ## [0.81.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.80.0...0.81.0) (2025-02-21)
 
 ### Dependency updates
