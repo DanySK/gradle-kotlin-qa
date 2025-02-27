@@ -1,3 +1,14 @@
+## [0.82.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.81.1...0.82.0) (2025-02-27)
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v12.2.0 ([#1010](https://github.com/DanySK/gradle-kotlin-qa/issues/1010)) ([aa329e4](https://github.com/DanySK/gradle-kotlin-qa/commit/aa329e44adcd85d282069ba467badc8291c503d6))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.11 ([#1008](https://github.com/DanySK/gradle-kotlin-qa/issues/1008)) ([a51245c](https://github.com/DanySK/gradle-kotlin-qa/commit/a51245cf1e976d9aed014d13614d83cbbbd40507))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.12 ([#1009](https://github.com/DanySK/gradle-kotlin-qa/issues/1009)) ([13c61d2](https://github.com/DanySK/gradle-kotlin-qa/commit/13c61d2a4e2d2a04abc04306007aeef9c580eff6))
+
 ## [0.81.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.81.0...0.81.1) (2025-02-25)
 
 ### Dependency updates
