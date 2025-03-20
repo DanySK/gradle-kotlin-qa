@@ -1,3 +1,16 @@
+## [0.83.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.83.0...0.83.1) (2025-03-20)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v2.1.20 ([#1016](https://github.com/DanySK/gradle-kotlin-qa/issues/1016)) ([d066760](https://github.com/DanySK/gradle-kotlin-qa/commit/d066760592f0299843350e7032f05c845f2a1290))
+* **deps:** update plugin publishoncentral to v8.0.4 ([#1012](https://github.com/DanySK/gradle-kotlin-qa/issues/1012)) ([fc2c2a7](https://github.com/DanySK/gradle-kotlin-qa/commit/fc2c2a77b90873c4960b8d8382f7f3ff980c7f29))
+* **deps:** update plugin tasktree to v4.0.1 ([#1013](https://github.com/DanySK/gradle-kotlin-qa/issues/1013)) ([a8fd68e](https://github.com/DanySK/gradle-kotlin-qa/commit/a8fd68e202c99c541c022bd11952cbd5536beaee))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.3.0 ([#1014](https://github.com/DanySK/gradle-kotlin-qa/issues/1014)) ([70d49da](https://github.com/DanySK/gradle-kotlin-qa/commit/70d49dafd694a8771664db4ea937e85f5fd4d3fd))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.13 ([#1015](https://github.com/DanySK/gradle-kotlin-qa/issues/1015)) ([ff4a124](https://github.com/DanySK/gradle-kotlin-qa/commit/ff4a1242701d3620281a09e0a5ee4595226589b5))
+
 ## [0.83.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.82.0...0.83.0) (2025-02-28)
 
 ### Dependency updates
