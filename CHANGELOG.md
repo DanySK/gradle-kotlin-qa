@@ -1,3 +1,13 @@
+## [0.84.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.83.1...0.84.0) (2025-03-22)
+
+### Features
+
+* ignore standard naming convention for compose functions ([#1018](https://github.com/DanySK/gradle-kotlin-qa/issues/1018)) ([4b4233b](https://github.com/DanySK/gradle-kotlin-qa/commit/4b4233b0ed90cf733e4e39725c80525fcd60d2bb))
+
+### Dependency updates
+
+* **deps:** update plugin multijvmtesting to v3.2.4 ([#1017](https://github.com/DanySK/gradle-kotlin-qa/issues/1017)) ([7f7766c](https://github.com/DanySK/gradle-kotlin-qa/commit/7f7766c1843d66822ab619959b0f2b62ee54c237))
+
 ## [0.83.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.83.0...0.83.1) (2025-03-20)
 
 ### Dependency updates
