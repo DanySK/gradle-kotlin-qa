@@ -1,3 +1,15 @@
+## [0.84.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.84.0...0.84.1) (2025-03-25)
+
+### Dependency updates
+
+* **deps:** update plugin multijvmtesting to v3.3.0 ([#1021](https://github.com/DanySK/gradle-kotlin-qa/issues/1021)) ([2d70f0d](https://github.com/DanySK/gradle-kotlin-qa/commit/2d70f0d46bed38e8f8fa401e7b44d6eda780b561))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.22 ([#1020](https://github.com/DanySK/gradle-kotlin-qa/issues/1020)) ([e4a3dba](https://github.com/DanySK/gradle-kotlin-qa/commit/e4a3dba9b6239d71f759a73e30c2a44018dac287))
+* **deps:** update plugin publishoncentral to v8.0.5 ([#1019](https://github.com/DanySK/gradle-kotlin-qa/issues/1019)) ([b20f755](https://github.com/DanySK/gradle-kotlin-qa/commit/b20f755220f7232ac904306a95ed91ac15729e65))
+
+### Bug Fixes
+
+* **release:** fix the release task name ([f05d251](https://github.com/DanySK/gradle-kotlin-qa/commit/f05d251d03435cccd8b94923dd9376551cd30d6b))
+
 ## [0.84.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.83.1...0.84.0) (2025-03-22)
 
 ### Features
