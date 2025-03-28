@@ -1,3 +1,17 @@
+## [0.85.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.84.1...0.85.0) (2025-03-28)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.12.0 ([#1030](https://github.com/DanySK/gradle-kotlin-qa/issues/1030)) ([d049b07](https://github.com/DanySK/gradle-kotlin-qa/commit/d049b0736b84a29608c79cb83b8dfb08529c9334))
+* **deps:** update plugin kotlin-qa to v0.81.1 ([#1025](https://github.com/DanySK/gradle-kotlin-qa/issues/1025)) ([469f84e](https://github.com/DanySK/gradle-kotlin-qa/commit/469f84e22211d342fc594743d199bbb66b806a1b))
+* **deps:** update plugin kotlin-qa to v0.82.0 ([#1026](https://github.com/DanySK/gradle-kotlin-qa/issues/1026)) ([800d6c7](https://github.com/DanySK/gradle-kotlin-qa/commit/800d6c745fe9fe01fcb49d2fe081c963e360be58))
+* **deps:** update plugin kotlin-qa to v0.83.1 ([#1027](https://github.com/DanySK/gradle-kotlin-qa/issues/1027)) ([19e249f](https://github.com/DanySK/gradle-kotlin-qa/commit/19e249fd828bd8467eb2dd4dcf49b59e6b58442d))
+* **deps:** update plugin kotlin-qa to v0.84.1 ([#1028](https://github.com/DanySK/gradle-kotlin-qa/issues/1028)) ([717dad1](https://github.com/DanySK/gradle-kotlin-qa/commit/717dad14eb24d58b826e0907a71b206d569d98c1))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.14 ([#1029](https://github.com/DanySK/gradle-kotlin-qa/issues/1029)) ([0311abc](https://github.com/DanySK/gradle-kotlin-qa/commit/0311abc0b5d2bec37afc3717370dc458b471b53d))
+
 ## [0.84.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.84.0...0.84.1) (2025-03-25)
 
 ### Dependency updates
