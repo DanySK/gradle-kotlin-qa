@@ -1,3 +1,10 @@
+## [0.86.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.86.0...0.86.1) (2025-04-25)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.14 ([#1045](https://github.com/DanySK/gradle-kotlin-qa/issues/1045)) ([b746da5](https://github.com/DanySK/gradle-kotlin-qa/commit/b746da5620a1cc81b18eed6a2e4845a525a04146))
+* **deps:** update plugin kotlin-qa to v0.86.0 ([#1048](https://github.com/DanySK/gradle-kotlin-qa/issues/1048)) ([95dc536](https://github.com/DanySK/gradle-kotlin-qa/commit/95dc536c9ee716c14a72d5627570113a360b909e))
+
 ## [0.86.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.85.0...0.86.0) (2025-04-25)
 
 ### Dependency updates
