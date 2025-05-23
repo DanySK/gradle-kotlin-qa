@@ -1,3 +1,11 @@
+## [0.88.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.87.1...0.88.0) (2025-05-23)
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v12.3.0 ([#1072](https://github.com/DanySK/gradle-kotlin-qa/issues/1072)) ([ec1a503](https://github.com/DanySK/gradle-kotlin-qa/commit/ec1a503453cea01dcf3d9ca4a4588d1dd9715e7c))
+* **deps:** update plugin kotlin-qa to v0.87.1 ([#1069](https://github.com/DanySK/gradle-kotlin-qa/issues/1069)) ([1f9ccca](https://github.com/DanySK/gradle-kotlin-qa/commit/1f9cccaf7b24c46dad7a47d231fd6d0b760f061e))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.25 ([#1070](https://github.com/DanySK/gradle-kotlin-qa/issues/1070)) ([26beb1b](https://github.com/DanySK/gradle-kotlin-qa/commit/26beb1b4ab4e993eae94eea0fda4d8fa1ebf3032))
+
 ## [0.87.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.87.0...0.87.1) (2025-05-22)
 
 ### Dependency updates
