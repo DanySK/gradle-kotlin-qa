@@ -1,3 +1,17 @@
+## [0.89.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.88.0...0.89.0) (2025-05-30)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.14.0 ([#1080](https://github.com/DanySK/gradle-kotlin-qa/issues/1080)) ([273fdf6](https://github.com/DanySK/gradle-kotlin-qa/commit/273fdf6d2489fa39ae0ebe87ef3185189d715b63))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.129 ([#1071](https://github.com/DanySK/gradle-kotlin-qa/issues/1071)) ([f485cd0](https://github.com/DanySK/gradle-kotlin-qa/commit/f485cd0ba080815af45b6c1922db5dd313b0d3c5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.130 ([#1075](https://github.com/DanySK/gradle-kotlin-qa/issues/1075)) ([9304b0b](https://github.com/DanySK/gradle-kotlin-qa/commit/9304b0ba056991ef5b1023c1987d2fc46513e0b6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.131 ([#1076](https://github.com/DanySK/gradle-kotlin-qa/issues/1076)) ([0b7b85a](https://github.com/DanySK/gradle-kotlin-qa/commit/0b7b85aa3bf406e27dcc6c4008e382b4fe9f5897))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.132 ([#1079](https://github.com/DanySK/gradle-kotlin-qa/issues/1079)) ([4b3b19c](https://github.com/DanySK/gradle-kotlin-qa/commit/4b3b19c01222426651b6f1b127b06b7ca3e4af90))
+* **deps:** update node.js to 22.16 ([#1073](https://github.com/DanySK/gradle-kotlin-qa/issues/1073)) ([e5869c7](https://github.com/DanySK/gradle-kotlin-qa/commit/e5869c7b2463bd9d8e4fcf8bf16c5d8c8e0120e3))
+* **deps:** update plugin com.gradle.develocity to v4.0.2 ([#1077](https://github.com/DanySK/gradle-kotlin-qa/issues/1077)) ([abbe026](https://github.com/DanySK/gradle-kotlin-qa/commit/abbe026da3e25e170d57b9cabb3788863bda4de5))
+* **deps:** update plugin kotlin-qa to v0.88.0 ([#1074](https://github.com/DanySK/gradle-kotlin-qa/issues/1074)) ([4f4385c](https://github.com/DanySK/gradle-kotlin-qa/commit/4f4385ceee09f7678f34688126c55f48fea7cae4))
+* **deps:** update plugin multijvmtesting to v3.5.0 ([#1078](https://github.com/DanySK/gradle-kotlin-qa/issues/1078)) ([266ceab](https://github.com/DanySK/gradle-kotlin-qa/commit/266ceaba5576aba29130503c95826b363a8ed826))
+
 ## [0.88.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.87.1...0.88.0) (2025-05-23)
 
 ### Dependency updates
