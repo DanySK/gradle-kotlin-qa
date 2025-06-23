@@ -1,3 +1,16 @@
+## [0.89.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.89.1...0.89.2) (2025-06-23)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.2.0 ([#1092](https://github.com/DanySK/gradle-kotlin-qa/issues/1092)) ([f0b35dd](https://github.com/DanySK/gradle-kotlin-qa/commit/f0b35dd35b8078e8f9709edbef32ca496d344f26))
+* **deps:** update plugin kotlin-qa to v0.89.1 ([#1086](https://github.com/DanySK/gradle-kotlin-qa/issues/1086)) ([c99191f](https://github.com/DanySK/gradle-kotlin-qa/commit/c99191f59dbd8c0a1c955e8a0f5a44b176198504))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.26 ([#1087](https://github.com/DanySK/gradle-kotlin-qa/issues/1087)) ([68939d1](https://github.com/DanySK/gradle-kotlin-qa/commit/68939d1ede8de90538d19398d26600a4ad1a1201))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4 ([#1088](https://github.com/DanySK/gradle-kotlin-qa/issues/1088)) ([68c7b6c](https://github.com/DanySK/gradle-kotlin-qa/commit/68c7b6c2a5c77b6cfc7114b0bcca6dc4a4f62ac2))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.1 ([#1090](https://github.com/DanySK/gradle-kotlin-qa/issues/1090)) ([f43ebeb](https://github.com/DanySK/gradle-kotlin-qa/commit/f43ebebe1f219503e59e683e69db4aeaae1610e2))
+
 ## [0.89.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.89.0...0.89.1) (2025-06-07)
 
 ### Dependency updates
