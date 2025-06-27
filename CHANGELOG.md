@@ -1,3 +1,13 @@
+## [0.90.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.89.2...0.90.0) (2025-06-27)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.15.0 ([#1097](https://github.com/DanySK/gradle-kotlin-qa/issues/1097)) ([f7c14d5](https://github.com/DanySK/gradle-kotlin-qa/commit/f7c14d54f5f8058cda255a3e49c39523f53a6c82))
+* **deps:** update node.js to 22.17 ([#1096](https://github.com/DanySK/gradle-kotlin-qa/issues/1096)) ([7f70c15](https://github.com/DanySK/gradle-kotlin-qa/commit/7f70c15cb3f7c52d3fadb1dc1f1d8bdc7afbc342))
+* **deps:** update plugin kotlin-qa to v0.89.2 ([#1093](https://github.com/DanySK/gradle-kotlin-qa/issues/1093)) ([d460fb2](https://github.com/DanySK/gradle-kotlin-qa/commit/d460fb2b42812d11637b7440e2c4f23e8793c4a1))
+* **deps:** update plugin multijvmtesting to v3.5.2 ([#1094](https://github.com/DanySK/gradle-kotlin-qa/issues/1094)) ([67aaf0c](https://github.com/DanySK/gradle-kotlin-qa/commit/67aaf0c2d42f02ad20c39d378802e723a78e7ba3))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.27 ([#1095](https://github.com/DanySK/gradle-kotlin-qa/issues/1095)) ([b5a9547](https://github.com/DanySK/gradle-kotlin-qa/commit/b5a9547b483f11e02d9f22f1b7ee9d54b8bbb4f5))
+
 ## [0.89.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.89.1...0.89.2) (2025-06-23)
 
 ### Dependency updates
