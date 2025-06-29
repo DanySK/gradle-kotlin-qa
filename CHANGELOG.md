@@ -1,3 +1,13 @@
+## [0.90.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.90.0...0.90.1) (2025-06-29)
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.90.0 ([#1098](https://github.com/DanySK/gradle-kotlin-qa/issues/1098)) ([64942a9](https://github.com/DanySK/gradle-kotlin-qa/commit/64942a9a5ac269159a37e37e797d08b1472ac4c1))
+
+### Bug Fixes
+
+* **release:** switch to Maven Central Portal ([bf37ffe](https://github.com/DanySK/gradle-kotlin-qa/commit/bf37ffea64452fbfa0001fdfa3a4dd52b647d516))
+
 ## [0.90.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.89.2...0.90.0) (2025-06-27)
 
 ### Dependency updates
