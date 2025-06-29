@@ -24,9 +24,10 @@ jobs:
           wait-between-retries: 120
           deploy-command: >-
             ./gradlew
-            uploadAllToMavenCentralNexus
-            close
-            dropStagingRepositoryOnMavenCentral
+            publishAllPublicationsToProjectLocalRepository 
+            zipMavenCentralPortalPublication 
+            releaseMavenCentralPortalPublication
+            --dry-run
           should-run-codecov: ${{ runner.os == 'Linux' }}
           codecov-token: ${{ secrets.CODECOV_TOKEN }}
           should-deploy: >-
@@ -75,6 +76,7 @@ jobs:
           gradle-publish-key: ${{ secrets.GRADLE_PUBLISH_KEY }}
           maven-central-username: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
           maven-central-password: ${{ secrets.MAVEN_CENTRAL_PASSWORD }}
+          retries-on-failure: '1'
           signing-key: ${{ secrets.SIGNING_KEY }}
           signing-password: ${{ secrets.SIGNING_PASSWORD }}
   success:
