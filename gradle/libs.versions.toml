@@ -6,7 +6,7 @@ jacoco = "0.8.13"
 kotlin = "2.2.0"
 kotest = "5.9.1"
 ktlint = "1.6.0"
-ktlint-plugin = "12.3.0"
+ktlint-plugin = "13.0.0"
 pmd = "7.15.0"
 testkit = "0.9.0"
 
