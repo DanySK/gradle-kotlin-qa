@@ -1,3 +1,14 @@
+## [0.91.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.90.2...0.91.0) (2025-07-08)
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v13 ([#1111](https://github.com/DanySK/gradle-kotlin-qa/issues/1111)) ([a0cd715](https://github.com/DanySK/gradle-kotlin-qa/commit/a0cd715c0d3ea725e72514796d3b6c18a830016f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.136 ([#1110](https://github.com/DanySK/gradle-kotlin-qa/issues/1110)) ([573c606](https://github.com/DanySK/gradle-kotlin-qa/commit/573c6064b20a51c428a0bd22876a3438b86392b6))
+* **deps:** update plugin gitsemver to v5.1.7 ([#1106](https://github.com/DanySK/gradle-kotlin-qa/issues/1106)) ([9805c5f](https://github.com/DanySK/gradle-kotlin-qa/commit/9805c5faec342779bcf8f267fb48349918b79037))
+* **deps:** update plugin kotlin-qa to v0.90.2 ([#1108](https://github.com/DanySK/gradle-kotlin-qa/issues/1108)) ([099fff7](https://github.com/DanySK/gradle-kotlin-qa/commit/099fff754c378df627fa5fddd137b057b3378688))
+* **deps:** update plugin multijvmtesting to v3.5.4 ([#1107](https://github.com/DanySK/gradle-kotlin-qa/issues/1107)) ([b953d8a](https://github.com/DanySK/gradle-kotlin-qa/commit/b953d8a2b9358a59e49a9d4411437e1471f204f0))
+* **deps:** update plugin publishoncentral to v9.0.7 ([#1109](https://github.com/DanySK/gradle-kotlin-qa/issues/1109)) ([7965941](https://github.com/DanySK/gradle-kotlin-qa/commit/7965941125645e2080984967a9083a95132d29c4))
+
 ## [0.90.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.90.1...0.90.2) (2025-07-04)
 
 ### Dependency updates
