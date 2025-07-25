@@ -1,3 +1,17 @@
+## [0.92.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.91.0...0.92.0) (2025-07-25)
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest.ktlint:ktlint-bom to v1.7.1 ([#1115](https://github.com/DanySK/gradle-kotlin-qa/issues/1115)) ([3ea9869](https://github.com/DanySK/gradle-kotlin-qa/commit/3ea986984cc21f6732997c0048d242362e7f4cf4))
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.16.0 ([#1120](https://github.com/DanySK/gradle-kotlin-qa/issues/1120)) ([5d344f9](https://github.com/DanySK/gradle-kotlin-qa/commit/5d344f9df91e67b372eda5de8d1f6cbf7a1a8be2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.137 ([#1117](https://github.com/DanySK/gradle-kotlin-qa/issues/1117)) ([46154d3](https://github.com/DanySK/gradle-kotlin-qa/commit/46154d333d65bcd2dd57b598d31d1fe64b73c55d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.138 ([#1118](https://github.com/DanySK/gradle-kotlin-qa/issues/1118)) ([5e2a810](https://github.com/DanySK/gradle-kotlin-qa/commit/5e2a81007cc0a0dedf8d766f00fcb1f508b655cf))
+* **deps:** update plugin com.gradle.develocity to v4.1 ([#1116](https://github.com/DanySK/gradle-kotlin-qa/issues/1116)) ([731f5b8](https://github.com/DanySK/gradle-kotlin-qa/commit/731f5b845269a0b130a763d9f392635e590d5da4))
+* **deps:** update plugin kotlin-qa to v0.91.0 ([#1112](https://github.com/DanySK/gradle-kotlin-qa/issues/1112)) ([8b97178](https://github.com/DanySK/gradle-kotlin-qa/commit/8b971787993d347f2922e89c14d4a46ddd550e53))
+* **deps:** update plugin multijvmtesting to v3.6.0 ([#1119](https://github.com/DanySK/gradle-kotlin-qa/issues/1119)) ([9fe1f98](https://github.com/DanySK/gradle-kotlin-qa/commit/9fe1f98f1d8c106f9fedf1a9be42517682821fad))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.28 ([#1113](https://github.com/DanySK/gradle-kotlin-qa/issues/1113)) ([f1f3a36](https://github.com/DanySK/gradle-kotlin-qa/commit/f1f3a36bb38e15d3651f0874ce371902149fae98))
+* **deps:** update plugin publishoncentral to v9.0.8 ([#1114](https://github.com/DanySK/gradle-kotlin-qa/issues/1114)) ([34db53d](https://github.com/DanySK/gradle-kotlin-qa/commit/34db53d7aadfe103392508c22e8fec23556ff7e5))
+
 ## [0.91.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.90.2...0.91.0) (2025-07-08)
 
 ### Dependency updates
