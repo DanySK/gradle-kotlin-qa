@@ -51,11 +51,10 @@ open class KotlinQAPlugin : Plugin<Project> {
                 apply(JacocoPlugin::class)
             }
             val extension = project.extensions.create("kotlinQA", KotlinQAExtension::class.java, project)
-            val generator =
-                project.tasks.register<GenerateDetektConfiguration>(
-                    "generateDefaultDetektConfiguration",
-                    extension,
-                )
+            val generator = project.tasks.register<GenerateDetektConfiguration>(
+                "generateDefaultDetektConfiguration",
+                extension,
+            )
             // Detekt
             project.tasks.withType<Detekt>().configureEach {
                 it.dependsOn(generator)
@@ -83,23 +82,21 @@ open class KotlinQAPlugin : Plugin<Project> {
             project.extensions.configure<CpdExtension> {
                 toolVersion = versions.forLibrary("pmd")
             }
-            val cpdKotlinCheck =
-                project.tasks.register<Cpd>("cpdKotlinCheck") {
-                    language = "kotlin"
-                    source = project.extensions
-                        .findByType<KotlinProjectExtension>()
-                        ?.sourceSets
-                        ?.flatMap { it.kotlin }
-                        ?.map {
-                            project.fileTree(it) {
-                                include("**/*.kts")
-                                include("**/*.kt")
-                            }
-                        }?.fold(project.files().asFileTree, FileTree::plus)
-                        ?: project.files().asFileTree
-                    minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
-                    ignoreFailures = false
-                }
+            val cpdKotlinCheck = project.tasks.register<Cpd>("cpdKotlinCheck") {
+                language = "kotlin"
+                source = project.extensions.findByType<KotlinProjectExtension>()
+                    ?.sourceSets
+                    ?.flatMap { it.kotlin }
+                    ?.map {
+                        project.fileTree(it) {
+                            include("**/*.kts")
+                            include("**/*.kt")
+                        }
+                    }?.fold(project.files().asFileTree, FileTree::plus)
+                    ?: project.files().asFileTree
+                minimumTokenCount = DEFAULT_CPD_TOKENS_FOR_KOTLIN
+                ignoreFailures = false
+            }
             // Disable the default cpdCheck to prevent conflict or double execution
             project.tasks.findByName("cpdCheck")?.enabled = false
             // Set warnings as errors
@@ -127,9 +124,8 @@ open class KotlinQAPlugin : Plugin<Project> {
         private const val VERSIONS = "org/danilopianini/kotlinqa/versions.properties"
         private const val DEFAULT_CPD_TOKENS_FOR_KOTLIN = 70
 
-        private fun Properties.forLibrary(key: String): String =
-            checkNotNull(get(key)?.toString()) {
-                "Unable to read the default version of $key"
-            }
+        private fun Properties.forLibrary(key: String): String = checkNotNull(get(key)?.toString()) {
+            "Unable to read the default version of $key"
+        }
     }
 }
