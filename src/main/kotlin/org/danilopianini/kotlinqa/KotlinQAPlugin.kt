@@ -22,6 +22,8 @@ import org.gradle.kotlin.dsl.withType
 import org.gradle.testing.jacoco.plugins.JacocoPlugin
 import org.gradle.testing.jacoco.plugins.JacocoPluginExtension
 import org.gradle.testing.jacoco.tasks.JacocoReport
+import org.jetbrains.kotlin.gradle.dsl.HasConfigurableKotlinCompilerOptions
+import org.jetbrains.kotlin.gradle.dsl.KotlinJvmCompilerOptions
 import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
 import org.jetbrains.kotlin.gradle.plugin.KotlinBasePlugin
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
@@ -56,8 +58,15 @@ open class KotlinQAPlugin : Plugin<Project> {
                 extension,
             )
             // Detekt
-            project.tasks.withType<Detekt>().configureEach {
-                it.dependsOn(generator)
+            project.tasks.withType<Detekt>().configureEach { detektTask ->
+                detektTask.dependsOn(generator)
+                detektTask.jvmTarget = project.extensions
+                    .findByType<HasConfigurableKotlinCompilerOptions<KotlinJvmCompilerOptions>>()
+                    ?.compilerOptions
+                    ?.jvmTarget
+                    ?.map { it.target }
+                    ?.orNull
+                    ?: "1.8"
             }
             project.extensions.configure<DetektExtension> {
                 parallel = true
