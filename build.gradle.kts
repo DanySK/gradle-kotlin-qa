@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.config.KotlinCompilerVersion.VERSION as KOTLIN_VERSION
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 
 plugins {
     `java-gradle-plugin`
@@ -39,22 +40,13 @@ repositories {
     gradlePluginPortal()
 }
 
-tasks.create("copyToolVersions") {
-    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> { dependsOn(this@create) }
-    val destinationDir =
-        layout.buildDirectory.map {
-            file("${it.asFile.absolutePath}/resources/main/org/danilopianini/kotlinqa/")
-        }
-    val destination = destinationDir.map { File(it, "versions.properties") }
-    tasks.withType<PublishToMavenRepository> {
-        dependsOn(this@create)
-        doFirst {
-            val destinationFile = destination.get()
-            require(destinationFile.exists()) {
-                "File ${destinationFile.path} has not been generated."
-            }
-        }
+val destinationDir =
+    layout.buildDirectory.map {
+        file("${it.asFile.absolutePath}/resources/main/org/danilopianini/kotlinqa/")
     }
+val destination = destinationDir.map { File(it, "versions.properties") }
+
+val copyToolVersions by tasks.registering {
     val catalogFile = file("${rootProject.rootDir.absolutePath}/gradle/libs.versions.toml")
     inputs.file(catalogFile)
     outputs.file(destination)
@@ -73,6 +65,18 @@ tasks.create("copyToolVersions") {
                 "$library=$version"
             }
         destination.get().writeText(libraries)
+    }
+}
+
+tasks.withType<KotlinCompilationTask<*>>().configureEach { dependsOn(copyToolVersions) }
+
+tasks.withType<PublishToMavenRepository>().configureEach {
+    dependsOn(copyToolVersions)
+    doFirst {
+        val destinationFile = destination.get()
+        require(destinationFile.exists()) {
+            "File ${destinationFile.path} has not been generated."
+        }
     }
 }
 
