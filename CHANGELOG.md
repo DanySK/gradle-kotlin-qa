@@ -1,3 +1,22 @@
+## [0.93.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.92.0...0.93.0) (2025-07-29)
+
+### Features
+
+* **detekt:** auto-detect the jvmTarget from the Kotlin plugin or fall back to 1.8 ([#1124](https://github.com/DanySK/gradle-kotlin-qa/issues/1124)) ([daf8b17](https://github.com/DanySK/gradle-kotlin-qa/commit/daf8b171a205e70ab70e6b24806879768194e144))
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.92.0 ([#1121](https://github.com/DanySK/gradle-kotlin-qa/issues/1121)) ([0409094](https://github.com/DanySK/gradle-kotlin-qa/commit/0409094558ae9544b4262b5959ae1e051b361cd6))
+* **deps:** update plugin publishoncentral to v9.1.0 ([#1123](https://github.com/DanySK/gradle-kotlin-qa/issues/1123)) ([d242244](https://github.com/DanySK/gradle-kotlin-qa/commit/d242244922875b32eb35758974972e8dd08f062b))
+
+### Build and continuous integration
+
+* replace `create` with `register` ([#1122](https://github.com/DanySK/gradle-kotlin-qa/issues/1122)) ([845b94a](https://github.com/DanySK/gradle-kotlin-qa/commit/845b94a0848f86cd82e1a76b5c1d643e6bace8dd))
+
+### Style improvements
+
+* update the editorconfig ([#1125](https://github.com/DanySK/gradle-kotlin-qa/issues/1125)) ([190ab94](https://github.com/DanySK/gradle-kotlin-qa/commit/190ab9484e6087110a3c974b13e4ae9161e8064a))
+
 ## [0.92.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.91.0...0.92.0) (2025-07-25)
 
 ### Dependency updates
