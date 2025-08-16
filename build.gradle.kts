@@ -120,39 +120,6 @@ configurations.matching { it.name != "detekt" }.all {
     }
 }
 
-val (currentMajor, currentMinor) =
-    GradleVersion
-        .current()
-        .version
-        .toString()
-        .split('.')
-        .take(2)
-        .map { it.toInt() }
-(0..currentMinor).forEach { minor ->
-    val variant = "$currentMajor.$minor"
-    val variantName = "gradle$currentMajor$minor"
-    java {
-        registerFeature(variantName) {
-            usingSourceSet(sourceSets.main.get())
-            capability(group.toString(), project.name, project.version.toString())
-        }
-    }
-    configurations.configureEach {
-        if (isCanBeConsumed && name.startsWith(variantName)) {
-            attributes {
-                attribute(GradlePluginApiVersion.GRADLE_PLUGIN_API_VERSION_ATTRIBUTE, objects.named(variant))
-            }
-            dependencies {
-                "${variantName}Api"(gradleApi())
-                "${variantName}Api"(gradleKotlinDsl())
-                "${variantName}Api"(libs.bundles.kotlin.qa)
-                "${variantName}Implementation"(kotlin("stdlib-jdk8"))
-                "${variantName}Implementation"(libs.kotlin.gradle.plugin.api)
-            }
-        }
-    }
-}
-
 kotlin {
     compilerOptions {
         allWarningsAsErrors = true
