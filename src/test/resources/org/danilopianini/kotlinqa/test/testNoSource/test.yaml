@@ -6,6 +6,5 @@ tests:
       options:
         - --stacktrace
     expectation:
-      outcomes:
-        noSource:
-          - cpdKotlinCheck
+      no_source:
+        - cpdKotlinCheck

@@ -40,10 +40,9 @@ repositories {
     gradlePluginPortal()
 }
 
-val destinationDir =
-    layout.buildDirectory.map {
-        file("${it.asFile.absolutePath}/resources/main/org/danilopianini/kotlinqa/")
-    }
+val destinationDir = layout.buildDirectory.map {
+    file("${it.asFile.absolutePath}/resources/main/org/danilopianini/kotlinqa/")
+}
 val destination = destinationDir.map { File(it, "versions.properties") }
 
 val copyToolVersions by tasks.registering {
@@ -81,7 +80,8 @@ tasks.withType<PublishToMavenRepository>().configureEach {
 }
 
 multiJvm {
-    maximumSupportedJvmVersion.set(latestJavaSupportedByGradle)
+    jvmVersionForCompilation = oldestJavaSupportedByGradle
+    maximumSupportedJvmVersion = latestJavaSupportedByGradle
 }
 
 dependencies {
@@ -90,7 +90,8 @@ dependencies {
     api(libs.bundles.kotlin.qa)
     implementation(kotlin("stdlib-jdk8"))
     implementation(libs.kotlin.gradle.plugin.api)
-    testImplementation(libs.testkit)
+    testImplementation(libs.apache.commons.lang3)
+    testImplementation(libs.konf.yaml)
     testImplementation(libs.bundles.kotlin.testing)
 }
 

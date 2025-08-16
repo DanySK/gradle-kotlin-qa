@@ -6,9 +6,8 @@ tests:
       options:
         - --stacktrace
     expectation:
-      outcomes:
-        success:
-          - detektJsMain
-          - ktlintKotlinScriptCheck
-          - ktlintCommonMainSourceSetCheck
-          - cpdKotlinCheck
+      success:
+        - detektJsMain
+        - ktlintKotlinScriptCheck
+        - ktlintCommonMainSourceSetCheck
+        - cpdKotlinCheck

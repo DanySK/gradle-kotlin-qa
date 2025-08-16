@@ -15,37 +15,18 @@ repositories {
 
 @OptIn(ExperimentalKotlinGradlePluginApi::class)
 kotlin {
-    jvm {
-        testRuns["test"].executionTask.configure {
-            useJUnitPlatform()
-        }
-    }
     jvmToolchain(17)
-
     sourceSets {
-        val commonMain by getting {
-            dependencies {
-                implementation(libs.bundles.kotlin.testing.common)
-            }
-        }
         val commonTest by getting {
             dependencies {
-                implementation(libs.bundles.kotlin.testing.common)
-                implementation(libs.bundles.kotest.common)
-            }
-        }
-        val jvmTest by getting {
-            dependencies {
-                implementation(libs.kotest.runner.junit5)
+                implementation(kotlin("test"))
             }
         }
     }
-
     js(IR) {
         browser()
         nodejs()
         binaries.library()
-//        binaries.executable()
     }
 
     compilerOptions {

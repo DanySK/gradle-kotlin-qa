@@ -6,11 +6,9 @@ tests:
       options:
         - --stacktrace
     expectation:
-      outcomes:
-        success:
-          - detekt
-          - ktlintKotlinScriptCheck
-          - ktlintMainSourceSetCheck
-      files:
-        existing:
+      success:
+        - detekt
+        - ktlintKotlinScriptCheck
+        - ktlintMainSourceSetCheck
+      file_exists:
           - name: "build/reports/detekt/detekt-merge.sarif"

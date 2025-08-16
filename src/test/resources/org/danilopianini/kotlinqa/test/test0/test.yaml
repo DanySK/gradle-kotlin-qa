@@ -6,10 +6,9 @@ tests:
       options:
         - --stacktrace
     expectation:
-      outcomes:
-        success:
-          - detekt
-          - ktlintKotlinScriptCheck
-          - ktlintMainSourceSetCheck
-          - cpdKotlinCheck
-          - jacocoTestReport
+      success:
+        - detekt
+        - ktlintKotlinScriptCheck
+        - ktlintMainSourceSetCheck
+        - cpdKotlinCheck
+        - jacocoTestReport
