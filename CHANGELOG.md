@@ -1,3 +1,15 @@
+## [0.93.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.93.1...0.93.2) (2025-08-16)
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v9 ([69fbd88](https://github.com/DanySK/gradle-kotlin-qa/commit/69fbd8887d763dfdf5fbf8eb0bc9aa118df7632d))
+* **deps:** update plugin gitsemver to v6.0.1 ([#1147](https://github.com/DanySK/gradle-kotlin-qa/issues/1147)) ([c69dd1b](https://github.com/DanySK/gradle-kotlin-qa/commit/c69dd1b0e093c6e60b6a7eaec43474ee216f45e8))
+* **deps:** update plugin kotlin-qa to v0.93.1 ([#1143](https://github.com/DanySK/gradle-kotlin-qa/issues/1143)) ([281b543](https://github.com/DanySK/gradle-kotlin-qa/commit/281b5436bf8b49da10b7642ef62e5b2b05529aea))
+* **deps:** update plugin multijvmtesting to v4.0.3 ([#1145](https://github.com/DanySK/gradle-kotlin-qa/issues/1145)) ([8897391](https://github.com/DanySK/gradle-kotlin-qa/commit/8897391bf7e4eb8081df3bcfcc2f8302d4a07408))
+* **deps:** update plugin multijvmtesting to v4.1.0 ([#1146](https://github.com/DanySK/gradle-kotlin-qa/issues/1146)) ([eebef02](https://github.com/DanySK/gradle-kotlin-qa/commit/eebef025ab8de8b3b787e54d3367e69fe2be6849))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.29 ([#1144](https://github.com/DanySK/gradle-kotlin-qa/issues/1144)) ([151a50d](https://github.com/DanySK/gradle-kotlin-qa/commit/151a50dd3ac961a52dcdb1d57b8bc170e91306e8))
+* **deps:** update plugin publishoncentral to v9.1.3 ([#1140](https://github.com/DanySK/gradle-kotlin-qa/issues/1140)) ([bed9132](https://github.com/DanySK/gradle-kotlin-qa/commit/bed9132b454978c2c827cf42ecbde0b8b03b154e))
+
 ## [0.93.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.93.0...0.93.1) (2025-08-14)
 
 ### Dependency updates
