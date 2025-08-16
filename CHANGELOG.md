@@ -1,3 +1,14 @@
+## [0.93.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.93.2...0.93.3) (2025-08-16)
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.93.2 ([#1148](https://github.com/DanySK/gradle-kotlin-qa/issues/1148)) ([562964f](https://github.com/DanySK/gradle-kotlin-qa/commit/562964f87e6f8483b89656b879184404ff50052e))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.30 ([#1149](https://github.com/DanySK/gradle-kotlin-qa/issues/1149)) ([8eedd78](https://github.com/DanySK/gradle-kotlin-qa/commit/8eedd78f0e991872d294ca99471bcb2fefd4eaad))
+
+### Bug Fixes
+
+* drop the manual plugin variant construction ([d7d6887](https://github.com/DanySK/gradle-kotlin-qa/commit/d7d6887b15bf26aeab789fd15e86e8044de2ff32))
+
 ## [0.93.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.93.1...0.93.2) (2025-08-16)
 
 ### Dependency updates
