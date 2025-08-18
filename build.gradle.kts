@@ -91,6 +91,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(libs.kotlin.gradle.plugin.api)
     testImplementation(libs.apache.commons.lang3)
+    testImplementation(libs.classgraph)
     testImplementation(libs.konf.yaml)
     testImplementation(libs.bundles.kotlin.testing)
 }
