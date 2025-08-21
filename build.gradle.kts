@@ -31,8 +31,7 @@ class ProjectInfo {
 val info = ProjectInfo()
 
 gitSemVer {
-    buildMetadataSeparator.set("-")
-    assignGitSemanticVersion()
+    buildMetadataSeparator.set(".")
 }
 
 repositories {
