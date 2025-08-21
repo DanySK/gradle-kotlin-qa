@@ -1,3 +1,24 @@
+## [0.94.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.93.3...0.94.0) (2025-08-21)
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v13.1.0 ([#1159](https://github.com/DanySK/gradle-kotlin-qa/issues/1159)) ([cc804fb](https://github.com/DanySK/gradle-kotlin-qa/commit/cc804fb0a6e74df0c654eb0127232b4665b11ea5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.140 ([#1150](https://github.com/DanySK/gradle-kotlin-qa/issues/1150)) ([06d46bf](https://github.com/DanySK/gradle-kotlin-qa/commit/06d46bf461f6ab9dc1e3506421d78594cea42d3c))
+* **deps:** update kotest to v6 ([#1152](https://github.com/DanySK/gradle-kotlin-qa/issues/1152)) ([b9147c6](https://github.com/DanySK/gradle-kotlin-qa/commit/b9147c6b706b7d0103d5a0332d779ef712856cae))
+* **deps:** update plugin com.gradle.develocity to v4.1.1 ([#1153](https://github.com/DanySK/gradle-kotlin-qa/issues/1153)) ([01d3e87](https://github.com/DanySK/gradle-kotlin-qa/commit/01d3e87478d756fe3232c767b5bf3d1e2c14c0f0))
+* **deps:** update plugin gitsemver to v6.0.2 ([#1154](https://github.com/DanySK/gradle-kotlin-qa/issues/1154)) ([e447b68](https://github.com/DanySK/gradle-kotlin-qa/commit/e447b68e35163c4ff21bdc995f3e09421cc70dcf))
+* **deps:** update plugin kotlin-qa to v0.93.3 ([#1151](https://github.com/DanySK/gradle-kotlin-qa/issues/1151)) ([8888869](https://github.com/DanySK/gradle-kotlin-qa/commit/8888869914a8ac4738781a62aabf483957cf3c46))
+
+### Tests
+
+* **deps:** import classgraph correctly ([d4e0577](https://github.com/DanySK/gradle-kotlin-qa/commit/d4e057704d223902481e41deb0e8c6f07e85c620))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.4 ([#1156](https://github.com/DanySK/gradle-kotlin-qa/issues/1156)) ([a790f81](https://github.com/DanySK/gradle-kotlin-qa/commit/a790f81b4743bffce9216fb8ba72cada30a3a1c0))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.5 ([#1157](https://github.com/DanySK/gradle-kotlin-qa/issues/1157)) ([a5045ae](https://github.com/DanySK/gradle-kotlin-qa/commit/a5045ae2a680f23d4dadd979a0326baad9b2dad7))
+* use `.` as build metadata separator ([7c63b91](https://github.com/DanySK/gradle-kotlin-qa/commit/7c63b911d14a67f3ac74944f9f0d96ed2a652d28))
+
 ## [0.93.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.93.2...0.93.3) (2025-08-16)
 
 ### Dependency updates
