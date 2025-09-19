@@ -1,3 +1,16 @@
+## [0.95.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.95.0...0.95.1) (2025-09-19)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.1.0 ([#1187](https://github.com/DanySK/gradle-kotlin-qa/issues/1187)) ([eef5edb](https://github.com/DanySK/gradle-kotlin-qa/commit/eef5edbfd4ca2e8ec94a241b35500ed4aea87a7e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.144 ([#1183](https://github.com/DanySK/gradle-kotlin-qa/issues/1183)) ([5544091](https://github.com/DanySK/gradle-kotlin-qa/commit/55440910d49d138bcbd2ca12dff0e95190e53016))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.145 ([#1184](https://github.com/DanySK/gradle-kotlin-qa/issues/1184)) ([9fe2218](https://github.com/DanySK/gradle-kotlin-qa/commit/9fe2218eb83926f15e7c31c78988017e8313c58f))
+* **deps:** update plugin com.gradle.develocity to v4.2 ([#1182](https://github.com/DanySK/gradle-kotlin-qa/issues/1182)) ([e91092a](https://github.com/DanySK/gradle-kotlin-qa/commit/e91092a9a185a0b640cb75745157be8888e0c34e))
+* **deps:** update plugin gitsemver to v7.0.4 ([#1185](https://github.com/DanySK/gradle-kotlin-qa/issues/1185)) ([5484cb6](https://github.com/DanySK/gradle-kotlin-qa/commit/5484cb6fc9c3447fab0f935702c7cb8db81d822f))
+* **deps:** update plugin kotlin-qa to v0.95.0 ([#1181](https://github.com/DanySK/gradle-kotlin-qa/issues/1181)) ([5feab0a](https://github.com/DanySK/gradle-kotlin-qa/commit/5feab0a53c20c8a42dab5553caadb4d7338fe566))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.2 ([#1188](https://github.com/DanySK/gradle-kotlin-qa/issues/1188)) ([99ea1b4](https://github.com/DanySK/gradle-kotlin-qa/commit/99ea1b45422b7981cdbe039613ca6f01e61a42df))
+* **deps:** update plugin publishoncentral to v9.1.5 ([#1186](https://github.com/DanySK/gradle-kotlin-qa/issues/1186)) ([d2e528b](https://github.com/DanySK/gradle-kotlin-qa/commit/d2e528b6b4d326141b3475ba2026c4387a54613d))
+
 ## [0.95.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.94.1...0.95.0) (2025-09-13)
 
 ### Dependency updates
