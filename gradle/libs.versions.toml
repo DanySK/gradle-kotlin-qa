@@ -13,7 +13,7 @@ pmd = "7.17.0"
 [libraries]
 apache-commons-lang3 = "org.apache.commons:commons-lang3:3.19.0"
 cpd-gradle = { module = "de.aaschmid:gradle-cpd-plugin", version.ref = "cpd-gradle" }
-classgraph = "io.github.classgraph:classgraph:4.8.181"
+classgraph = "io.github.classgraph:classgraph:4.8.184"
 detekt-gradle = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 jacoco-agent = { module = "org.jacoco:org.jacoco.agent", version.ref = "jacoco" }
