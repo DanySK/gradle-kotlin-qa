@@ -1,3 +1,15 @@
+## [0.95.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.95.2...0.95.3) (2025-10-30)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.2.0 ([#1219](https://github.com/DanySK/gradle-kotlin-qa/issues/1219)) ([0011606](https://github.com/DanySK/gradle-kotlin-qa/commit/0011606fbfce1834afec33094455bc27e252abab))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.151 ([#1217](https://github.com/DanySK/gradle-kotlin-qa/issues/1217)) ([c8d3a09](https://github.com/DanySK/gradle-kotlin-qa/commit/c8d3a090517c4148c8b1f9c7ca5c2d55ae26bfce))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.152 ([#1218](https://github.com/DanySK/gradle-kotlin-qa/issues/1218)) ([7d1fc95](https://github.com/DanySK/gradle-kotlin-qa/commit/7d1fc95ed02cc7da852a66a9a504230478adf5c7))
+* **deps:** update plugin gitsemver to v7.0.5 ([#1214](https://github.com/DanySK/gradle-kotlin-qa/issues/1214)) ([0f5fc84](https://github.com/DanySK/gradle-kotlin-qa/commit/0f5fc8419fefa897b20661a8dcafee039544f5ae))
+* **deps:** update plugin gitsemver to v7.0.6 ([#1220](https://github.com/DanySK/gradle-kotlin-qa/issues/1220)) ([521822f](https://github.com/DanySK/gradle-kotlin-qa/commit/521822f16bf0ab5538ebe9f4b4265cd1a51edad5))
+* **deps:** update plugin kotlin-qa to v0.95.2 ([#1215](https://github.com/DanySK/gradle-kotlin-qa/issues/1215)) ([6a9ee1a](https://github.com/DanySK/gradle-kotlin-qa/commit/6a9ee1ae6c70d7e6571c70d74313be3fc75c4af4))
+* **deps:** update plugin publishoncentral to v9.1.7 ([#1221](https://github.com/DanySK/gradle-kotlin-qa/issues/1221)) ([05995da](https://github.com/DanySK/gradle-kotlin-qa/commit/05995da6fe5094619fb9598d20bf21657799de02))
+
 ## [0.95.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.95.1...0.95.2) (2025-10-23)
 
 ### Dependency updates
