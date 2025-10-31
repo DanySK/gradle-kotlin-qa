@@ -1,3 +1,12 @@
+## [0.96.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.95.3...0.96.0) (2025-10-31)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.18.0 ([#1225](https://github.com/DanySK/gradle-kotlin-qa/issues/1225)) ([de88218](https://github.com/DanySK/gradle-kotlin-qa/commit/de88218b561f74f21b323c4141b6d1aa806d5861))
+* **deps:** update node.js to v24 ([#1224](https://github.com/DanySK/gradle-kotlin-qa/issues/1224)) ([ba3ad03](https://github.com/DanySK/gradle-kotlin-qa/commit/ba3ad031801cbc523c5186e0be2a24058e94792c))
+* **deps:** update plugin kotlin-qa to v0.95.3 ([#1222](https://github.com/DanySK/gradle-kotlin-qa/issues/1222)) ([82374e3](https://github.com/DanySK/gradle-kotlin-qa/commit/82374e34342b4b06b329cdeaf693a5d171b5661b))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.4 ([#1223](https://github.com/DanySK/gradle-kotlin-qa/issues/1223)) ([2a7adc1](https://github.com/DanySK/gradle-kotlin-qa/commit/2a7adc12dccd63aa17aa5dc4c1290f838fad820a))
+
 ## [0.95.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.95.2...0.95.3) (2025-10-30)
 
 ### Dependency updates
