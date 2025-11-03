@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Checkout
         uses: DanySK/action-checkout@691c39b8c95afa68ab368def403db850341dc773 # 0.2.24
-      - uses: DanySK/build-check-deploy-gradle-action@4.0.11
+      - uses: DanySK/build-check-deploy-gradle-action@4.0.12
         with:
           # Dry-deployment
           retries-on-failure: 5
@@ -62,7 +62,7 @@ jobs:
         uses: actions/setup-node@v6.0.0
         with:
           node-version-file: package.json
-      - uses: DanySK/build-check-deploy-gradle-action@4.0.11
+      - uses: DanySK/build-check-deploy-gradle-action@4.0.12
         with:
           build-command: true
           check-command: true
