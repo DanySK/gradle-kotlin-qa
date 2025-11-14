@@ -1,3 +1,18 @@
+## [0.97.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.96.0...0.97.0) (2025-11-14)
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v14 ([#1231](https://github.com/DanySK/gradle-kotlin-qa/issues/1231)) ([0534055](https://github.com/DanySK/gradle-kotlin-qa/commit/0534055183152acb81e215265cf747e706ee7d57))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.153 ([#1228](https://github.com/DanySK/gradle-kotlin-qa/issues/1228)) ([302fa1c](https://github.com/DanySK/gradle-kotlin-qa/commit/302fa1c274a51aa1adf6d0590666623b4e147f42))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.154 ([#1230](https://github.com/DanySK/gradle-kotlin-qa/issues/1230)) ([f5c0fa4](https://github.com/DanySK/gradle-kotlin-qa/commit/f5c0fa4e915ea26382426f3ad51841a1dc42a7cf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.155 ([#1232](https://github.com/DanySK/gradle-kotlin-qa/issues/1232)) ([20af571](https://github.com/DanySK/gradle-kotlin-qa/commit/20af57196bae7da3f871dc399bb10c61b03d1d3b))
+* **deps:** update plugin kotlin-qa to v0.96.0 ([#1226](https://github.com/DanySK/gradle-kotlin-qa/issues/1226)) ([6fd5306](https://github.com/DanySK/gradle-kotlin-qa/commit/6fd5306312e86554537efd33036779ad006add67))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.11 ([#1227](https://github.com/DanySK/gradle-kotlin-qa/issues/1227)) ([22fd6c1](https://github.com/DanySK/gradle-kotlin-qa/commit/22fd6c1c8e1e2c55d0aa6149c3a628e09886204f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.12 ([#1229](https://github.com/DanySK/gradle-kotlin-qa/issues/1229)) ([41ad3a0](https://github.com/DanySK/gradle-kotlin-qa/commit/41ad3a0c821445c9ea9dfe776ccc6d20182f12b9))
+
 ## [0.96.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.95.3...0.96.0) (2025-10-31)
 
 ### Dependency updates
