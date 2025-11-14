@@ -1,3 +1,11 @@
+## [0.98.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.97.0...0.98.0) (2025-11-14)
+
+### Dependency updates
+
+* **api-deps:** update dependency com.pinterest.ktlint:ktlint-bom to v1.8.0 ([#1234](https://github.com/DanySK/gradle-kotlin-qa/issues/1234)) ([9ea098f](https://github.com/DanySK/gradle-kotlin-qa/commit/9ea098ff582924e17fd033cdacd42b9609dc5529))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.156 ([#1233](https://github.com/DanySK/gradle-kotlin-qa/issues/1233)) ([353cbfd](https://github.com/DanySK/gradle-kotlin-qa/commit/353cbfd7975a7842d38beb57db9dde528468598a))
+* **deps:** update plugin kotlin-qa to v0.97.0 ([#1235](https://github.com/DanySK/gradle-kotlin-qa/issues/1235)) ([357ceca](https://github.com/DanySK/gradle-kotlin-qa/commit/357ceca4c411038bfe99688de9ff364c4bd64e65))
+
 ## [0.97.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.96.0...0.97.0) (2025-11-14)
 
 ### Dependency updates
