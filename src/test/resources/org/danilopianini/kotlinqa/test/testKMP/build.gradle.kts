@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_0
 
 plugins {
-    alias(libs.plugins.kotlin.qa)
+    id("org.danilopianini.gradle-kotlin-qa")
     alias(libs.plugins.kotlin.multiplatform)
 }
 
