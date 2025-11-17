@@ -1,3 +1,16 @@
+## [0.98.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.98.0...0.98.1) (2025-11-17)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.2.1 ([#1238](https://github.com/DanySK/gradle-kotlin-qa/issues/1238)) ([6863835](https://github.com/DanySK/gradle-kotlin-qa/commit/6863835d42a8ed37741b50d7c81c80f09453e21f))
+* **deps:** update dependency org.apache.commons:commons-lang3 to v3.20.0 ([#1237](https://github.com/DanySK/gradle-kotlin-qa/issues/1237)) ([5516602](https://github.com/DanySK/gradle-kotlin-qa/commit/5516602e7eabd414affc3780688ae9cac357e5ff))
+* **deps:** update plugin kotlin-qa to v0.98.0 ([#1236](https://github.com/DanySK/gradle-kotlin-qa/issues/1236)) ([6e71b48](https://github.com/DanySK/gradle-kotlin-qa/commit/6e71b48828008ea0c885ff63768da8bdbfd02b41))
+* **deps:** update plugin publishoncentral to v9.1.8 ([#1239](https://github.com/DanySK/gradle-kotlin-qa/issues/1239)) ([3163f88](https://github.com/DanySK/gradle-kotlin-qa/commit/3163f88bdb393e53c78dc8ccb9b267a871a8ae5b))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v5.0.1 ([#1240](https://github.com/DanySK/gradle-kotlin-qa/issues/1240)) ([79a3a66](https://github.com/DanySK/gradle-kotlin-qa/commit/79a3a666334ac9d89a555fe36b30c84058f1ff01))
+
 ## [0.98.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.97.0...0.98.0) (2025-11-14)
 
 ### Dependency updates
