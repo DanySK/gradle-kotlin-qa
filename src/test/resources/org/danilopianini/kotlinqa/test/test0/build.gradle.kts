@@ -1,6 +1,10 @@
 plugins {
-    kotlin("jvm") version "1.5.30"
+    kotlin("jvm") version "2.2.21"
     id("org.danilopianini.gradle-kotlin-qa")
+}
+
+kotlin {
+    jvmToolchain(21)
 }
 
 dependencies {
