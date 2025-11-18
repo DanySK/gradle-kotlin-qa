@@ -1,3 +1,22 @@
+## [0.98.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.98.1...0.98.2) (2025-11-18)
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.98.1 ([#1241](https://github.com/DanySK/gradle-kotlin-qa/issues/1241)) ([e857ef5](https://github.com/DanySK/gradle-kotlin-qa/commit/e857ef5a94012cf79001d56fd5f54f27e685ea0a))
+
+### Documentation
+
+* **deps:** update dependency org.jetbrains.dokka to v2.1.0 ([#1206](https://github.com/DanySK/gradle-kotlin-qa/issues/1206)) ([05d7c55](https://github.com/DanySK/gradle-kotlin-qa/commit/05d7c55ff22588e103c525ccc5facbc26b4b59f0))
+* switch to Dokka v2 ([#1251](https://github.com/DanySK/gradle-kotlin-qa/issues/1251)) ([b0ef5c4](https://github.com/DanySK/gradle-kotlin-qa/commit/b0ef5c40eee8500684cc81d675cf0f8db7394a0c))
+
+### Tests
+
+* update kotlin in the no-source test ([#1246](https://github.com/DanySK/gradle-kotlin-qa/issues/1246)) ([f2521e3](https://github.com/DanySK/gradle-kotlin-qa/commit/f2521e350a1b0385f222207847109b085adf10c4))
+
+### Style improvements
+
+* update .editorconfig disabling new ktlint beta rules ([#1250](https://github.com/DanySK/gradle-kotlin-qa/issues/1250)) ([a656bd9](https://github.com/DanySK/gradle-kotlin-qa/commit/a656bd90109ba549fd871f335e3ed3317e10e947))
+
 ## [0.98.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.98.0...0.98.1) (2025-11-17)
 
 ### Dependency updates
