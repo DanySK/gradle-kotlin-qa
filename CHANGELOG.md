@@ -1,3 +1,20 @@
+## [0.99.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.98.2...0.99.0) (2025-11-28)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.19.0 ([#1260](https://github.com/DanySK/gradle-kotlin-qa/issues/1260)) ([ca1c594](https://github.com/DanySK/gradle-kotlin-qa/commit/ca1c594e3fa3926975a94b920f1be43400fe7405))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.157 ([#1259](https://github.com/DanySK/gradle-kotlin-qa/issues/1259)) ([d8bfcbd](https://github.com/DanySK/gradle-kotlin-qa/commit/d8bfcbd20833834f2fb7d03e6513ff597d2f76e4))
+* **deps:** update kotest to v6.0.5 ([#1253](https://github.com/DanySK/gradle-kotlin-qa/issues/1253)) ([c0434e5](https://github.com/DanySK/gradle-kotlin-qa/commit/c0434e5962d89437791b55b32eb359c17e390b3f))
+* **deps:** update plugin gitsemver to v7.0.7 ([#1256](https://github.com/DanySK/gradle-kotlin-qa/issues/1256)) ([ecdced4](https://github.com/DanySK/gradle-kotlin-qa/commit/ecdced4f3d74d63c475a923130a21a946ab97057))
+* **deps:** update plugin kotlin-qa to v0.98.2 ([#1254](https://github.com/DanySK/gradle-kotlin-qa/issues/1254)) ([d05c2d3](https://github.com/DanySK/gradle-kotlin-qa/commit/d05c2d3a170687407ae769a203e256fe2f58da94))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.5 ([#1252](https://github.com/DanySK/gradle-kotlin-qa/issues/1252)) ([89aeae6](https://github.com/DanySK/gradle-kotlin-qa/commit/89aeae6f7cd5471744da1fbb32ba94c78bafbef8))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v6 ([#1257](https://github.com/DanySK/gradle-kotlin-qa/issues/1257)) ([4e55f39](https://github.com/DanySK/gradle-kotlin-qa/commit/4e55f391e8b08c30e6ea37d871c5d67d14c6c057))
+* **deps:** update danysk/action-checkout action to v0.2.25 ([#1255](https://github.com/DanySK/gradle-kotlin-qa/issues/1255)) ([878c7d6](https://github.com/DanySK/gradle-kotlin-qa/commit/878c7d66e9da30d925cf592096075788f7810434))
+* **deps:** update danysk/action-checkout action to v0.2.26 ([#1258](https://github.com/DanySK/gradle-kotlin-qa/issues/1258)) ([5ae47c3](https://github.com/DanySK/gradle-kotlin-qa/commit/5ae47c33ca55e599dcdd22586a0d554c7303a2d6))
+
 ## [0.98.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.98.1...0.98.2) (2025-11-18)
 
 ### Dependency updates
