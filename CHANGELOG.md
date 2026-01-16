@@ -1,3 +1,18 @@
+## [0.100.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.100.0...0.100.1) (2026-01-16)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.3.0 ([#1287](https://github.com/DanySK/gradle-kotlin-qa/issues/1287)) ([cdc9bc9](https://github.com/DanySK/gradle-kotlin-qa/commit/cdc9bc97db6ed6849db20445545b2f3cb6c9c0e7))
+* **deps:** update node.js to 24.13 ([#1282](https://github.com/DanySK/gradle-kotlin-qa/issues/1282)) ([a0d3d8d](https://github.com/DanySK/gradle-kotlin-qa/commit/a0d3d8daf05fc63e7dfaa47e3c7d70f6f8b299aa))
+* **deps:** update plugin com.gradle.develocity to v4.3.1 ([#1284](https://github.com/DanySK/gradle-kotlin-qa/issues/1284)) ([80ae3c2](https://github.com/DanySK/gradle-kotlin-qa/commit/80ae3c26e71457a26dafe4e8a419bea3a536aab2))
+* **deps:** update plugin gitsemver to v7.0.9 ([#1285](https://github.com/DanySK/gradle-kotlin-qa/issues/1285)) ([dac3661](https://github.com/DanySK/gradle-kotlin-qa/commit/dac3661706922bf0395176a39483c045ce5707fe))
+* **deps:** update plugin kotlin-qa to v0.100.0 ([#1280](https://github.com/DanySK/gradle-kotlin-qa/issues/1280)) ([87f8386](https://github.com/DanySK/gradle-kotlin-qa/commit/87f8386c49e406bf856ff96a6ea25ff255882306))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6.2.0 ([#1283](https://github.com/DanySK/gradle-kotlin-qa/issues/1283)) ([e8ef404](https://github.com/DanySK/gradle-kotlin-qa/commit/e8ef40416f24f9c850cbe10fd2f169b607534923))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.18 ([#1281](https://github.com/DanySK/gradle-kotlin-qa/issues/1281)) ([b77ac95](https://github.com/DanySK/gradle-kotlin-qa/commit/b77ac95fc5fb713c6e49f77343699d61db35710d))
+
 ## [0.100.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.99.0...0.100.0) (2025-12-30)
 
 ### Dependency updates
