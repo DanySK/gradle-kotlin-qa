@@ -31,7 +31,6 @@ kotlin {
 
     compilerOptions {
         allWarningsAsErrors = true
-        apiVersion = KOTLIN_2_0
         freeCompilerArgs.add("-Xexpect-actual-classes")
     }
 }
