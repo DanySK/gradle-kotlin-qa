@@ -1,5 +1,5 @@
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
-import org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_0
+import org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_3
 
 plugins {
     id("org.danilopianini.gradle-kotlin-qa")
@@ -31,7 +31,7 @@ kotlin {
 
     compilerOptions {
         allWarningsAsErrors = true
-        apiVersion = KOTLIN_2_0
+        apiVersion = KOTLIN_2_3
         freeCompilerArgs.add("-Xexpect-actual-classes")
     }
 }
