@@ -1,3 +1,27 @@
+## [0.100.2](https://github.com/DanySK/gradle-kotlin-qa/compare/0.100.1...0.100.2) (2026-01-19)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v2.3.0 ([#1274](https://github.com/DanySK/gradle-kotlin-qa/issues/1274)) ([4eadcc9](https://github.com/DanySK/gradle-kotlin-qa/commit/4eadcc9afd429491e57ab7879ba68afcd835b71c))
+* **deps:** update plugin kotlin-qa to v0.100.1 ([#1288](https://github.com/DanySK/gradle-kotlin-qa/issues/1288)) ([f08462d](https://github.com/DanySK/gradle-kotlin-qa/commit/f08462d364f085b9a181c0cdf374af99564567b5))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.7 ([#1286](https://github.com/DanySK/gradle-kotlin-qa/issues/1286)) ([9d1a8c1](https://github.com/DanySK/gradle-kotlin-qa/commit/9d1a8c11b1aea4b96fc1b3e8576279c839771e00))
+* **deps:** update plugin publishoncentral to v9.1.10 ([#1278](https://github.com/DanySK/gradle-kotlin-qa/issues/1278)) ([f5d3305](https://github.com/DanySK/gradle-kotlin-qa/commit/f5d3305c652f6384cd5e118648f274daa08d7cb0))
+* **deps:** update plugin publishoncentral to v9.1.11 ([#1293](https://github.com/DanySK/gradle-kotlin-qa/issues/1293)) ([fb8ea62](https://github.com/DanySK/gradle-kotlin-qa/commit/fb8ea62b595b82df88392a550165211aff663cd4))
+
+### Tests
+
+* create a settings.gradle.kts with develocity for the base test ([#1243](https://github.com/DanySK/gradle-kotlin-qa/issues/1243)) ([de16aee](https://github.com/DanySK/gradle-kotlin-qa/commit/de16aeeca297158e76919ed44c9f3650b322cbfe))
+* drop forced `apiVersion` in KMP test ([#1292](https://github.com/DanySK/gradle-kotlin-qa/issues/1292)) ([46cd341](https://github.com/DanySK/gradle-kotlin-qa/commit/46cd3410b11a2510f771e929c517fd576bf8d959))
+* update kotlin and lock the toolchain to jvm 21 in the repo with no sources ([#1247](https://github.com/DanySK/gradle-kotlin-qa/issues/1247)) ([97bf863](https://github.com/DanySK/gradle-kotlin-qa/commit/97bf86342c0ab921c97087b884b89de72f47d02e))
+* update kotlin in the kotlin-MP test ([#1245](https://github.com/DanySK/gradle-kotlin-qa/issues/1245)) ([b1b4f2e](https://github.com/DanySK/gradle-kotlin-qa/commit/b1b4f2e3d9b6292a11fa2cc66753383dca3a1a5c))
+* update publish-on-central in the kotlin-MP test ([#1244](https://github.com/DanySK/gradle-kotlin-qa/issues/1244)) ([49e9df9](https://github.com/DanySK/gradle-kotlin-qa/commit/49e9df9f2dd2d9f86cc05d85e103b6cb36cea659))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.19 ([#1289](https://github.com/DanySK/gradle-kotlin-qa/issues/1289)) ([d756c88](https://github.com/DanySK/gradle-kotlin-qa/commit/d756c8835c1960c7f8838372105dcb194efb5795))
+* pinpoint the version of `build-check-deploy-gradle-action` using the commit hash ([6903ad4](https://github.com/DanySK/gradle-kotlin-qa/commit/6903ad4a796d579da3b2808d88c771a0c92a7988))
+* run gradle in parallel by default ([#1248](https://github.com/DanySK/gradle-kotlin-qa/issues/1248)) ([edbbd6b](https://github.com/DanySK/gradle-kotlin-qa/commit/edbbd6bfe4499bc1cd3937a2f7f3166a1f86b103))
+
 ## [0.100.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.100.0...0.100.1) (2026-01-16)
 
 ### Dependency updates
