@@ -1,3 +1,13 @@
+## [0.101.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.100.3...0.101.0) (2026-01-30)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.21.0 ([#1310](https://github.com/DanySK/gradle-kotlin-qa/issues/1310)) ([81e18f7](https://github.com/DanySK/gradle-kotlin-qa/commit/81e18f7a86bfd820e2ca208da99936f3a53ba755))
+* **deps:** update plugin gitsemver to v7.0.11 ([#1307](https://github.com/DanySK/gradle-kotlin-qa/issues/1307)) ([b3e9c00](https://github.com/DanySK/gradle-kotlin-qa/commit/b3e9c004884f7b1855847f44f9471c5e8a39cc61))
+* **deps:** update plugin kotlin-qa to v0.100.3 ([#1308](https://github.com/DanySK/gradle-kotlin-qa/issues/1308)) ([dd5a3e8](https://github.com/DanySK/gradle-kotlin-qa/commit/dd5a3e89e7c7aa017c878c11259944f35f1fcece))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.8 ([#1306](https://github.com/DanySK/gradle-kotlin-qa/issues/1306)) ([b1ac3fa](https://github.com/DanySK/gradle-kotlin-qa/commit/b1ac3faf340cb7930a7bd227ae815e031e8d1822))
+* **deps:** update plugin publishoncentral to v9.1.12 ([#1309](https://github.com/DanySK/gradle-kotlin-qa/issues/1309)) ([d091f7b](https://github.com/DanySK/gradle-kotlin-qa/commit/d091f7bed9e88e59e23a98278603232ec1019075))
+
 ## [0.100.3](https://github.com/DanySK/gradle-kotlin-qa/compare/0.100.2...0.100.3) (2026-01-29)
 
 ### Dependency updates
