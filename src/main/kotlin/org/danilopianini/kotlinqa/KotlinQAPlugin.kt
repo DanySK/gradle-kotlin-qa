@@ -3,10 +3,10 @@ package org.danilopianini.kotlinqa
 import de.aaschmid.gradle.plugins.cpd.Cpd
 import de.aaschmid.gradle.plugins.cpd.CpdExtension
 import de.aaschmid.gradle.plugins.cpd.CpdPlugin
-import io.gitlab.arturbosch.detekt.Detekt
-import io.gitlab.arturbosch.detekt.DetektPlugin
-import io.gitlab.arturbosch.detekt.extensions.DetektExtension
-import io.gitlab.arturbosch.detekt.report.ReportMergeTask
+import dev.detekt.gradle.Detekt
+import dev.detekt.gradle.extensions.DetektExtension
+import dev.detekt.gradle.plugin.DetektPlugin
+import dev.detekt.gradle.report.ReportMergeTask
 import java.util.Properties
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -60,24 +60,28 @@ open class KotlinQAPlugin : Plugin<Project> {
             // Detekt
             project.tasks.withType<Detekt>().configureEach { detektTask ->
                 detektTask.dependsOn(generator)
-                detektTask.jvmTarget = project.extensions
-                    .findByType<HasConfigurableKotlinCompilerOptions<KotlinJvmCompilerOptions>>()
-                    ?.compilerOptions
-                    ?.jvmTarget
-                    ?.map { it.target }
-                    ?.orNull
-                    ?: "1.8"
+                detektTask.jvmTarget.set(
+                    project.provider {
+                        project.extensions
+                            .findByType<HasConfigurableKotlinCompilerOptions<KotlinJvmCompilerOptions>>()
+                            ?.compilerOptions
+                            ?.jvmTarget
+                            ?.map { it.target }
+                            ?.orNull
+                            ?: "1.8"
+                    },
+                )
             }
             project.extensions.configure<DetektExtension> {
-                parallel = true
-                buildUponDefaultConfig = true
+                parallel.set(true)
+                buildUponDefaultConfig.set(true)
                 config.from(project.files(extension.detektConfigurationFile))
-                ignoreFailures = false
-                toolVersion = versions.forLibrary("detekt")
+                ignoreFailures.set(false)
+                toolVersion.set(versions.forLibrary("detekt"))
             }
             val reportMergeDetekt by project.tasks.registering(ReportMergeTask::class) {
                 output.set(project.layout.buildDirectory.file("reports/detekt/detekt-merge.sarif"))
-                input.from(project.tasks.withType<Detekt>().map { it.sarifReportFile })
+                input.from(project.tasks.withType<Detekt>().map { it.reports.checkstyle.outputLocation })
             }
             project.tasks.withType<Detekt>().configureEach { it.finalizedBy(reportMergeDetekt) }
             // Ktlint
