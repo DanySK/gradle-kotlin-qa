@@ -7,7 +7,7 @@ tests:
         - --stacktrace
     expectation:
       success:
-        - detektJsMain
+        - detektJsMainSourceSet
         - ktlintKotlinScriptCheck
         - ktlintCommonMainSourceSetCheck
         - cpdKotlinCheck

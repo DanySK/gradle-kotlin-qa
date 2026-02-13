@@ -1,6 +1,13 @@
 comments:
+  DeprecatedBlockTag:
+    active: true
   EndOfSentenceFormat:
     active: true
+  KDocReferencesNonPublicProperty:
+    active: true
+  OutdatedDocumentation:
+    active: true
+    matchDeclarationsOrder: false
   UndocumentedPublicClass:
     active: true
   UndocumentedPublicFunction:
@@ -8,19 +15,38 @@ comments:
   UndocumentedPublicProperty:
     active: true
 complexity:
+  CognitiveComplexMethod:
+    active: false
+  ComplexCondition:
+    active: false
+  ComplexInterface:
+    active: false
+  CyclomaticComplexMethod:
+    active: false
   LongMethod:
     active: false
   LongParameterList:
     active: false
   NestedBlockDepth:
-    threshold: 5
+    allowedDepth: 5
   TooManyFunctions:
+    allowedFunctionsPerFile: 40
+    allowedFunctionsPerInterface: 20
+    allowedFunctionsPerObject: 20
     ignoreDeprecated: true
     ignorePrivate: true
     ignoreOverridden: true
-    thresholdInFiles: 40
-    thresholdInInterfaces: 20
-    thresholdInObjects: 20
+coroutines:
+  CoroutineLaunchedInTestWithoutRunTest:
+    active: true
+  GlobalCoroutineUsage:
+    active: true
+  SuspendFunInFinallySection:
+    active: true
+  SuspendFunSwallowedCancellation:
+    active: true
+  SuspendFunWithCoroutineScopeReceiver:
+    active: true
 naming:
   MemberNameEqualsClassName:
     active: false

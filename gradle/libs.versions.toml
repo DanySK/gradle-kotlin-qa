@@ -1,6 +1,6 @@
 [versions]
 cpd-gradle = "3.5"
-detekt = "1.23.8"
+detekt = "2.0.0-alpha.2"
 dokka = "2.1.0"
 jacoco = "0.8.14"
 konf = "1.1.2"
@@ -14,8 +14,7 @@ pmd = "7.21.0"
 apache-commons-lang3 = "org.apache.commons:commons-lang3:3.20.0"
 cpd-gradle = { module = "de.aaschmid:gradle-cpd-plugin", version.ref = "cpd-gradle" }
 classgraph = "io.github.classgraph:classgraph:4.8.184"
-detekt-gradle = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
-detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
+detekt-gradle = { module = "dev.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 jacoco-agent = { module = "org.jacoco:org.jacoco.agent", version.ref = "jacoco" }
 jacoco-core = { module = "org.jacoco:org.jacoco.core", version.ref = "jacoco" }
 konf-yaml = { module = "com.uchuhimo:konf-yaml", version.ref = "konf" }
@@ -28,8 +27,7 @@ pmd-kotlin = { module = "net.sourceforge.pmd:pmd-kotlin", version.ref = "pmd" }
 
 [bundles]
 kotlin-testing = [ "kotest-junit5-jvm", "kotest-assertions-core-jvm" ]
-detekt = [ "detekt-formatting", "detekt-gradle" ]
-kotlin-qa = [ "cpd-gradle", "detekt-formatting", "detekt-gradle", "ktlint-gradle" ]
+kotlin-qa = [ "cpd-gradle", "detekt-gradle", "ktlint-gradle" ]
 
 [plugins]
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
