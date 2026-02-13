@@ -1,3 +1,15 @@
+## [1.0.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.0.0...1.0.1) (2026-02-13)
+
+### Dependency updates
+
+* **deps:** update plugin gitsemver to v7.0.12 ([#1320](https://github.com/DanySK/gradle-kotlin-qa/issues/1320)) ([1063c09](https://github.com/DanySK/gradle-kotlin-qa/commit/1063c09fae20039fc99386959a17400c44146039))
+* **deps:** update plugin kotlin-qa to v1 ([#1319](https://github.com/DanySK/gradle-kotlin-qa/issues/1319)) ([fc2bedf](https://github.com/DanySK/gradle-kotlin-qa/commit/fc2bedf61eb30bd4c7c0e442c64ed94d5af110ec))
+* **deps:** update plugin publishoncentral to v9.1.13 ([#1321](https://github.com/DanySK/gradle-kotlin-qa/issues/1321)) ([1d8fda4](https://github.com/DanySK/gradle-kotlin-qa/commit/1d8fda4d2eb140ab3caca54a095d16f29b88cc7e))
+
+### Bug Fixes
+
+* drop unstable and buggy Detekt rule `OutdatedDocumentation` ([9adca76](https://github.com/DanySK/gradle-kotlin-qa/commit/9adca76438a2cb89c7bd5d105b9f251b733d3abb))
+
 ## [1.0.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.101.1...1.0.0) (2026-02-13)
 
 ### ⚠ BREAKING CHANGES
