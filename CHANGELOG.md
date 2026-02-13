@@ -1,3 +1,18 @@
+## [1.0.0](https://github.com/DanySK/gradle-kotlin-qa/compare/0.101.1...1.0.0) (2026-02-13)
+
+### ⚠ BREAKING CHANGES
+
+* update Detekt to 2.2.0-alpha.2 (#1317)
+
+### Features
+
+* update Detekt to 2.2.0-alpha.2 ([#1317](https://github.com/DanySK/gradle-kotlin-qa/issues/1317)) ([8f142c5](https://github.com/DanySK/gradle-kotlin-qa/commit/8f142c538d8947c2fa46ad28d2409652fba9bb8d))
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.101.1 ([#1318](https://github.com/DanySK/gradle-kotlin-qa/issues/1318)) ([a0a2724](https://github.com/DanySK/gradle-kotlin-qa/commit/a0a27246e9cb65a567d5b3704a09ef32e48246f0))
+* **deps:** update plugin multijvmtesting to v4.3.2 ([#1216](https://github.com/DanySK/gradle-kotlin-qa/issues/1216)) ([255ce91](https://github.com/DanySK/gradle-kotlin-qa/commit/255ce91de506a0aefda16fe6977d43cb405f730d))
+
 ## [0.101.1](https://github.com/DanySK/gradle-kotlin-qa/compare/0.101.0...0.101.1) (2026-02-13)
 
 ### Dependency updates
