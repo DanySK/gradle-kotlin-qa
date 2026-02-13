@@ -5,9 +5,6 @@ comments:
     active: true
   KDocReferencesNonPublicProperty:
     active: true
-  OutdatedDocumentation:
-    active: true
-    matchDeclarationsOrder: false
   UndocumentedPublicClass:
     active: true
   UndocumentedPublicFunction:
