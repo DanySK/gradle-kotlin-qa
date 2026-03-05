@@ -1,3 +1,13 @@
+## [1.2.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.1.0...1.2.0) (2026-03-05)
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v14.1.0 ([#1333](https://github.com/DanySK/gradle-kotlin-qa/issues/1333)) ([7ca1692](https://github.com/DanySK/gradle-kotlin-qa/commit/7ca1692af1530018a7c3053fe4b9939e0e0741cc))
+* **deps:** update plugin gitsemver to v7.0.13 ([#1331](https://github.com/DanySK/gradle-kotlin-qa/issues/1331)) ([a414df3](https://github.com/DanySK/gradle-kotlin-qa/commit/a414df3038e8bea5cac7b2afdbffa351a41c2350))
+* **deps:** update plugin gradlepluginpublish to v2.1.0 ([#1329](https://github.com/DanySK/gradle-kotlin-qa/issues/1329)) ([8282221](https://github.com/DanySK/gradle-kotlin-qa/commit/8282221b969fb8b4b8c178fe4b9b0eb67e762f9f))
+* **deps:** update plugin kotlin-qa to v1.1.0 ([#1330](https://github.com/DanySK/gradle-kotlin-qa/issues/1330)) ([08de0b5](https://github.com/DanySK/gradle-kotlin-qa/commit/08de0b5a3808ffc32aa0eb052789bddacbee8ba8))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.10 ([#1332](https://github.com/DanySK/gradle-kotlin-qa/issues/1332)) ([85eaac9](https://github.com/DanySK/gradle-kotlin-qa/commit/85eaac92f861c1a3d478b5dc2c61d9a5003eb906))
+
 ## [1.1.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.0.1...1.1.0) (2026-03-04)
 
 ### Dependency updates
