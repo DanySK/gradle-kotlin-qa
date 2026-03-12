@@ -1,3 +1,11 @@
+## [1.3.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.2.0...1.3.0) (2026-03-12)
+
+### Dependency updates
+
+* **api-deps:** update dependency org.jlleitschuh.gradle:ktlint-gradle to v14.2.0 ([#1337](https://github.com/DanySK/gradle-kotlin-qa/issues/1337)) ([ba8c673](https://github.com/DanySK/gradle-kotlin-qa/commit/ba8c673144cf09b736aa72ab4e7878f8ddd504e1))
+* **deps:** update kotest to v6.1.5 ([#1335](https://github.com/DanySK/gradle-kotlin-qa/issues/1335)) ([965f8e4](https://github.com/DanySK/gradle-kotlin-qa/commit/965f8e4a307261701223a451e918c060da57a1a3))
+* **deps:** update plugin kotlin-qa to v1.2.0 ([#1334](https://github.com/DanySK/gradle-kotlin-qa/issues/1334)) ([13a4e3c](https://github.com/DanySK/gradle-kotlin-qa/commit/13a4e3c9f6806f5b627e428febf43d5dca506b83))
+
 ## [1.2.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.1.0...1.2.0) (2026-03-05)
 
 ### Dependency updates
