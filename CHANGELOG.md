@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.3.0...1.3.1) (2026-03-16)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.3.20 ([#1340](https://github.com/DanySK/gradle-kotlin-qa/issues/1340)) ([bfcac1b](https://github.com/DanySK/gradle-kotlin-qa/commit/bfcac1b6d4647aaa92605ad26c9f764b67fc8847))
+* **deps:** update kotest to v6.1.6 ([#1336](https://github.com/DanySK/gradle-kotlin-qa/issues/1336)) ([5523bb7](https://github.com/DanySK/gradle-kotlin-qa/commit/5523bb745f2ed1d16bd894f804037166b7ae3d91))
+* **deps:** update kotest to v6.1.7 ([#1338](https://github.com/DanySK/gradle-kotlin-qa/issues/1338)) ([14e8dbf](https://github.com/DanySK/gradle-kotlin-qa/commit/14e8dbf8aa913bc39319c853cdbe7f2c12ac9fde))
+
 ## [1.3.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.2.0...1.3.0) (2026-03-12)
 
 ### Dependency updates
