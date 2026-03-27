@@ -1,3 +1,16 @@
+## [1.4.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.3.2...1.4.0) (2026-03-27)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.23.0 ([#1359](https://github.com/DanySK/gradle-kotlin-qa/issues/1359)) ([3f4378e](https://github.com/DanySK/gradle-kotlin-qa/commit/3f4378ed8da9f8a9634ae00897261a430ad7a603))
+* **deps:** update plugin gitsemver to v7.0.16 ([#1355](https://github.com/DanySK/gradle-kotlin-qa/issues/1355)) ([89e5dad](https://github.com/DanySK/gradle-kotlin-qa/commit/89e5dada168a3e41018509d3ac0b9ed3d6f683b3))
+* **deps:** update plugin kotlin-qa to v1.3.2 ([#1356](https://github.com/DanySK/gradle-kotlin-qa/issues/1356)) ([de9e693](https://github.com/DanySK/gradle-kotlin-qa/commit/de9e6932a76718e965070fc1f3abe725f5f54da2))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.29 ([#1357](https://github.com/DanySK/gradle-kotlin-qa/issues/1357)) ([f274057](https://github.com/DanySK/gradle-kotlin-qa/commit/f274057cabac485d77ff637ef328d69f9b70455d))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.30 ([#1358](https://github.com/DanySK/gradle-kotlin-qa/issues/1358)) ([23f562e](https://github.com/DanySK/gradle-kotlin-qa/commit/23f562eacae011b270aa49e37eb0029dd0a3ebb5))
+
 ## [1.3.2](https://github.com/DanySK/gradle-kotlin-qa/compare/1.3.1...1.3.2) (2026-03-26)
 
 ### Dependency updates
