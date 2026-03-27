@@ -8,7 +8,7 @@ kotlin = "2.3.20"
 kotest = "6.1.9"
 ktlint = "1.8.0"
 ktlint-plugin = "14.2.0"
-pmd = "7.22.0"
+pmd = "7.23.0"
 
 [libraries]
 apache-commons-lang3 = "org.apache.commons:commons-lang3:3.20.0"
