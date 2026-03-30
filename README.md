@@ -14,3 +14,7 @@ plugins {
     id("org.danilopianini.gradle-kotlin-qa") version "<SELECT THE VERSION>"
 }
 ```
+
+## Links
+
+[![Hypercommit](https://img.shields.io/badge/Hypercommit-DB2475)](https://hypercommit.com/gradle-kotlin-qa)
