@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.4.1...1.5.0) (2026-04-20)
+
+### Dependency updates
+
+* **api-deps:** update Gradle to 9.4.1 ([#1372](https://github.com/DanySK/gradle-kotlin-qa/issues/1372)) ([01d4195](https://github.com/DanySK/gradle-kotlin-qa/commit/01d419570063fab4b151731315bac220c048991f))
+* **deps:** update plugin kotlin-qa to v1.4.1 ([#1373](https://github.com/DanySK/gradle-kotlin-qa/issues/1373)) ([64a0720](https://github.com/DanySK/gradle-kotlin-qa/commit/64a0720d20dbb43dea56fc9475d6e54d31158558))
+
 ## [1.4.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.4.0...1.4.1) (2026-04-20)
 
 ### Dependency updates
