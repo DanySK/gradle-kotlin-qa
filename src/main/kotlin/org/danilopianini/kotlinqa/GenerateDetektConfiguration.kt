@@ -6,10 +6,14 @@ import org.gradle.api.DefaultTask
 import org.gradle.api.provider.Provider
 import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
+import org.gradle.work.DisableCachingByDefault
 
 /**
  * A Gradle task that copies the default configuration from the classpath into a target file.
  */
+@DisableCachingByDefault(
+    because = "The task writes a bundled Detekt configuration without a declared cacheable input model.",
+)
 open class GenerateDetektConfiguration
 @Inject
 constructor(private val extension: KotlinQAExtension) : DefaultTask() {
