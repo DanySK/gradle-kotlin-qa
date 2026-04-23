@@ -1,3 +1,13 @@
+## [1.5.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.5.0...1.5.1) (2026-04-23)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.3.21 ([#1377](https://github.com/DanySK/gradle-kotlin-qa/issues/1377)) ([57322b7](https://github.com/DanySK/gradle-kotlin-qa/commit/57322b7cedd31b9625a55f12caf2713561a405f4))
+* **deps:** update plugin gitsemver to v7.0.17 ([#1378](https://github.com/DanySK/gradle-kotlin-qa/issues/1378)) ([5c74d63](https://github.com/DanySK/gradle-kotlin-qa/commit/5c74d6335d5ee9c71de28b04ae8014cc35b2e786))
+* **deps:** update plugin kotlin-qa to v1.5.0 ([#1374](https://github.com/DanySK/gradle-kotlin-qa/issues/1374)) ([319c7c3](https://github.com/DanySK/gradle-kotlin-qa/commit/319c7c3c5f615449038ca55f21ff68b1bd0f9a3c))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.15 ([#1379](https://github.com/DanySK/gradle-kotlin-qa/issues/1379)) ([add932c](https://github.com/DanySK/gradle-kotlin-qa/commit/add932ca601127efe4376a7eaf2a481594a22cf8))
+* **deps:** update plugin publishoncentral to v9.2.0 ([#1375](https://github.com/DanySK/gradle-kotlin-qa/issues/1375)) ([2edfa54](https://github.com/DanySK/gradle-kotlin-qa/commit/2edfa54a4cbeb030deebaca4911f3cee8bb348bd))
+
 ## [1.5.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.4.1...1.5.0) (2026-04-20)
 
 ### Dependency updates
