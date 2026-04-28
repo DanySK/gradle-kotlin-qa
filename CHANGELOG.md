@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.6.0...1.6.1) (2026-04-28)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.5.0 ([#1385](https://github.com/DanySK/gradle-kotlin-qa/issues/1385)) ([8b61ea2](https://github.com/DanySK/gradle-kotlin-qa/commit/8b61ea2ea8f1a25ad333443aa6373e230d5c3ec8))
+* **deps:** update dependency dev.detekt:detekt-gradle-plugin to v2.0.0-alpha.3 ([#1384](https://github.com/DanySK/gradle-kotlin-qa/issues/1384)) ([86fb263](https://github.com/DanySK/gradle-kotlin-qa/commit/86fb2630c268504c180feeb6e3aa1ec2b65c3405))
+* **deps:** update plugin gitsemver to v7.0.18 ([#1386](https://github.com/DanySK/gradle-kotlin-qa/issues/1386)) ([344946d](https://github.com/DanySK/gradle-kotlin-qa/commit/344946d22002c25a614e62e64d991baac8309503))
+* **deps:** update plugin kotlin-qa to v1.6.0 ([#1383](https://github.com/DanySK/gradle-kotlin-qa/issues/1383)) ([55fd817](https://github.com/DanySK/gradle-kotlin-qa/commit/55fd81756e6e304c2d996d3b682939bae204ef46))
+
 ## [1.6.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.5.1...1.6.0) (2026-04-24)
 
 ### Dependency updates
