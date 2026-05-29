@@ -1,3 +1,19 @@
+## [1.7.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.6.2...1.7.0) (2026-05-29)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.25.0 ([#1405](https://github.com/DanySK/gradle-kotlin-qa/issues/1405)) ([39b93b1](https://github.com/DanySK/gradle-kotlin-qa/commit/39b93b1fd623ba8cd5a2bfc992b6787d2b227b0b))
+* **deps:** update node.js to 24.16 ([#1401](https://github.com/DanySK/gradle-kotlin-qa/issues/1401)) ([78047ac](https://github.com/DanySK/gradle-kotlin-qa/commit/78047acf5b31a47a890e9bab1a25fa04c4225632))
+* **deps:** update plugin gitsemver to v7.0.20 ([#1399](https://github.com/DanySK/gradle-kotlin-qa/issues/1399)) ([febfc97](https://github.com/DanySK/gradle-kotlin-qa/commit/febfc97fe27a78118ab214829e1d6fc17f6bae2b))
+* **deps:** update plugin kotlin-qa to v1.6.2 ([#1396](https://github.com/DanySK/gradle-kotlin-qa/issues/1396)) ([ca4322b](https://github.com/DanySK/gradle-kotlin-qa/commit/ca4322b53d49563a45344fc68b44e2bde4d0c256))
+* **deps:** update plugin multijvmtesting to v4.3.6 ([#1397](https://github.com/DanySK/gradle-kotlin-qa/issues/1397)) ([eda6799](https://github.com/DanySK/gradle-kotlin-qa/commit/eda6799b77dd06e21f0ab055f4544d66c47806d6))
+* **deps:** update plugin multijvmtesting to v4.4.0 ([#1402](https://github.com/DanySK/gradle-kotlin-qa/issues/1402)) ([4dbad82](https://github.com/DanySK/gradle-kotlin-qa/commit/4dbad82de874f5bd4b437d16edecf3baf3de6262))
+* **deps:** update plugin publishoncentral to v9.2.4 ([#1398](https://github.com/DanySK/gradle-kotlin-qa/issues/1398)) ([c042c4b](https://github.com/DanySK/gradle-kotlin-qa/commit/c042c4b952ce55fbe36710eb045405fdcae6336f))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.33 ([#1400](https://github.com/DanySK/gradle-kotlin-qa/issues/1400)) ([8872af2](https://github.com/DanySK/gradle-kotlin-qa/commit/8872af2dacee2e4b109faa40d26a78bc33912487))
+
 ## [1.6.2](https://github.com/DanySK/gradle-kotlin-qa/compare/1.6.1...1.6.2) (2026-05-12)
 
 ### Dependency updates
