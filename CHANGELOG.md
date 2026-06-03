@@ -1,3 +1,18 @@
+## [1.7.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.7.0...1.7.1) (2026-06-03)
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v2.4.0 ([#1410](https://github.com/DanySK/gradle-kotlin-qa/issues/1410)) ([b8b406c](https://github.com/DanySK/gradle-kotlin-qa/commit/b8b406c8ae7cff7f7ad39c4fc382b1c75f6bdda3))
+* **deps:** update plugin com.gradle.develocity to v4.4.2 ([#1404](https://github.com/DanySK/gradle-kotlin-qa/issues/1404)) ([db6f62b](https://github.com/DanySK/gradle-kotlin-qa/commit/db6f62b86be7e9801ece92a582d5d684c74b53f2))
+* **deps:** update plugin kotlin-qa to v1.7.0 ([#1406](https://github.com/DanySK/gradle-kotlin-qa/issues/1406)) ([b6b7361](https://github.com/DanySK/gradle-kotlin-qa/commit/b6b73612fa811cd4a60cadcec0e61f7a10bfd68f))
+* **deps:** update plugin multijvmtesting to v4.5.0 ([#1403](https://github.com/DanySK/gradle-kotlin-qa/issues/1403)) ([ae56826](https://github.com/DanySK/gradle-kotlin-qa/commit/ae56826467b77576f3aee036d9f3a340060f8638))
+* **deps:** update plugin publishoncentral to v9.2.5 ([#1411](https://github.com/DanySK/gradle-kotlin-qa/issues/1411)) ([4004f40](https://github.com/DanySK/gradle-kotlin-qa/commit/4004f40b1139d0c5b40539d4c64404c5b5dceab8))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v6.0.3 ([#1407](https://github.com/DanySK/gradle-kotlin-qa/issues/1407)) ([4cf88bf](https://github.com/DanySK/gradle-kotlin-qa/commit/4cf88bf854c71fc2429d17d34000b31fddba2f67))
+* **deps:** update danysk/action-checkout action to v0.2.29 ([#1408](https://github.com/DanySK/gradle-kotlin-qa/issues/1408)) ([a54bd9b](https://github.com/DanySK/gradle-kotlin-qa/commit/a54bd9b32dc0332b35d45b4ada7f44c6d2cb112f))
+
 ## [1.7.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.6.2...1.7.0) (2026-05-29)
 
 ### Dependency updates
