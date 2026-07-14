@@ -1,3 +1,18 @@
+## [1.8.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.8.0...1.8.1) (2026-07-14)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-gradle-plugin to v2.4.10 ([#1444](https://github.com/DanySK/gradle-kotlin-qa/issues/1444)) ([cc2af29](https://github.com/DanySK/gradle-kotlin-qa/commit/cc2af29cba83dd35064c42e73914c6683ecaf855))
+* **deps:** update kotest to v6.2.2 ([#1441](https://github.com/DanySK/gradle-kotlin-qa/issues/1441)) ([673539d](https://github.com/DanySK/gradle-kotlin-qa/commit/673539d351aeef4e510a1c0aef889a4b10540808))
+* **deps:** update plugin com.gradle.develocity to v4.5.0 ([#1439](https://github.com/DanySK/gradle-kotlin-qa/issues/1439)) ([5ae6831](https://github.com/DanySK/gradle-kotlin-qa/commit/5ae6831e8d687f3c8c3bac48ae78df2a2275d975))
+* **deps:** update plugin kotlin-qa to v1.8.0 ([#1438](https://github.com/DanySK/gradle-kotlin-qa/issues/1438)) ([b046f7b](https://github.com/DanySK/gradle-kotlin-qa/commit/b046f7ba079c8cd1a3f978bfa837dde3cb0b6362))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6.5.0 ([#1442](https://github.com/DanySK/gradle-kotlin-qa/issues/1442)) ([79a6880](https://github.com/DanySK/gradle-kotlin-qa/commit/79a68808a629c25f2b522e662eb0cc8d082a642a))
+* **deps:** update actions/setup-node action to v7 ([#1443](https://github.com/DanySK/gradle-kotlin-qa/issues/1443)) ([8151ea0](https://github.com/DanySK/gradle-kotlin-qa/commit/8151ea0c726c1c466046d61436675a61aeee7210))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.40 ([#1440](https://github.com/DanySK/gradle-kotlin-qa/issues/1440)) ([2818027](https://github.com/DanySK/gradle-kotlin-qa/commit/28180274efbe1e73b181100609e66b0f5368b86a))
+
 ## [1.8.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.7.1...1.8.0) (2026-06-29)
 
 ### Dependency updates
