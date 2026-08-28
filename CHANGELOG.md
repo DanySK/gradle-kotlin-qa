@@ -1,3 +1,43 @@
+## [1.9.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.8.1...1.9.0) (2026-08-28)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.27.0 ([#1478](https://github.com/DanySK/gradle-kotlin-qa/issues/1478)) ([de5489f](https://github.com/DanySK/gradle-kotlin-qa/commit/de5489f555e4e22d056ee04dbfebd308dd750ebf))
+* **deps:** update dependency dev.detekt:detekt-gradle-plugin to v2.0.0-alpha.6 ([#1458](https://github.com/DanySK/gradle-kotlin-qa/issues/1458)) ([0f06343](https://github.com/DanySK/gradle-kotlin-qa/commit/0f0634338694b6273e52624469d69a362ef4fbe6))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.185 ([#1454](https://github.com/DanySK/gradle-kotlin-qa/issues/1454)) ([feea576](https://github.com/DanySK/gradle-kotlin-qa/commit/feea576ce14ff0635147c38e6bd99bfb7a64b243))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.186 ([#1455](https://github.com/DanySK/gradle-kotlin-qa/issues/1455)) ([01624eb](https://github.com/DanySK/gradle-kotlin-qa/commit/01624eb6b325b72fbf73dada9b95c7aacdce0af0))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.187 ([#1464](https://github.com/DanySK/gradle-kotlin-qa/issues/1464)) ([8a497de](https://github.com/DanySK/gradle-kotlin-qa/commit/8a497de154c6c44f19f06b13df84acab9c736435))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.188 ([#1465](https://github.com/DanySK/gradle-kotlin-qa/issues/1465)) ([f430baa](https://github.com/DanySK/gradle-kotlin-qa/commit/f430baab599870e0068ad04a3c36d96493a0c017))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.189 ([#1467](https://github.com/DanySK/gradle-kotlin-qa/issues/1467)) ([6c4e91e](https://github.com/DanySK/gradle-kotlin-qa/commit/6c4e91e54c70bd4616a5f738a0a278ea9ac0ae8f))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.190 ([#1469](https://github.com/DanySK/gradle-kotlin-qa/issues/1469)) ([8147ba1](https://github.com/DanySK/gradle-kotlin-qa/commit/8147ba16a521b4c2d6c01e25f86ca8522bd30dd7))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.191 ([#1470](https://github.com/DanySK/gradle-kotlin-qa/issues/1470)) ([1dc11d1](https://github.com/DanySK/gradle-kotlin-qa/commit/1dc11d1b24bcf5097f8999ac6f68b1e94f8c8fa1))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.192 ([#1471](https://github.com/DanySK/gradle-kotlin-qa/issues/1471)) ([4667879](https://github.com/DanySK/gradle-kotlin-qa/commit/46678794ebfaa5b01a493f3459abc651561ebb0b))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.193 ([#1475](https://github.com/DanySK/gradle-kotlin-qa/issues/1475)) ([7115e00](https://github.com/DanySK/gradle-kotlin-qa/commit/7115e006f9cdcedc0ddf35ac93f2e84c69b4149e))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.194 ([#1476](https://github.com/DanySK/gradle-kotlin-qa/issues/1476)) ([dac972d](https://github.com/DanySK/gradle-kotlin-qa/commit/dac972d20e9d215c15af62208eb3ce80edbce627))
+* **deps:** update kotest to v6.2.3 ([#1453](https://github.com/DanySK/gradle-kotlin-qa/issues/1453)) ([2361e00](https://github.com/DanySK/gradle-kotlin-qa/commit/2361e001ae8b2f7f57215be7f47bc387259da0b8))
+* **deps:** update kotest to v6.2.4 ([#1468](https://github.com/DanySK/gradle-kotlin-qa/issues/1468)) ([a0c76fc](https://github.com/DanySK/gradle-kotlin-qa/commit/a0c76fcd62c79994a130ff8c1b691c4771b7f6c3))
+* **deps:** update node.js to 24.19 ([#1459](https://github.com/DanySK/gradle-kotlin-qa/issues/1459)) ([03dc7fc](https://github.com/DanySK/gradle-kotlin-qa/commit/03dc7fc2eff6c378d096993990fbce9bf62d9e5b))
+* **deps:** update plugin gitsemver to v7.0.23 ([#1449](https://github.com/DanySK/gradle-kotlin-qa/issues/1449)) ([13b49f9](https://github.com/DanySK/gradle-kotlin-qa/commit/13b49f96475fe8f93b6229353b23915f94a3c2d6))
+* **deps:** update plugin kotlin-qa to v1.8.1 ([#1445](https://github.com/DanySK/gradle-kotlin-qa/issues/1445)) ([d93e030](https://github.com/DanySK/gradle-kotlin-qa/commit/d93e030e7f97cd11fb800d8e57101edf75f09783))
+* **deps:** update plugin multijvmtesting to v4.5.4 ([#1446](https://github.com/DanySK/gradle-kotlin-qa/issues/1446)) ([3905fc5](https://github.com/DanySK/gradle-kotlin-qa/commit/3905fc50d4bc3eb893e9cfb3b31a50dffb673135))
+* **deps:** update plugin multijvmtesting to v4.5.5 ([#1461](https://github.com/DanySK/gradle-kotlin-qa/issues/1461)) ([c9a0dd0](https://github.com/DanySK/gradle-kotlin-qa/commit/c9a0dd0742f0596c21bfc652cd9b94fc26c43ca3))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.21 ([#1447](https://github.com/DanySK/gradle-kotlin-qa/issues/1447)) ([2148852](https://github.com/DanySK/gradle-kotlin-qa/commit/2148852fcbd708c71336f95b034754e157f348c1))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.22 ([#1462](https://github.com/DanySK/gradle-kotlin-qa/issues/1462)) ([3cb915e](https://github.com/DanySK/gradle-kotlin-qa/commit/3cb915ec6d72bb36a81e3137075482a0a0f5464c))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.23 ([#1473](https://github.com/DanySK/gradle-kotlin-qa/issues/1473)) ([7b1c7b8](https://github.com/DanySK/gradle-kotlin-qa/commit/7b1c7b82e07b4277ac52f7757e145def15f6584c))
+* **deps:** update plugin publishoncentral to v9.2.10 ([#1474](https://github.com/DanySK/gradle-kotlin-qa/issues/1474)) ([c9154e8](https://github.com/DanySK/gradle-kotlin-qa/commit/c9154e81a37e0162bc51331da2c32239395db4c4))
+* **deps:** update plugin publishoncentral to v9.2.8 ([#1448](https://github.com/DanySK/gradle-kotlin-qa/issues/1448)) ([ba8db83](https://github.com/DanySK/gradle-kotlin-qa/commit/ba8db83163e26acb544c66a079dda4085fbaf33e))
+* **deps:** update plugin publishoncentral to v9.2.9 ([#1463](https://github.com/DanySK/gradle-kotlin-qa/issues/1463)) ([da94957](https://github.com/DanySK/gradle-kotlin-qa/commit/da94957245c25ee7816de1fda711ca1f96f26235))
+* **deps:** update plugin tasktree to v4.0.2 ([#1466](https://github.com/DanySK/gradle-kotlin-qa/issues/1466)) ([526d35f](https://github.com/DanySK/gradle-kotlin-qa/commit/526d35fe352431f16557b2fcc1962e6fc3aaeeeb))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v7.0.1 ([#1451](https://github.com/DanySK/gradle-kotlin-qa/issues/1451)) ([1c2744f](https://github.com/DanySK/gradle-kotlin-qa/commit/1c2744fb5c4cf817c9fd166eaf2694e79db58722))
+* **deps:** update danysk/action-checkout action to v0.2.31 ([#1452](https://github.com/DanySK/gradle-kotlin-qa/issues/1452)) ([54f3a51](https://github.com/DanySK/gradle-kotlin-qa/commit/54f3a514ad9598f749ee84b599800006fa7d467b))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.41 ([#1450](https://github.com/DanySK/gradle-kotlin-qa/issues/1450)) ([1987c39](https://github.com/DanySK/gradle-kotlin-qa/commit/1987c397141a740f8013235ee65c49233e5403c7))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.42 ([#1456](https://github.com/DanySK/gradle-kotlin-qa/issues/1456)) ([f3a69ca](https://github.com/DanySK/gradle-kotlin-qa/commit/f3a69cae958583614dcca1d9363c9d10fcd2b4d2))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.43 ([#1457](https://github.com/DanySK/gradle-kotlin-qa/issues/1457)) ([c5f6c10](https://github.com/DanySK/gradle-kotlin-qa/commit/c5f6c10684a9ae0b01fc71d36142f05f0a83f271))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.44 ([#1477](https://github.com/DanySK/gradle-kotlin-qa/issues/1477)) ([b7ab92f](https://github.com/DanySK/gradle-kotlin-qa/commit/b7ab92f16e1f559bcf5209e5629629bb488f4c72))
+
 ## [1.8.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.8.0...1.8.1) (2026-07-14)
 
 ### Dependency updates
