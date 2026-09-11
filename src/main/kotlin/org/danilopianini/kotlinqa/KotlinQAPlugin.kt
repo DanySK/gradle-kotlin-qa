@@ -79,7 +79,7 @@ open class KotlinQAPlugin : Plugin<Project> {
                 ignoreFailures.set(false)
                 toolVersion.set(versions.forLibrary("detekt"))
             }
-            val reportMergeDetekt by project.tasks.registering(ReportMergeTask::class) {
+            val reportMergeDetekt = project.tasks.register<ReportMergeTask>("reportMergeDetekt") {
                 output.set(project.layout.buildDirectory.file("reports/detekt/detekt-merge.sarif"))
                 input.from(project.tasks.withType<Detekt>().map { it.reports.checkstyle.outputLocation })
             }
