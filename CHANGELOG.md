@@ -1,3 +1,12 @@
+## [1.9.2](https://github.com/DanySK/gradle-kotlin-qa/compare/1.9.1...1.9.2) (2026-09-13)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.7.0 and replace deprecated Kotlin DSL APIs ([d1606aa](https://github.com/DanySK/gradle-kotlin-qa/commit/d1606aac0e2136927382d44a21849f5e7eaf53b8))
+* **deps:** update plugin kotlin-qa to v1.9.1 ([#1492](https://github.com/DanySK/gradle-kotlin-qa/issues/1492)) ([31f4107](https://github.com/DanySK/gradle-kotlin-qa/commit/31f4107d8800231690401c661f69390eb54826e2))
+* **deps:** update plugin multijvmtesting to v4.5.6 ([#1472](https://github.com/DanySK/gradle-kotlin-qa/issues/1472)) ([b96bcf5](https://github.com/DanySK/gradle-kotlin-qa/commit/b96bcf5e315c369d5492bac95a0abcc4e07a906e))
+* **deps:** update plugin publishoncentral to v9.2.11 ([#1484](https://github.com/DanySK/gradle-kotlin-qa/issues/1484)) ([8623f4b](https://github.com/DanySK/gradle-kotlin-qa/commit/8623f4ba2825e909d8f26d71ff838ac8b4078f61))
+
 ## [1.9.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.9.0...1.9.1) (2026-09-11)
 
 ### Dependency updates
