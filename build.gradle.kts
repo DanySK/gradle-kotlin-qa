@@ -1,4 +1,3 @@
-import org.jetbrains.kotlin.config.KotlinCompilerVersion.VERSION as KOTLIN_VERSION
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 
 plugins {
@@ -29,6 +28,7 @@ class ProjectInfo {
     val tags = listOf("kotlin", "static analysis", "quality assurance", "qa")
 }
 val info = ProjectInfo()
+val kotlinVersion = libs.versions.kotlin.get()
 
 gitSemVer {
     buildMetadataSeparator.set(".")
@@ -44,7 +44,7 @@ val destinationDir = layout.buildDirectory.map {
 }
 val destination = destinationDir.map { File(it, "versions.properties") }
 
-val copyToolVersions by tasks.registering {
+val copyToolVersions = tasks.register("copyToolVersions") {
     val catalogFile = file("${rootProject.rootDir.absolutePath}/gradle/libs.versions.toml")
     inputs.file(catalogFile)
     outputs.file(destination)
@@ -114,8 +114,8 @@ disableTrackState<JacocoReport>()
 configurations.matching { it.name != "detekt" }.all {
     resolutionStrategy.eachDependency {
         if (requested.group == "org.jetbrains.kotlin" && requested.name.startsWith("kotlin")) {
-            useVersion(KOTLIN_VERSION)
-            because("All Kotlin modules should use the same version, and compiler uses $KOTLIN_VERSION")
+            useVersion(kotlinVersion)
+            because("All Kotlin modules should use the same version, and compiler uses $kotlinVersion")
         }
     }
 }
@@ -150,8 +150,8 @@ tasks.jacocoTestReport {
 
 signing {
     if (System.getenv()["CI"].equals("true", ignoreCase = true)) {
-        val signingKey: String? by project
-        val signingPassword: String? by project
+        val signingKey = providers.gradleProperty("signingKey").orNull
+        val signingPassword = providers.gradleProperty("signingPassword").orNull
         useInMemoryPgpKeys(signingKey, signingPassword)
     }
 }
