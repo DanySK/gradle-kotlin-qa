@@ -1,3 +1,13 @@
+## [1.10.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.9.3...1.10.0) (2026-09-26)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.28.0 ([#1504](https://github.com/DanySK/gradle-kotlin-qa/issues/1504)) ([4001817](https://github.com/DanySK/gradle-kotlin-qa/commit/400181736f11f15c516b7c4723b08e332a75a6c9))
+* **deps:** update plugin com.gradle.develocity to v4.6.0 ([bbfe76d](https://github.com/DanySK/gradle-kotlin-qa/commit/bbfe76dd213013f7f7932b24ac8a1f58d24aa23c))
+* **deps:** update plugin kotlin-qa to v1.9.3 ([0d405c1](https://github.com/DanySK/gradle-kotlin-qa/commit/0d405c1521493f45d59226d90c1ec4ba4224915c))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.25 ([#1503](https://github.com/DanySK/gradle-kotlin-qa/issues/1503)) ([3996f75](https://github.com/DanySK/gradle-kotlin-qa/commit/3996f75c375a4e4a3a9ce7bf338bd16ac9dd2712))
+* **deps:** update plugin publishoncentral to v9.2.12 ([d53a42e](https://github.com/DanySK/gradle-kotlin-qa/commit/d53a42ee87b10dec1dd38b9039b615b6ad3a1875))
+
 ## [1.9.3](https://github.com/DanySK/gradle-kotlin-qa/compare/1.9.2...1.9.3) (2026-09-24)
 
 ### Dependency updates
