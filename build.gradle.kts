@@ -29,7 +29,6 @@ class ProjectInfo {
     val tags = listOf("kotlin", "static analysis", "quality assurance", "qa")
 }
 val info = ProjectInfo()
-val kotlinVersion = libs.versions.kotlin.get()
 
 gitSemVer {
     buildMetadataSeparator.set(".")
@@ -110,16 +109,6 @@ inline fun <reified T : Task> Project.disableTrackState() {
 
 disableTrackState<Test>()
 disableTrackState<JacocoReport>()
-
-// Enforce Kotlin version coherence
-configurations.matching { it.name != "detekt" }.all {
-    resolutionStrategy.eachDependency {
-        if (requested.group == "org.jetbrains.kotlin" && requested.name.startsWith("kotlin")) {
-            useVersion(kotlinVersion)
-            because("All Kotlin modules should use the same version, and compiler uses $kotlinVersion")
-        }
-    }
-}
 
 kotlin {
     compilerOptions {
