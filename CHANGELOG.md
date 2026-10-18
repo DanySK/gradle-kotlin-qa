@@ -1,3 +1,34 @@
+## [1.10.2](https://github.com/DanySK/gradle-kotlin-qa/compare/1.10.1...1.10.2) (2026-10-18)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.4.20 ([#1509](https://github.com/DanySK/gradle-kotlin-qa/issues/1509)) ([1119d09](https://github.com/DanySK/gradle-kotlin-qa/commit/1119d092ee83cb113dbced4e1f1e927974debbd2))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.198 ([#1521](https://github.com/DanySK/gradle-kotlin-qa/issues/1521)) ([c978bec](https://github.com/DanySK/gradle-kotlin-qa/commit/c978bece44872ca5e7364e246cbb04d001e872f9))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.199 ([462cb6c](https://github.com/DanySK/gradle-kotlin-qa/commit/462cb6c25c570f1762fa4e8505d687eec7f7371d))
+* **deps:** update kotest to v6.2.6 ([#1525](https://github.com/DanySK/gradle-kotlin-qa/issues/1525)) ([a2c6d82](https://github.com/DanySK/gradle-kotlin-qa/commit/a2c6d820fecccb9e43a7692b675d37452dc4e9c0))
+* **deps:** update node.js to 24.22 ([#1527](https://github.com/DanySK/gradle-kotlin-qa/issues/1527)) ([9e875f3](https://github.com/DanySK/gradle-kotlin-qa/commit/9e875f3110dff2c1d6bd943fa3bafebb92fec406))
+* **deps:** update plugin gitsemver to v7.0.25 ([fa658b3](https://github.com/DanySK/gradle-kotlin-qa/commit/fa658b3613469f83b4a2bc72de912d79abdd1d71))
+* **deps:** update plugin kotlin-qa to v1.10.1 ([240fe46](https://github.com/DanySK/gradle-kotlin-qa/commit/240fe4625dd39b14a68706ec1268f33b8f359a5f))
+* **deps:** update plugin multijvmtesting to v4.5.10 ([#1519](https://github.com/DanySK/gradle-kotlin-qa/issues/1519)) ([d855c50](https://github.com/DanySK/gradle-kotlin-qa/commit/d855c507378d8b1b265dc2e8baa9737733b035b4))
+* **deps:** update plugin multijvmtesting to v4.5.9 ([#1516](https://github.com/DanySK/gradle-kotlin-qa/issues/1516)) ([6d65b24](https://github.com/DanySK/gradle-kotlin-qa/commit/6d65b24e1631e4f7780db0391565ff0fba01593a))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.26 ([d07f706](https://github.com/DanySK/gradle-kotlin-qa/commit/d07f706406a38138efbbea5ff85ce2f93e05445f))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.27 ([#1520](https://github.com/DanySK/gradle-kotlin-qa/issues/1520)) ([48b9188](https://github.com/DanySK/gradle-kotlin-qa/commit/48b9188b70054d07a98804a82e424e596c3d43f3))
+* **deps:** update plugin publishoncentral to v9.2.14 ([85cbb35](https://github.com/DanySK/gradle-kotlin-qa/commit/85cbb35b3bb1e6393acd060c128f5741a8c0def9))
+
+### Tests
+
+* drop classgraph ([a9d3118](https://github.com/DanySK/gradle-kotlin-qa/commit/a9d31187ba214d5a3c84ca0b883e3413c01dfa76))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v7.1.0 ([3d87883](https://github.com/DanySK/gradle-kotlin-qa/commit/3d8788379b11b65069c8d80eb0e4d4cb5af298b5))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.49 ([4a74d14](https://github.com/DanySK/gradle-kotlin-qa/commit/4a74d14d569a4f1b25fc3717350b25f8e461056a))
+
+### General maintenance
+
+* **build:** remove Kotlin version coherence enforcement from Gradle configuration ([b51f17b](https://github.com/DanySK/gradle-kotlin-qa/commit/b51f17b15743dd6bbddafaf71a85e845081acb9f))
+* **build:** update test logging configuration to use TestLogEvent entries ([765dbf9](https://github.com/DanySK/gradle-kotlin-qa/commit/765dbf912e4e1dee33312718dc397d1030d453ec))
+
 ## [1.10.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.10.0...1.10.1) (2026-10-08)
 
 ### Dependency updates
