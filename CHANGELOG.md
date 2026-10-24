@@ -1,3 +1,18 @@
+## [1.10.3](https://github.com/DanySK/gradle-kotlin-qa/compare/1.10.2...1.10.3) (2026-10-24)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.8.2 ([#1529](https://github.com/DanySK/gradle-kotlin-qa/issues/1529)) ([9480995](https://github.com/DanySK/gradle-kotlin-qa/commit/94809951ec102fbe89237c77dcb6ffca174c43e0))
+* **deps:** update plugin com.gradle.develocity to v4.6.1 ([e01f7ca](https://github.com/DanySK/gradle-kotlin-qa/commit/e01f7cad485d7f42bff3dfd2fef59217eb02a376))
+* **deps:** update plugin gitsemver to v7.2.0 ([#1535](https://github.com/DanySK/gradle-kotlin-qa/issues/1535)) ([a24b8ec](https://github.com/DanySK/gradle-kotlin-qa/commit/a24b8ececf6f4c3dbe29b92837ba1bd3792b7fef))
+* **deps:** update plugin kotlin-qa to v1.10.2 ([d2d4525](https://github.com/DanySK/gradle-kotlin-qa/commit/d2d4525c520c94c12a2831892134235022dd439e))
+* **deps:** update plugin multijvmtesting to v4.5.11 ([#1536](https://github.com/DanySK/gradle-kotlin-qa/issues/1536)) ([c427d91](https://github.com/DanySK/gradle-kotlin-qa/commit/c427d91bbd9ae1504f0df2a09a487ed7017b5801))
+* **deps:** update plugin publishoncentral to v9.2.15 ([f7df6da](https://github.com/DanySK/gradle-kotlin-qa/commit/f7df6da6b21af0b416bc12136d2cf18aadcff98e))
+
+### Build and continuous integration
+
+* **deps:** update dependency ubuntu github actions runner to v26 ([b2f5443](https://github.com/DanySK/gradle-kotlin-qa/commit/b2f544398729cbbc197739603188bfb85d8c53f6))
+
 ## [1.10.2](https://github.com/DanySK/gradle-kotlin-qa/compare/1.10.1...1.10.2) (2026-10-18)
 
 ### Dependency updates
