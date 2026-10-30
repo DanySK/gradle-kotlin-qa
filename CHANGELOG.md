@@ -1,3 +1,16 @@
+## [1.11.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.10.3...1.11.0) (2026-10-30)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.29.0 ([#1540](https://github.com/DanySK/gradle-kotlin-qa/issues/1540)) ([7d590a3](https://github.com/DanySK/gradle-kotlin-qa/commit/7d590a3f6f6851e304056ad142b79d21dc965730))
+* **deps:** update jacoco to v0.8.16 ([#1538](https://github.com/DanySK/gradle-kotlin-qa/issues/1538)) ([c9a1075](https://github.com/DanySK/gradle-kotlin-qa/commit/c9a107519ee97646d47346b4b5e69f9797a93b46))
+* **deps:** update plugin gitsemver to v7.3.0 ([#1537](https://github.com/DanySK/gradle-kotlin-qa/issues/1537)) ([ea803d0](https://github.com/DanySK/gradle-kotlin-qa/commit/ea803d008629234c3a787c054be51012fbe9013a))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.50 ([#1539](https://github.com/DanySK/gradle-kotlin-qa/issues/1539)) ([c3accba](https://github.com/DanySK/gradle-kotlin-qa/commit/c3accba39bc6c28cc999d044ba516ae9aafe287d))
+* **deps:** update dependency macos github actions runner to v26 ([#1533](https://github.com/DanySK/gradle-kotlin-qa/issues/1533)) ([268b829](https://github.com/DanySK/gradle-kotlin-qa/commit/268b8294c860ddb0f704d0f06945ddcc282b2ff3))
+
 ## [1.10.3](https://github.com/DanySK/gradle-kotlin-qa/compare/1.10.2...1.10.3) (2026-10-24)
 
 ### Dependency updates
