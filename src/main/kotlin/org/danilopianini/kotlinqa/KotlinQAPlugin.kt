@@ -46,6 +46,10 @@ open class KotlinQAPlugin : Plugin<Project> {
             }
         versions.load(properties)
         project.plugins.withType<KotlinBasePlugin> {
+            // Projects can apply more than one Kotlin base plugin (kotlin-dsl applies two): configure only once
+            if (project.extensions.findByType<KotlinQAExtension>() != null) {
+                return@withType
+            }
             with(project.plugins) {
                 apply(CpdPlugin::class)
                 apply(KtlintPlugin::class)
