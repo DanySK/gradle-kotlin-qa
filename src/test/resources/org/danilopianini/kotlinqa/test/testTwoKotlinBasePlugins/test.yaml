@@ -1,0 +1,13 @@
+tests:
+  - description: "A project with more than one Kotlin base plugin, as with kotlin-dsl, can run the plugin"
+    configuration:
+      tasks:
+        - check
+      options:
+        - --stacktrace
+    expectation:
+      success:
+        - detekt
+        - ktlintKotlinScriptCheck
+        - ktlintMainSourceSetCheck
+        - cpdKotlinCheck
