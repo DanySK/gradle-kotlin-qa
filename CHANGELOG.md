@@ -1,3 +1,18 @@
+## [1.11.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.11.0...1.11.1) (2026-11-06)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.158 ([#1546](https://github.com/DanySK/gradle-kotlin-qa/issues/1546)) ([e3c9ea9](https://github.com/DanySK/gradle-kotlin-qa/commit/e3c9ea9941fe2e36066e306bbe00dd6b00b4a617))
+* **deps:** update node.js to v26 ([#1541](https://github.com/DanySK/gradle-kotlin-qa/issues/1541)) ([bf23aae](https://github.com/DanySK/gradle-kotlin-qa/commit/bf23aae8592ca49bea7193e8a6b685366d48545f))
+
+### Documentation
+
+* **deps:** update dependency org.jetbrains.dokka to v2.3.0 ([#1547](https://github.com/DanySK/gradle-kotlin-qa/issues/1547)) ([a5a1367](https://github.com/DanySK/gradle-kotlin-qa/commit/a5a13676d9588806ac1c91960b9a2e6a2943e5c4))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.51 ([0456a32](https://github.com/DanySK/gradle-kotlin-qa/commit/0456a32dee6f5a359824e27766331e2e10647bc2))
+
 ## [1.11.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.10.3...1.11.0) (2026-10-30)
 
 ### Dependency updates
