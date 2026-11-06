@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/DanySK/gradle-kotlin-qa/compare/1.11.1...1.11.2) (2026-11-06)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.9.0 ([98a5b38](https://github.com/DanySK/gradle-kotlin-qa/commit/98a5b38cfd510d7df9505143d312bfb11e0ffec7))
+* **deps:** update plugin publishoncentral to v9.3.0 ([#1548](https://github.com/DanySK/gradle-kotlin-qa/issues/1548)) ([3084810](https://github.com/DanySK/gradle-kotlin-qa/commit/30848102ca6d676884896efdee34eb9e418c5ee3))
+
 ## [1.11.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.11.0...1.11.1) (2026-11-06)
 
 ### Dependency updates
