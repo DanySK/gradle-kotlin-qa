@@ -1,3 +1,13 @@
+## [1.11.3](https://github.com/DanySK/gradle-kotlin-qa/compare/1.11.2...1.11.3) (2026-11-09)
+
+### Dependency updates
+
+* **deps:** update plugin publishoncentral to v9.3.1 ([#1549](https://github.com/DanySK/gradle-kotlin-qa/issues/1549)) ([6f5251d](https://github.com/DanySK/gradle-kotlin-qa/commit/6f5251d37baae214fd6c074bfd1d4bef2a0f3b67))
+
+### Bug Fixes
+
+* configure projects only once when they apply more than one Kotlin base plugin ([#1544](https://github.com/DanySK/gradle-kotlin-qa/issues/1544)) ([9aea948](https://github.com/DanySK/gradle-kotlin-qa/commit/9aea948b6b5726c16e4670fda6e7aa269521b649))
+
 ## [1.11.2](https://github.com/DanySK/gradle-kotlin-qa/compare/1.11.1...1.11.2) (2026-11-06)
 
 ### Dependency updates
