@@ -11,7 +11,7 @@ ktlint-plugin = "14.2.0"
 pmd = "7.29.0"
 
 [libraries]
-apache-commons-lang3 = "org.apache.commons:commons-lang3:3.21.0"
+apache-commons-lang3 = "org.apache.commons:commons-lang3:3.22.0"
 cpd-gradle = { module = "de.aaschmid:gradle-cpd-plugin", version.ref = "cpd-gradle" }
 detekt-gradle = { module = "dev.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 jacoco-agent = { module = "org.jacoco:org.jacoco.agent", version.ref = "jacoco" }
