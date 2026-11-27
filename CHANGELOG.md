@@ -1,3 +1,11 @@
+## [1.12.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.11.5...1.12.0) (2026-11-27)
+
+### Dependency updates
+
+* **api-deps:** update dependency net.sourceforge.pmd:pmd-kotlin to v7.30.0 ([#1560](https://github.com/DanySK/gradle-kotlin-qa/issues/1560)) ([08a4e53](https://github.com/DanySK/gradle-kotlin-qa/commit/08a4e53a17b5a50f5f41ec7e9595132927be47bb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.160 ([#1559](https://github.com/DanySK/gradle-kotlin-qa/issues/1559)) ([4c9cb86](https://github.com/DanySK/gradle-kotlin-qa/commit/4c9cb869af3a0329fec797f3c04b4699d1c60e99))
+* **deps:** update plugin publishoncentral to v9.3.3 ([#1558](https://github.com/DanySK/gradle-kotlin-qa/issues/1558)) ([1097770](https://github.com/DanySK/gradle-kotlin-qa/commit/1097770f94004e8b8c96133c28412740680597b8))
+
 ## [1.11.5](https://github.com/DanySK/gradle-kotlin-qa/compare/1.11.4...1.11.5) (2026-11-20)
 
 ### Dependency updates
