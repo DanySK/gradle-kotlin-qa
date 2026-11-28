@@ -1,3 +1,9 @@
+## [1.12.1](https://github.com/DanySK/gradle-kotlin-qa/compare/1.12.0...1.12.1) (2026-11-28)
+
+### Dependency updates
+
+* **core-deps:** update gradle to v9.9.3 ([#1561](https://github.com/DanySK/gradle-kotlin-qa/issues/1561)) ([c585c6e](https://github.com/DanySK/gradle-kotlin-qa/commit/c585c6e2a2da8078b24ea9be3c5932fbe3db5cf9))
+
 ## [1.12.0](https://github.com/DanySK/gradle-kotlin-qa/compare/1.11.5...1.12.0) (2026-11-27)
 
 ### Dependency updates
